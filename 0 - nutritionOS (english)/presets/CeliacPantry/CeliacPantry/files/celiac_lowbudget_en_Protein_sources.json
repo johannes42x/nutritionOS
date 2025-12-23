@@ -1,0 +1,72 @@
+{
+  "Protein sources": [
+    {
+      "id": "FOOD-004",
+      "name": "Red lentils",
+      "category": "Protein sources",
+      "requires_certification": false,
+      "nutrients": {
+        "energy_kj": 1480,
+        "energy_kcal": 353,
+        "fat_g": 1.1,
+        "saturated_fatty_acids_g": 0.2,
+        "carbohydrates_g": 52.0,
+        "sugar_g": 2.0,
+        "fibre_g": 11.0,
+        "protein_g": 25.0,
+        "salt_g": 0.02
+      }
+    },
+    {
+      "id": "FOOD-005",
+      "name": "Yellow lentils",
+      "category": "Protein sources",
+      "requires_certification": false,
+      "nutrients": {
+        "energy_kj": 1480,
+        "energy_kcal": 353,
+        "fat_g": 1.1,
+        "saturated_fatty_acids_g": 0.2,
+        "carbohydrates_g": 52.0,
+        "sugar_g": 2.0,
+        "fibre_g": 11.0,
+        "protein_g": 25.0,
+        "salt_g": 0.02
+      }
+    },
+    {
+      "id": "FOOD-006",
+      "name": "Chickpeas",
+      "category": "Protein sources",
+      "requires_certification": false,
+      "nutrients": {
+        "energy_kj": 1540,
+        "energy_kcal": 368,
+        "fat_g": 6.0,
+        "saturated_fatty_acids_g": 0.6,
+        "carbohydrates_g": 55.0,
+        "sugar_g": 11.0,
+        "fibre_g": 13.0,
+        "protein_g": 19.0,
+        "salt_g": 0.06
+      }
+    },
+    {
+      "id": "FOOD-007",
+      "name": "Beans",
+      "category": "Protein sources",
+      "requires_certification": false,
+      "nutrients": {
+        "energy_kj": 1400,
+        "energy_kcal": 335,
+        "fat_g": 1.2,
+        "saturated_fatty_acids_g": 0.2,
+        "carbohydrates_g": 60.0,
+        "sugar_g": 2.0,
+        "fibre_g": 15.0,
+        "protein_g": 22.0,
+        "salt_g": 0.02
+      }
+    }
+  ]
+}
