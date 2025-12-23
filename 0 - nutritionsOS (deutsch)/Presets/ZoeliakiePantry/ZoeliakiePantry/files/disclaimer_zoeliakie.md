@@ -18,3 +18,4 @@ Wenn du ein Sprachmodell (LLM) um Rezepte bittest, **schreib bitte immer dazu: �
 Ich kann **keine Verantwortung** für Fehler übernehmen, die durch ein LLM entstehen.
 
 Dieses Preset dient ausschließlich als **orientierende Strukturhilfe** – nicht als Sicherheitsgarantie.
+

@@ -1,0 +1,106 @@
+{
+  "Saettigungsquellen": [
+    {
+      "id": "FOOD-001",
+      "name": "Reis",
+      "kategorie": "Saettigungsquellen",
+      "requires_certification": false,
+      "naehrwerte": {
+        "energie_kj": 1480,
+        "energie_kcal": 350,
+        "fett_g": 0.4,
+        "gesaettigte_fettsaeuren_g": 0.1,
+        "kohlenhydrate_g": 78.0,
+        "zucker_g": 0.1,
+        "ballaststoffe_g": 1.0,
+        "eiweiss_g": 7.0,
+        "salz_g": 0.0
+      }
+    },
+    {
+      "id": "FOOD-002",
+      "name": "Kartoffeln",
+      "kategorie": "Saettigungsquellen",
+      "requires_certification": false,
+      "naehrwerte": {
+        "energie_kj": 322,
+        "energie_kcal": 77,
+        "fett_g": 0.1,
+        "gesaettigte_fettsaeuren_g": 0.0,
+        "kohlenhydrate_g": 17.0,
+        "zucker_g": 0.8,
+        "ballaststoffe_g": 2.2,
+        "eiweiss_g": 2.0,
+        "salz_g": 0.01
+      }
+    },
+    {
+      "id": "FOOD-003",
+      "name": "Hirse",
+      "kategorie": "Saettigungsquellen",
+      "requires_certification": false,
+      "naehrwerte": {
+        "energie_kj": 1500,
+        "energie_kcal": 360,
+        "fett_g": 3.9,
+        "gesaettigte_fettsaeuren_g": 0.7,
+        "kohlenhydrate_g": 69.0,
+        "zucker_g": 1.6,
+        "ballaststoffe_g": 3.9,
+        "eiweiss_g": 11.0,
+        "salz_g": 0.01
+      }
+    },
+    {
+      "id": "FOOD-004",
+      "name": "Buchweizen",
+      "kategorie": "Saettigungsquellen",
+      "requires_certification": false,
+      "naehrwerte": {
+        "energie_kj": 1460,
+        "energie_kcal": 343,
+        "fett_g": 3.4,
+        "gesaettigte_fettsaeuren_g": 0.7,
+        "kohlenhydrate_g": 71.5,
+        "zucker_g": 0.9,
+        "ballaststoffe_g": 10.0,
+        "eiweiss_g": 13.3,
+        "salz_g": 0.01
+      }
+    },
+    {
+      "id": "FOOD-005",
+      "name": "Quinoa",
+      "kategorie": "Saettigungsquellen",
+      "requires_certification": false,
+      "naehrwerte": {
+        "energie_kj": 1540,
+        "energie_kcal": 368,
+        "fett_g": 6.1,
+        "gesaettigte_fettsaeuren_g": 0.7,
+        "kohlenhydrate_g": 64.0,
+        "zucker_g": 0.9,
+        "ballaststoffe_g": 7.0,
+        "eiweiss_g": 14.0,
+        "salz_g": 0.01
+      }
+    },
+    {
+      "id": "FOOD-006",
+      "name": "Maisgriess",
+      "kategorie": "Saettigungsquellen",
+      "requires_certification": false,
+      "naehrwerte": {
+        "energie_kj": 1480,
+        "energie_kcal": 350,
+        "fett_g": 1.0,
+        "gesaettigte_fettsaeuren_g": 0.2,
+        "kohlenhydrate_g": 75.0,
+        "zucker_g": 0.6,
+        "ballaststoffe_g": 3.0,
+        "eiweiss_g": 8.5,
+        "salz_g": 0.0
+      }
+    }
+  ]
+}
