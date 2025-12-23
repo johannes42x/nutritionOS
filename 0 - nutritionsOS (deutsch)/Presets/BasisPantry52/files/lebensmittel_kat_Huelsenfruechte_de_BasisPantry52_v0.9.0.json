@@ -1,0 +1,214 @@
+{
+  "meta_hinweis_oben": "WICHTIG: Am Ende der Datei steht der Marker [ENDE DER DATEI]. Wenn er nicht erscheint, ist die Datei unvollständig geladen.",
+  "module": "nutritionOS",
+  "submodule": "lebensmittel_kategorie",
+  "version": "1.0",
+  "schema": "lebensmittel_kategorie_v1",
+  "meta": {
+    "version": "1.0",
+    "beschreibung": "Hülsenfrüchte wie Linsen, Bohnen und Kichererbsen.",
+    "erstellt": "2025-12-07",
+    "einheit": "pro 100 g oder pro 100 ml"
+  },
+  "produkte": [
+    {
+      "id": "HUL-001",
+      "name": "Linsen, rot, trocken",
+      "alias": [],
+      "hersteller": "",
+      "naehrwerte": {
+        "energie_kj": 1450,
+        "energie_kcal": 350,
+        "fett_g": 1.5,
+        "gesaettigte_fettsaeuren_g": 0.3,
+        "kohlenhydrate_g": 53,
+        "zucker_g": 2,
+        "ballaststoffe_g": 11,
+        "eiweiss_g": 24,
+        "salz_g": 0
+      },
+      "portion": {
+        "beschreibung": "",
+        "energie_kj": null,
+        "energie_kcal": null,
+        "fett_g": null,
+        "gesaettigte_fettsaeuren_g": null,
+        "kohlenhydrate_g": null,
+        "zucker_g": null,
+        "ballaststoffe_g": null,
+        "eiweiss_g": null,
+        "salz_g": null
+      },
+      "vitamine": {},
+      "mineralien": {},
+      "quelle": "",
+      "notizen": "Original-ID in BasisPantry52: FOOD-011"
+    },
+    {
+      "id": "HUL-002",
+      "name": "Linsen, Beluga, trocken",
+      "alias": [],
+      "hersteller": "",
+      "naehrwerte": {
+        "energie_kj": 1430,
+        "energie_kcal": 345,
+        "fett_g": 1.5,
+        "gesaettigte_fettsaeuren_g": 0.3,
+        "kohlenhydrate_g": 52,
+        "zucker_g": 2,
+        "ballaststoffe_g": 11,
+        "eiweiss_g": 24,
+        "salz_g": 0
+      },
+      "portion": {
+        "beschreibung": "",
+        "energie_kj": null,
+        "energie_kcal": null,
+        "fett_g": null,
+        "gesaettigte_fettsaeuren_g": null,
+        "kohlenhydrate_g": null,
+        "zucker_g": null,
+        "ballaststoffe_g": null,
+        "eiweiss_g": null,
+        "salz_g": null
+      },
+      "vitamine": {},
+      "mineralien": {},
+      "quelle": "",
+      "notizen": "Original-ID in BasisPantry52: FOOD-012"
+    },
+    {
+      "id": "HUL-003",
+      "name": "Kichererbsen, trocken",
+      "alias": [],
+      "hersteller": "",
+      "naehrwerte": {
+        "energie_kj": 1500,
+        "energie_kcal": 360,
+        "fett_g": 6,
+        "gesaettigte_fettsaeuren_g": 0.6,
+        "kohlenhydrate_g": 50,
+        "zucker_g": 3,
+        "ballaststoffe_g": 13,
+        "eiweiss_g": 19,
+        "salz_g": 0
+      },
+      "portion": {
+        "beschreibung": "",
+        "energie_kj": null,
+        "energie_kcal": null,
+        "fett_g": null,
+        "gesaettigte_fettsaeuren_g": null,
+        "kohlenhydrate_g": null,
+        "zucker_g": null,
+        "ballaststoffe_g": null,
+        "eiweiss_g": null,
+        "salz_g": null
+      },
+      "vitamine": {},
+      "mineralien": {},
+      "quelle": "",
+      "notizen": "Original-ID in BasisPantry52: FOOD-013"
+    },
+    {
+      "id": "HUL-004",
+      "name": "Kichererbsen, Konserve, abgetropft",
+      "alias": [],
+      "hersteller": "",
+      "naehrwerte": {
+        "energie_kj": 540,
+        "energie_kcal": 130,
+        "fett_g": 2,
+        "gesaettigte_fettsaeuren_g": 0.3,
+        "kohlenhydrate_g": 18,
+        "zucker_g": 1,
+        "ballaststoffe_g": 6,
+        "eiweiss_g": 6,
+        "salz_g": 0.4
+      },
+      "portion": {
+        "beschreibung": "",
+        "energie_kj": null,
+        "energie_kcal": null,
+        "fett_g": null,
+        "gesaettigte_fettsaeuren_g": null,
+        "kohlenhydrate_g": null,
+        "zucker_g": null,
+        "ballaststoffe_g": null,
+        "eiweiss_g": null,
+        "salz_g": null
+      },
+      "vitamine": {},
+      "mineralien": {},
+      "quelle": "",
+      "notizen": "Original-ID in BasisPantry52: FOOD-014"
+    },
+    {
+      "id": "HUL-005",
+      "name": "Kidneybohnen, Konserve, abgetropft",
+      "alias": [],
+      "hersteller": "",
+      "naehrwerte": {
+        "energie_kj": 480,
+        "energie_kcal": 115,
+        "fett_g": 0.8,
+        "gesaettigte_fettsaeuren_g": 0.2,
+        "kohlenhydrate_g": 19,
+        "zucker_g": 1,
+        "ballaststoffe_g": 5,
+        "eiweiss_g": 7,
+        "salz_g": 0.4
+      },
+      "portion": {
+        "beschreibung": "",
+        "energie_kj": null,
+        "energie_kcal": null,
+        "fett_g": null,
+        "gesaettigte_fettsaeuren_g": null,
+        "kohlenhydrate_g": null,
+        "zucker_g": null,
+        "ballaststoffe_g": null,
+        "eiweiss_g": null,
+        "salz_g": null
+      },
+      "vitamine": {},
+      "mineralien": {},
+      "quelle": "",
+      "notizen": "Original-ID in BasisPantry52: FOOD-015"
+    },
+    {
+      "id": "HUL-006",
+      "name": "Schwarze Bohnen, Konserve, abgetropft",
+      "alias": [],
+      "hersteller": "",
+      "naehrwerte": {
+        "energie_kj": 520,
+        "energie_kcal": 125,
+        "fett_g": 0.8,
+        "gesaettigte_fettsaeuren_g": 0.2,
+        "kohlenhydrate_g": 20,
+        "zucker_g": 1,
+        "ballaststoffe_g": 6,
+        "eiweiss_g": 8,
+        "salz_g": 0.4
+      },
+      "portion": {
+        "beschreibung": "",
+        "energie_kj": null,
+        "energie_kcal": null,
+        "fett_g": null,
+        "gesaettigte_fettsaeuren_g": null,
+        "kohlenhydrate_g": null,
+        "zucker_g": null,
+        "ballaststoffe_g": null,
+        "eiweiss_g": null,
+        "salz_g": null
+      },
+      "vitamine": {},
+      "mineralien": {},
+      "quelle": "",
+      "notizen": "Original-ID in BasisPantry52: FOOD-016"
+    }
+  ],
+  "[ENDE DER DATEI]": true
+}
