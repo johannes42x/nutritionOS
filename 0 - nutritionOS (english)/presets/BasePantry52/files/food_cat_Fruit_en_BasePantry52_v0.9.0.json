@@ -1,0 +1,183 @@
+{
+  "meta_notice_top": "IMPORTANT: At the end of this file you will find the marker [END OF FILE]. If it is missing, the file was not fully loaded.",
+  "module": "nutritionOS",
+  "submodule": "food_category",
+  "version": "1.0",
+  "schema": "food_category_v1",
+  "meta": {
+    "version": "1.0",
+    "description": "Fresh and frozen fruit.",
+    "created": "2025-12-07",
+    "unit": "per 100 g or per 100 ml"
+  },
+  "products": [
+    {
+      "id": "FRT-001",
+      "name": "Bananas",
+      "alias": [],
+      "manufacturer": "",
+      "nutrients": {
+        "energy_kj": 370,
+        "energy_kcal": 89,
+        "fat_g": 0.3,
+        "saturated_fatty_acids_g": 0.1,
+        "carbs_g": 23,
+        "sugar_g": 12,
+        "fiber_g": 2.6,
+        "protein_g": 1.1,
+        "salt_g": 0
+      },
+      "portion": {
+        "description": "",
+        "energy_kj": null,
+        "energy_kcal": null,
+        "fat_g": null,
+        "saturated_fatty_acids_g": null,
+        "carbs_g": null,
+        "sugar_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "salt_g": null
+      },
+      "vitamins": {},
+      "minerals": {},
+      "source": "standard estimate",
+      "notes": "Original ID in BasePantry52: FOOD-031"
+    },
+    {
+      "id": "FRT-002",
+      "name": "Apples",
+      "alias": [],
+      "manufacturer": "",
+      "nutrients": {
+        "energy_kj": 220,
+        "energy_kcal": 52,
+        "fat_g": 0.2,
+        "saturated_fatty_acids_g": 0,
+        "carbs_g": 14,
+        "sugar_g": 10,
+        "fiber_g": 2.4,
+        "protein_g": 0.3,
+        "salt_g": 0
+      },
+      "portion": {
+        "description": "",
+        "energy_kj": null,
+        "energy_kcal": null,
+        "fat_g": null,
+        "saturated_fatty_acids_g": null,
+        "carbs_g": null,
+        "sugar_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "salt_g": null
+      },
+      "vitamins": {},
+      "minerals": {},
+      "source": "standard estimate",
+      "notes": "Original ID in BasePantry52: FOOD-032"
+    },
+    {
+      "id": "FRT-003",
+      "name": "Lemons",
+      "alias": [],
+      "manufacturer": "",
+      "nutrients": {
+        "energy_kj": 120,
+        "energy_kcal": 29,
+        "fat_g": 0.3,
+        "saturated_fatty_acids_g": 0,
+        "carbs_g": 9,
+        "sugar_g": 2.5,
+        "fiber_g": 2.8,
+        "protein_g": 1.1,
+        "salt_g": 0
+      },
+      "portion": {
+        "description": "",
+        "energy_kj": null,
+        "energy_kcal": null,
+        "fat_g": null,
+        "saturated_fatty_acids_g": null,
+        "carbs_g": null,
+        "sugar_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "salt_g": null
+      },
+      "vitamins": {},
+      "minerals": {},
+      "source": "standard estimate",
+      "notes": "Original ID in BasePantry52: FOOD-033"
+    },
+    {
+      "id": "FRT-004",
+      "name": "Oranges",
+      "alias": [],
+      "manufacturer": "",
+      "nutrients": {
+        "energy_kj": 200,
+        "energy_kcal": 47,
+        "fat_g": 0.1,
+        "saturated_fatty_acids_g": 0,
+        "carbs_g": 12,
+        "sugar_g": 9,
+        "fiber_g": 2.4,
+        "protein_g": 0.9,
+        "salt_g": 0
+      },
+      "portion": {
+        "description": "",
+        "energy_kj": null,
+        "energy_kcal": null,
+        "fat_g": null,
+        "saturated_fatty_acids_g": null,
+        "carbs_g": null,
+        "sugar_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "salt_g": null
+      },
+      "vitamins": {},
+      "minerals": {},
+      "source": "standard estimate",
+      "notes": "Original ID in BasePantry52: FOOD-034"
+    },
+    {
+      "id": "FRT-005",
+      "name": "Mixed berries, frozen",
+      "alias": [
+        "berry mix"
+      ],
+      "manufacturer": "",
+      "nutrients": {
+        "energy_kj": 200,
+        "energy_kcal": 48,
+        "fat_g": 0.3,
+        "saturated_fatty_acids_g": 0,
+        "carbs_g": 12,
+        "sugar_g": 7,
+        "fiber_g": 3,
+        "protein_g": 0.8,
+        "salt_g": 0
+      },
+      "portion": {
+        "description": "",
+        "energy_kj": null,
+        "energy_kcal": null,
+        "fat_g": null,
+        "saturated_fatty_acids_g": null,
+        "carbs_g": null,
+        "sugar_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "salt_g": null
+      },
+      "vitamins": {},
+      "minerals": {},
+      "source": "standard estimate",
+      "notes": "Original ID in BasePantry52: FOOD-035"
+    }
+  ],
+  "[END OF FILE]": true
+}
