@@ -1,0 +1,22 @@
+{
+  "meta_notice_top": "IMPORTANT: At the end of this file you will find the marker [END OF FILE]. If it is missing, the file was not fully loaded.",
+  "module": "nutritionOS",
+  "submodule": "nutrition_references",
+  "version": "0.9.0",
+  "schema": "nutrition_references_v1",
+  "meta": {
+    "schema": "nutrition_references_v1",
+    "description": "Short references for frequently consumed combinations (shakes, meals, etc.)",
+    "last_assigned_id": "REF-000",
+    "notes": ""
+  },
+  "references": [
+    {
+      "id": "REF-000",
+      "title": "Example reference (e.g. 'Protein shake with oat drink')",
+      "description": "Short description of the combination (e.g. components and amounts)."
+    }
+  ],
+  "[END OF FILE]": true
+}
+

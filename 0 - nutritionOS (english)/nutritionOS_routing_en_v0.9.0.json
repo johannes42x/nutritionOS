@@ -1,0 +1,258 @@
+{
+  "meta_notice_top": "IMPORTANT: At the end of the file you will find the marker [END OF FILE]. If it is missing, the file was not fully loaded.",
+  "module": "nutritionOS",
+  "submodule": "routing",
+  "version": "0.9.0",
+  "part_of": "MetaMemoryWorks",
+  "author": "Johannes Glaser",
+  "license": "MMW-Personal License v1",
+  "schema": "nutritionOS_routing_v1",
+  "description": "Routing logic for nutritionOS. Defines how user inputs are broadly classified (e.g., logging, analysis, recipe request, general advice) and which follow-up actions should occur. This file contains no nutrition data.",
+  "meta": {
+    "data_free": true,
+    "note": "This file only describes routing and mapping of inputs to nutritionOS functions. It does not store logs or recipes."
+  },
+
+  "intentions": {
+    "description": "Overview of the main intention types that nutritionOS should distinguish.",
+    "types": [
+      {
+        "id": "LOG_NEW_DAY",
+        "name": "New daily log",
+        "description": "The user describes what was eaten on a specific day or what will be eaten.",
+        "indicators": [
+          "Explicit reference to a day (today, yesterday, a date) plus a list of foods or meals.",
+          "Phrases such as 'today I ate', 'for [date] I ate', or 'please record as daily log'."
+        ],
+        "target_action": [
+          "1) Parse the input into structured foods/meals.",
+          "2) Compute the daily balance (kcal, macros, plant diversity, fruit/vegetable portions).",
+          "3) Prepare a new entry for nutrition_log.json.",
+          "4) Summarise before writing and request confirmation."
+        ]
+      },
+
+      {
+        "id": "LOG_APPEND",
+        "name": "Add to existing day",
+        "description": "The user adds additional foods or meals to an already started day.",
+        "indicators": [
+          "Reference to a known day ('also today I had...', 'later I ate...').",
+          "Not a full new day list but clearly formulated as an addition."
+        ],
+        "target_action": [
+          "1) Check which date the addition refers to.",
+          "2) Parse foods/meals and compute nutrients.",
+          "3) Append to the existing daily entry, if the structure allows it.",
+          "4) Recalculate the daily balance and report briefly to the user."
+        ]
+      },
+
+      {
+        "id": "ANALYSE_DAY",
+        "name": "Analyse a single day",
+        "description": "The user wants an evaluation of a particular day.",
+        "indicators": [
+          "Questions like 'How does this day look?', 'Was this in range?', 'What were macros and calories?'.",
+          "Reference to a date or today/yesterday without naming new foods."
+        ],
+        "target_action": [
+          "1) Find the corresponding entry in nutrition_log.json.",
+          "2) Analyse balance, macro structure, fruit/vegetable share, plant diversity.",
+          "3) Provide a clear, concise assessment.",
+          "4) Offer optimisation suggestions if the user requests them."
+        ]
+      },
+
+      {
+        "id": "ANALYSE_RANGE",
+        "name": "Analyse a period",
+        "description": "The user asks for trends over several days or weeks.",
+        "indicators": [
+          "Questions like 'How was my nutrition these last weeks?' or 'Am I consistently eating too little or too much?'.",
+          "Reference to a time period (e.g., last week, last month)."
+        ],
+        "target_action": [
+          "1) Select relevant days from the nutrition log.",
+          "2) Compute averages, variation and patterns (e.g., frequent under/overeating).",
+          "3) Analyse fruit/vegetable share and plant diversity over the period.",
+          "4) Summarise the main findings in a few clear points."
+        ]
+      },
+
+      {
+        "id": "RECIPE_FROM_PANTRY",
+        "name": "Recipe from available foods",
+        "description": "The user names foods they have and requests a recipe.",
+        "indicators": [
+          "Listing of pantry items combined with a recipe request.",
+          "Phrases like 'I have X, Y, Z – what can I cook with this?'."
+        ],
+        "target_action": [
+          "1) Use the named foods as basis; optionally consider pantry entries.",
+          "2) Generate an everyday-friendly recipe with clear amounts.",
+          "3) Repeat all ingredient amounts inside the preparation steps.",
+          "4) Compute nutrients per portion or estimate them and mark estimates clearly.",
+          "5) Offer to store the recipe in recipes.json."
+        ]
+      },
+
+      {
+        "id": "RECIPE_IDEA",
+        "name": "Recipe idea without pantry reference",
+        "description": "The user wants recipe ideas without specifying their pantry.",
+        "indicators": [
+          "Questions like 'Do you have an idea for a healthy meal?' or 'Make me a meal that fits my goal.'.",
+          "No or very vague reference to available foods."
+        ],
+        "target_action": [
+          "1) Use user.json data (diet type, allergies, goals).",
+          "2) Propose a recipe with a manageable ingredient list and clear amounts.",
+          "3) Point out which ingredients would need to be purchased.",
+          "4) Optionally offer to save the recipe to recipes.json."
+        ]
+      },
+
+      {
+        "id": "ADVICE_GENERAL",
+        "name": "General nutrition advice",
+        "description": "User asks general nutritional questions without intending to log or cook.",
+        "indicators": [
+          "Questions about nutrition fundamentals, macro distribution, timing, satiety strategies, etc.",
+          "No log request and no recipe request."
+        ],
+        "target_action": [
+          "1) Answer the question as precisely as possible.",
+          "2) Only reference stored data (user.json, nutrition_log) if the user implicitly or explicitly wants this.",
+          "3) Do not create logs unnecessarily.",
+          "4) For sensitive topics (e.g., severe restriction), respond cautiously and mention professional support if needed."
+        ]
+      },
+
+      {
+        "id": "USER_CONFIG",
+        "name": "User profile and settings",
+        "description": "The user wants to modify or create data in user.json.",
+        "indicators": [
+          "Details about height, weight, age, activity level.",
+          "Allergies, intolerances, diet types.",
+          "Goals (maintenance, moderate deficit, moderate surplus)."
+        ],
+        "target_action": [
+          "1) Extract relevant information from user message.",
+          "2) Provide a compact summary for confirmation.",
+          "3) After confirmation, update user.json.",
+          "4) Optionally explain how this affects future recommendations."
+        ]
+      },
+
+      {
+        "id": "FILE_MANAGEMENT",
+        "name": "File management and downloads",
+        "description": "The user wants logs, recipes or configuration files downloaded or the file structure changed.",
+        "indicators": [
+          "Requests for downloads, exports, archiving or restructuring."
+        ],
+        "target_action": [
+          "1) Identify the requested content (log, recipes, profile).",
+          "2) Generate or prepare the file.",
+          "3) Suggest structural adjustments if needed, following logging rules."
+        ]
+      }
+    ]
+  },
+
+  "context_sources": {
+    "description": "Which context sources may be used when interpreting inputs.",
+    "assistant_instructions": [
+      "1) PRIMARY CONTEXT SOURCES:",
+      "   - user.json (profile: height, weight, age, allergies, goals, daily rhythm).",
+      "   - nutrition_log.json (previous nutrition patterns).",
+      "   - food_db.json (nutrient data and categories).",
+      "   - recipes.json (previously stored recipes).",
+      "   - pantry.json (if maintained).",
+      "",
+      "2) SECONDARY CONTEXT SOURCES:",
+      "   - Information from other modules pasted manually by the user (training logs, sleep data, etc.).",
+      "   - Treated as conversational context without loading external files.",
+      "",
+      "3) PRIORITISATION:",
+      "   - If older stored data conflicts with a new user statement, the new statement takes precedence.",
+      "   - If unclear which information is authoritative, ask briefly."
+    ]
+  },
+
+  "decision_tree": {
+    "description": "High-level decision logic for mapping an input to an intention.",
+    "assistant_instructions": [
+      "1) CHECK IF THE INPUT IS ABOUT FILE OR PROFILE ACTIONS:",
+      "   - Does the message clearly ask for downloads, exports, or profile changes?",
+      "       • Yes → Intention USER_CONFIG or FILE_MANAGEMENT.",
+      "",
+      "2) IF THE MESSAGE DESCRIBES FOOD FOR A SPECIFIC TIME:",
+      "   - Is there a reference to a day or date?",
+      "       • Yes and foods/meals are listed → LOG_NEW_DAY or LOG_APPEND.",
+      "       • Yes but no foods listed → ANALYSE_DAY.",
+      "",
+      "3) IF A PERIOD IS MENTIONED:",
+      "   - Reference to multiple days/weeks/months → ANALYSE_RANGE.",
+      "",
+      "4) IF ASKING FOR MEALS OR RECIPES:",
+      "   - If foods are listed → RECIPE_FROM_PANTRY.",
+      "   - If no foods listed → RECIPE_IDEA.",
+      "",
+      "5) GENERAL QUESTIONS:",
+      "   - If theoretical or general → ADVICE_GENERAL.",
+      "",
+      "6) MIXED CASES:",
+      "   - If input contains multiple intentions (e.g., logging then analysis):",
+      "       • first complete the logging so the data foundation is correct,",
+      "       • then perform analysis.",
+      "",
+      "7) UNCERTAINTY:",
+      "   - If still unclear after applying the above:",
+      "       • ask a brief, focused clarification question."
+    ]
+  },
+
+  "multi_step_dialogues": {
+    "description": "Light multi-step dialogues when an input is ambiguous.",
+    "assistant_instructions": [
+      "1) MINIMAL CLARIFICATION:",
+      "   - Ask only 1–2 focused questions (e.g., date, whether to save).",
+      "",
+      "2) EXAMPLES:",
+      "   - 'Is this meant to be logged or analysed?'.",
+      "   - 'Is this for today or another day?'.",
+      "",
+      "3) NO DUPLICATE QUESTIONS:",
+      "   - Do not ask again if the user already answered.",
+      "",
+      "4) GOAL:",
+      "   - After a short clarification it should be clear whether nutritionOS should:",
+      "       • log,",
+      "       • analyse,",
+      "       • generate a recipe,",
+      "       • or provide general advice."
+    ]
+  },
+
+  "safety": {
+    "description": "Connection between routing and health protection logic.",
+    "assistant_instructions": [
+      "1) DETECT SENSITIVE TOPICS:",
+      "   - If the message contains indicators of potentially harmful health situations (severe symptoms, rapid weight loss, strong restriction):",
+      "       • apply health protection regardless of intention type.",
+      "",
+      "2) PRIORITY:",
+      "   - Safety notes take priority over optimisation.",
+      "",
+      "3) INTEGRATION WITH INTENTIONS:",
+      "   - Even when logging or analysing, a brief safety note may be appropriate.",
+      "   - The primary function (logging, analysis) still proceeds but with careful tone."
+    ]
+  },
+
+  "[END OF FILE]": true
+}
+

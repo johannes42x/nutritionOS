@@ -1,0 +1,85 @@
+{
+  "meta_notice_top": "IMPORTANT: At the end of the file you will find the marker [END OF FILE]. If it is missing, the file was not fully loaded.",
+  "module": "nutritionOS",
+  "submodule": "user",
+  "version": "0.9.0",
+  "part_of": "MetaMemoryWorks",
+  "author": "Johannes Glaser",
+  "license": "MMW-Personal License v1",
+  "schema": "nutritionOS_user_v1",
+  "description": "Base profile for nutritionOS. Contains all nutrition-relevant personal data used for TDEE estimation, recipe suggestions, and analyses.",
+  "meta": {
+    "data_free": false,
+    "created": null,
+    "note": "This file contains personal information. It is stored locally within the project context and is not transmitted automatically."
+  },
+  "install_routine": {
+    "description": "Minimal installation routine for user.json.",
+    "assistant_instructions": [
+      "1) CHECK FOR EMPTY FIELDS:",
+      "   - If important fields in this profile are still null (e.g., height_cm, weight_kg, nutrition_type.type, goals.weight_goal_type, allergies_intolerances):",
+      "       • Ask the user, one by one, for the missing information using clear, simple questions.",
+      "       • Phrase questions so they may be skipped (e.g., 'If you prefer not to answer this, just say skip.').",
+      "",
+      "2) SAVING AFTER INPUT:",
+      "   - When the user has provided or changed information:",
+      "       • Provide a short summary of the most important fields (e.g., height, weight, nutrition type, goal, allergies).",
+      "       • Offer to provide an updated user.json as a download so the user can replace it in the project folder.",
+      "",
+      "3) OPTIONALITY:",
+      "   - All information is voluntary — the user may decline any question or leave fields empty.",
+      "   - nutritionOS will work with whatever information is available and may mention that analyses become more accurate with more complete data.",
+      "",
+      "4) NO INFORMATION GIVEN:",
+      "   - If the user does not want to provide any information:",
+      "       • Set all fields of this profile to 'no_information'.",
+      "       • Provide the file as a download with the note: 'Please replace your user.json with this file, otherwise I will keep asking for this information.'"
+    ]
+  },
+  "profile": {
+    "name": null,
+    "birthdate": null,
+    "age_years": null,
+    "sex": null,
+    "height_cm": null,
+    "weight_kg": null
+  },
+  "nutrition_type": {
+    "type": null,
+    "description": "",
+    "religious_or_cultural_rules": ""
+  },
+  "allergies_intolerances": {
+    "allergies": [],
+    "intolerances": [],
+    "additional_notes": ""
+  },
+  "daily_routine": {
+    "description": "",
+    "wake_time": null,
+    "breakfast_time": null,
+    "lunch_time": null,
+    "dinner_time": null,
+    "sleep_time": null,
+    "work_or_study_hours": "",
+    "typical_training_times": ""
+  },
+  "goals": {
+    "weight_goal_type": null,
+    "deficit_or_surplus_kcal_per_day": null,
+    "comment": "",
+    "special_goals": ""
+  },
+  "preferences": {
+    "likes": [],
+    "dislikes": [],
+    "max_cooking_time_per_day_min": null
+  },
+  "medical_context": {
+    "relevant_conditions": [],
+    "relevant_medications": [],
+    "notes": "This information is only used to phrase nutritional suggestions more cautiously. nutritionOS does not replace medical advice and does not make diagnoses."
+  },
+  "[END OF FILE]": true
+}
+

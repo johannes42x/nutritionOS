@@ -1,0 +1,186 @@
+{
+  "meta_notice_top": "IMPORTANT: At the end of the file you will find the marker [END OF FILE]. If it is missing, the file was not fully loaded.",
+  "module": "nutritionOS",
+  "submodule": "templates",
+  "version": "0.9.0",
+  "part_of": "MetaMemoryWorks",
+  "author": "Johannes Glaser",
+  "license": "MMW-Personal License v1",
+  "schema": "nutritionOS_templates_v1",
+  "description": "Templates for central nutritionOS files (nutrition log, food category files, recipes, supplements). This file contains no data and serves as a blueprint when creating new logs or databases.",
+  "meta": {
+    "data_free": true,
+    "note": "This file contains only templates/schemas. It is not used directly as a log."
+  },
+  "global_rules": {
+    "description": "General rules for using these templates.",
+    "assistant_instructions": [
+      "1) TEMPLATE INTEGRATION WHEN INITIALISING:",
+      "   - When using one of these templates to create a concrete log or data file (e.g., nutrition_log.json, nut_butter.json, recipes.json, supplements.json):",
+      "       • First write the standard header/meta block of the target file.",
+      "       • Immediately below it, insert the matching template from this file as the first entry.",
+      "       • Only then append the actual 'real' entries.",
+      "   - The template functions as in-file schema documentation and makes later write actions easier.",
+      "",
+      "2) HANDLING TEMPLATE ENTRIES:",
+      "   - When analysing logs or databases, the template entry must be treated as a schema/example entry, not as real data.",
+      "   - nutritionOS may skip or specially mark this entry internally."
+    ]
+  },
+
+  "template_nutrition_log": {
+    "description": "Template for nutrition_log.json – daily entries with macro balance.",
+    "template": {
+      "meta": {
+        "schema": "nutrition_log_v1",
+        "description": "Nutrition log with daily entries, including macro balance, plant diversity, and fruit/vegetable portions.",
+        "last_assigned_id": "LOG-000",
+        "date_last_entry": null,
+        "notes": ""
+      },
+      "entries": [
+        {
+          "id": "LOG-000",
+          "date": "DD-MM-YYYY",
+          "list_of_items": [
+            "Food or meal (kcal, g protein, g fat, g carbohydrates)"
+          ],
+          "total_kcal": null,
+          "total_protein_g": null,
+          "total_fat_g": null,
+          "total_carbohydrates_g": null,
+          "total_fiber_g": null,
+          "plant_diversity_today": null,
+          "fruit_veg_portions": null,
+          "tdee_and_balance": {
+            "tdee_kcal": null,
+            "deviation_kcal": null
+          },
+          "notes": ""
+        }
+      ]
+    }
+  },
+
+  "template_food_category": {
+    "description": "Template for a categorised food file (e.g., nut butter, yogurt, plant milk, carbohydrates, shakes). Can be used as a workaround DB or as a standalone category file.",
+    "template": {
+      "meta": {
+        "version": "1.0",
+        "description": "Database for a food category (e.g., nut butter, (plant) yogurt, (plant) milk, shakes, carbohydrates).",
+        "created": "DD-MM-YYYY",
+        "unit": "per 100 g or per 100 ml"
+      },
+      "products": [
+        {
+          "id": "XXX-001",
+          "name": "Food name",
+          "alias": [
+            "Alternative name 1",
+            "Alternative name 2"
+          ],
+          "manufacturer": "Manufacturer name (optional)",
+          "nutrients": {
+            "energy_kj": null,
+            "energy_kcal": null,
+            "fat_g": null,
+            "saturated_fatty_acids_g": null,
+            "carbohydrates_g": null,
+            "sugar_g": null,
+            "fiber_g": null,
+            "protein_g": null,
+            "salt_g": null
+          },
+          "portion": {
+            "description": "e.g., 1 piece, 1 cup, 1 serving (optional)",
+            "energy_kj": null,
+            "energy_kcal": null,
+            "fat_g": null,
+            "saturated_fatty_acids_g": null,
+            "carbohydrates_g": null,
+            "sugar_g": null,
+            "fiber_g": null,
+            "protein_g": null,
+            "salt_g": null
+          },
+          "vitamins": {
+            "example_vitamin_1": null
+          },
+          "minerals": {
+            "example_mineral_1": null
+          },
+          "source": "e.g., product label, manufacturer website",
+          "notes": ""
+        }
+      ]
+    }
+  },
+
+  "template_recipes": {
+    "description": "Template for recipes.json – collection of recipes with ingredients, preparation and nutrient data.",
+    "template": {
+      "meta": {
+        "schema": "recipes_v1",
+        "description": "Recipe collection for nutritionOS.",
+        "last_assigned_id": "REC-000",
+        "notes": ""
+      },
+      "recipes": [
+        {
+          "id": "REC-000",
+          "name": "Recipe name",
+          "category": "Main dish / Snack / Breakfast / Dessert",
+          "ingredients": [
+            {
+              "food_ref": "Reference to food entry or free text",
+              "amount": null,
+              "unit": "g / ml / tbsp / tsp / piece"
+            }
+          ],
+          "preparation": [
+            "1. Step including ingredient amounts.",
+            "2. Further preparation step."
+          ],
+          "portions": null,
+          "nutrients_per_portion": {
+            "energy_kcal": null,
+            "protein_g": null,
+            "fat_g": null,
+            "carbohydrates_g": null,
+            "fiber_g": null
+          },
+          "notes": ""
+        }
+      ]
+    }
+  },
+
+  "template_supplements": {
+    "description": "Template for supplements.json – optional tracking of supplements.",
+    "template": {
+      "meta": {
+        "schema": "supplements_v1",
+        "description": "Supplement log for contextualising nutrition and training.",
+        "last_assigned_id": "SUP-000",
+        "notes": ""
+      },
+      "supplements": [
+        {
+          "id": "SUP-000",
+          "name": "Supplement name",
+          "daily_dosage": null,
+          "unit": "IU / mg / g",
+          "intake_times": [
+            "morning",
+            "evening"
+          ],
+          "source": "e.g., package information, medical recommendation",
+          "notes": ""
+        }
+      ]
+    }
+  },
+
+  "[END OF FILE]": true
+}
+
