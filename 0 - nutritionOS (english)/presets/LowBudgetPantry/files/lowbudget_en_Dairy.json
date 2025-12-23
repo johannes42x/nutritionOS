@@ -1,0 +1,55 @@
+{
+  "Dairy": [
+    {
+      "id": "FOOD-030",
+      "name": "Skyr",
+      "category": "Dairy",
+      "optional": true,
+      "nutrients": {
+        "energy_kj": 250,
+        "energy_kcal": 60,
+        "fat_g": 0.2,
+        "saturated_fatty_acids_g": 0.1,
+        "carbs_g": 3.5,
+        "sugar_g": 3.5,
+        "fiber_g": 0.0,
+        "protein_g": 11.0,
+        "salt_g": 0.1
+      }
+    },
+    {
+      "id": "FOOD-031",
+      "name": "Plain yogurt",
+      "category": "Dairy",
+      "optional": true,
+      "nutrients": {
+        "energy_kj": 260,
+        "energy_kcal": 63,
+        "fat_g": 3.5,
+        "saturated_fatty_acids_g": 2.3,
+        "carbs_g": 4.7,
+        "sugar_g": 4.7,
+        "fiber_g": 0.0,
+        "protein_g": 3.5,
+        "salt_g": 0.1
+      }
+    },
+    {
+      "id": "FOOD-032",
+      "name": "Gouda cheese",
+      "category": "Dairy",
+      "optional": true,
+      "nutrients": {
+        "energy_kj": 1500,
+        "energy_kcal": 360,
+        "fat_g": 27.0,
+        "saturated_fatty_acids_g": 18.0,
+        "carbs_g": 2.0,
+        "sugar_g": 0.1,
+        "fiber_g": 0.0,
+        "protein_g": 25.0,
+        "salt_g": 1.8
+      }
+    }
+  ]
+}

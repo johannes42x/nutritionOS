@@ -1,0 +1,36 @@
+{
+  "Protein Source": [
+    {
+      "id": "FOOD-011",
+      "name": "Tofu, plain",
+      "category": "Protein Source",
+      "nutrients": {
+        "energy_kj": 520,
+        "energy_kcal": 124,
+        "fat_g": 7.0,
+        "saturated_fatty_acids_g": 1.2,
+        "carbs_g": 1.9,
+        "sugar_g": 0.6,
+        "fiber_g": 0.3,
+        "protein_g": 13.0,
+        "salt_g": 0.01
+      }
+    },
+    {
+      "id": "FOOD-012",
+      "name": "Textured soy protein",
+      "category": "Protein Source",
+      "nutrients": {
+        "energy_kj": 1450,
+        "energy_kcal": 350,
+        "fat_g": 7.0,
+        "saturated_fatty_acids_g": 1.0,
+        "carbs_g": 18.0,
+        "sugar_g": 8.0,
+        "fiber_g": 15.0,
+        "protein_g": 50.0,
+        "salt_g": 0.1
+      }
+    }
+  ]
+}

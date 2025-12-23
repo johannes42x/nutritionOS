@@ -1,0 +1,116 @@
+{
+  "Vegetables": [
+    {
+      "id": "FOOD-005",
+      "name": "Potatoes",
+      "category": "Vegetables",
+      "nutrients": {
+        "energy_kj": 322,
+        "energy_kcal": 77,
+        "fat_g": 0.1,
+        "saturated_fatty_acids_g": 0.0,
+        "carbs_g": 17.0,
+        "sugar_g": 0.8,
+        "fiber_g": 2.2,
+        "protein_g": 2.0,
+        "salt_g": 0.01
+      }
+    },
+    {
+      "id": "FOOD-010",
+      "name": "Frozen peas",
+      "category": "Vegetables",
+      "nutrients": {
+        "energy_kj": 336,
+        "energy_kcal": 80,
+        "fat_g": 0.4,
+        "saturated_fatty_acids_g": 0.1,
+        "carbs_g": 14.0,
+        "sugar_g": 5.7,
+        "fiber_g": 5.0,
+        "protein_g": 5.5,
+        "salt_g": 0.01
+      }
+    },
+    {
+      "id": "FOOD-013",
+      "name": "Frozen broccoli",
+      "category": "Vegetables",
+      "nutrients": {
+        "energy_kj": 141,
+        "energy_kcal": 34,
+        "fat_g": 0.4,
+        "saturated_fatty_acids_g": 0.1,
+        "carbs_g": 7.0,
+        "sugar_g": 1.7,
+        "fiber_g": 3.0,
+        "protein_g": 3.0,
+        "salt_g": 0.02
+      }
+    },
+    {
+      "id": "FOOD-014",
+      "name": "Frozen spinach",
+      "category": "Vegetables",
+      "nutrients": {
+        "energy_kj": 92,
+        "energy_kcal": 22,
+        "fat_g": 0.4,
+        "saturated_fatty_acids_g": 0.1,
+        "carbs_g": 1.9,
+        "sugar_g": 0.4,
+        "fiber_g": 2.6,
+        "protein_g": 2.9,
+        "salt_g": 0.13
+      }
+    },
+    {
+      "id": "FOOD-015",
+      "name": "Frozen mixed vegetables",
+      "category": "Vegetables",
+      "nutrients": {
+        "energy_kj": 251,
+        "energy_kcal": 60,
+        "fat_g": 0.5,
+        "saturated_fatty_acids_g": 0.1,
+        "carbs_g": 11.0,
+        "sugar_g": 3.0,
+        "fiber_g": 3.5,
+        "protein_g": 3.0,
+        "salt_g": 0.05
+      }
+    },
+    {
+      "id": "FOOD-016",
+      "name": "Onions",
+      "category": "Vegetables",
+      "nutrients": {
+        "energy_kj": 166,
+        "energy_kcal": 40,
+        "fat_g": 0.1,
+        "saturated_fatty_acids_g": 0.0,
+        "carbs_g": 9.3,
+        "sugar_g": 4.2,
+        "fiber_g": 1.7,
+        "protein_g": 1.1,
+        "salt_g": 0.01
+      }
+    },
+    {
+      "id": "FOOD-017",
+      "name": "Carrots",
+      "category": "Vegetables",
+      "nutrients": {
+        "energy_kj": 170,
+        "energy_kcal": 41,
+        "fat_g": 0.2,
+        "saturated_fatty_acids_g": 0.0,
+        "carbs_g": 10.0,
+        "sugar_g": 4.7,
+        "fiber_g": 2.8,
+        "protein_g": 0.9,
+        "salt_g": 0.08
+      }
+    }
+  ]
+}
