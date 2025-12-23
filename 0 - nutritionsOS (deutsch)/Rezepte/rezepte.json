@@ -1,0 +1,41 @@
+{
+  "meta_hinweis_oben": "WICHTIG: Am Ende der Datei steht der Marker [ENDE DER DATEI]. Wenn er nicht erscheint, ist die Datei unvollständig geladen.",
+  "module": "nutritionOS",
+  "submodule": "rezepte",
+  "version": "0.9.0",
+  "schema": "rezepte_v1",
+  "meta": {
+    "schema": "rezepte_v1",
+    "beschreibung": "Rezeptsammlung für nutritionOS.",
+    "letzte_vergebene_id": "REC-000",
+    "notizen": ""
+  },
+  "rezepte": [
+    {
+      "id": "REC-000",
+      "name": "Rezeptname",
+      "kategorie": "Hauptgericht / Snack / Frühstück / Dessert",
+      "zutaten": [
+        {
+          "lebensmittel_ref": "Referenz auf Lebensmittel-Eintrag oder Freitext",
+          "menge": null,
+          "einheit": "g / ml / EL / TL / Stück"
+        }
+      ],
+      "zubereitung": [
+        "1. Schritt mit Mengenangaben zu den Zutaten.",
+        "2. Weiterer Schritt der Zubereitung."
+      ],
+      "portionen": null,
+      "naehrwerte_pro_portion": {
+        "energie_kcal": null,
+        "protein_g": null,
+        "fett_g": null,
+        "kohlenhydrate_g": null,
+        "ballaststoffe_g": null
+      },
+      "notizen": ""
+    }
+  ],
+  "[ENDE DER DATEI]": true
+}
