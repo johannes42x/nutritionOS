@@ -1,0 +1,140 @@
+{
+  "Seasonings": [
+    {
+      "id": "FOOD-015",
+      "name": "Salt",
+      "category": "Seasonings",
+      "requires_certification": false,
+      "nutrients": {
+        "energy_kj": 0,
+        "energy_kcal": 0,
+        "fat_g": 0.0,
+        "saturated_fatty_acids_g": 0.0,
+        "carbohydrates_g": 0.0,
+        "sugar_g": 0.0,
+        "fibre_g": 0.0,
+        "protein_g": 0.0,
+        "salt_g": 100.0
+      }
+    },
+    {
+      "id": "FOOD-016",
+      "name": "Black pepper",
+      "category": "Seasonings",
+      "requires_certification": false,
+      "nutrients": {
+        "energy_kj": 1050,
+        "energy_kcal": 251,
+        "fat_g": 3.3,
+        "saturated_fatty_acids_g": 1.4,
+        "carbohydrates_g": 64.0,
+        "sugar_g": 0.6,
+        "fibre_g": 25.0,
+        "protein_g": 10.0,
+        "salt_g": 0.02
+      }
+    },
+    {
+      "id": "FOOD-017",
+      "name": "Sweet paprika",
+      "category": "Seasonings",
+      "requires_certification": false,
+      "nutrients": {
+        "energy_kj": 1180,
+        "energy_kcal": 282,
+        "fat_g": 13.0,
+        "saturated_fatty_acids_g": 2.0,
+        "carbohydrates_g": 54.0,
+        "sugar_g": 10.0,
+        "fibre_g": 35.0,
+        "protein_g": 14.0,
+        "salt_g": 0.02
+      }
+    },
+    {
+      "id": "FOOD-018",
+      "name": "Chili powder",
+      "category": "Seasonings",
+      "requires_certification": false,
+      "nutrients": {
+        "energy_kj": 1340,
+        "energy_kcal": 321,
+        "fat_g": 17.0,
+        "saturated_fatty_acids_g": 3.3,
+        "carbohydrates_g": 49.0,
+        "sugar_g": 7.0,
+        "fibre_g": 34.0,
+        "protein_g": 12.0,
+        "salt_g": 0.05
+      }
+    },
+    {
+      "id": "FOOD-019",
+      "name": "Curry powder",
+      "category": "Seasonings",
+      "requires_certification": false,
+      "nutrients": {
+        "energy_kj": 1400,
+        "energy_kcal": 330,
+        "fat_g": 14.0,
+        "saturated_fatty_acids_g": 2.0,
+        "carbohydrates_g": 58.0,
+        "sugar_g": 2.5,
+        "fibre_g": 33.0,
+        "protein_g": 13.0,
+        "salt_g": 0.08
+      }
+    },
+    {
+      "id": "FOOD-020",
+      "name": "Garlic",
+      "category": "Seasonings",
+      "requires_certification": false,
+      "nutrients": {
+        "energy_kj": 581,
+        "energy_kcal": 139,
+        "fat_g": 0.5,
+        "saturated_fatty_acids_g": 0.1,
+        "carbohydrates_g": 29.9,
+        "sugar_g": 2.4,
+        "fibre_g": 2.1,
+        "protein_g": 6.4,
+        "salt_g": 0.02
+      }
+    },
+    {
+      "id": "FOOD-021",
+      "name": "Tomato paste",
+      "category": "Seasonings",
+      "requires_certification": false,
+      "nutrients": {
+        "energy_kj": 397,
+        "energy_kcal": 95,
+        "fat_g": 0.5,
+        "saturated_fatty_acids_g": 0.1,
+        "carbohydrates_g": 21.0,
+        "sugar_g": 12.0,
+        "fibre_g": 4.0,
+        "protein_g": 4.0,
+        "salt_g": 0.05
+      }
+    },
+    {
+      "id": "FOOD-022",
+      "name": "Canned tomatoes",
+      "category": "Seasonings",
+      "requires_certification": false,
+      "nutrients": {
+        "energy_kj": 71,
+        "energy_kcal": 17,
+        "fat_g": 0.2,
+        "saturated_fatty_acids_g": 0.0,
+        "carbohydrates_g": 3.5,
+        "sugar_g": 2.5,
+        "fibre_g": 1.1,
+        "protein_g": 0.8,
+        "salt_g": 0.05
+      }
+    }
+  ]
+}

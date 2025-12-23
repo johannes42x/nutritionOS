@@ -1,0 +1,21 @@
+{
+  "Fats": [
+    {
+      "id": "FOOD-014",
+      "name": "Rapeseed oil",
+      "category": "Fats",
+      "requires_certification": false,
+      "nutrients": {
+        "energy_kj": 3700,
+        "energy_kcal": 884,
+        "fat_g": 100.0,
+        "saturated_fatty_acids_g": 7.0,
+        "carbohydrates_g": 0.0,
+        "sugar_g": 0.0,
+        "fibre_g": 0.0,
+        "protein_g": 0.0,
+        "salt_g": 0.0
+      }
+    }
+  ]
+}
