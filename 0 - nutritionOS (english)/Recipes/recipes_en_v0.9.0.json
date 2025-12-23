@@ -1,0 +1,44 @@
+{
+  "meta_notice_top": "IMPORTANT: At the end of this file you will find the marker [END OF FILE]. If it is missing, the file was not fully loaded.",
+  "module": "nutritionOS",
+  "submodule": "recipes",
+  "version": "0.9.0",
+  "schema": "recipes_v1",
+
+  "meta": {
+    "schema": "recipes_v1",
+    "description": "Recipe collection for nutritionOS.",
+    "last_assigned_id": "REC-000",
+    "notes": ""
+  },
+
+  "recipes": [
+    {
+      "id": "REC-000",
+      "name": "Recipe name",
+      "category": "Main dish / Snack / Breakfast / Dessert",
+      "ingredients": [
+        {
+          "food_ref": "Reference to food entry or free text",
+          "amount": null,
+          "unit": "g / ml / tbsp / tsp / piece"
+        }
+      ],
+      "instructions": [
+        "1. Step including amounts for all ingredients.",
+        "2. Additional preparation step."
+      ],
+      "servings": null,
+      "nutrients_per_serving": {
+        "energy_kcal": null,
+        "protein_g": null,
+        "fat_g": null,
+        "carbs_g": null,
+        "fiber_g": null
+      },
+      "notes": ""
+    }
+  ],
+
+  "[END OF FILE]": true
+}
