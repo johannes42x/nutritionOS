@@ -1,0 +1,68 @@
+{
+  "Getreide": [
+    {
+      "id": "FOOD-001",
+      "name": "Reis, weiß",
+      "kategorie": "Getreide",
+      "naehrwerte": {
+        "energie_kj": 1480,
+        "energie_kcal": 350,
+        "fett_g": 0.4,
+        "gesaettigte_fettsaeuren_g": 0.1,
+        "kohlenhydrate_g": 78.0,
+        "zucker_g": 0.1,
+        "ballaststoffe_g": 1.0,
+        "eiweiss_g": 7.0,
+        "salz_g": 0.0
+      }
+    },
+    {
+      "id": "FOOD-002",
+      "name": "Nudeln, Hartweizen",
+      "kategorie": "Getreide",
+      "naehrwerte": {
+        "energie_kj": 1500,
+        "energie_kcal": 360,
+        "fett_g": 1.5,
+        "gesaettigte_fettsaeuren_g": 0.3,
+        "kohlenhydrate_g": 72.0,
+        "zucker_g": 3.5,
+        "ballaststoffe_g": 3.0,
+        "eiweiss_g": 12.0,
+        "salz_g": 0.01
+      }
+    },
+    {
+      "id": "FOOD-003",
+      "name": "Haferflocken",
+      "kategorie": "Getreide",
+      "naehrwerte": {
+        "energie_kj": 1550,
+        "energie_kcal": 370,
+        "fett_g": 7.0,
+        "gesaettigte_fettsaeuren_g": 1.3,
+        "kohlenhydrate_g": 59.0,
+        "zucker_g": 1.0,
+        "ballaststoffe_g": 10.0,
+        "eiweiss_g": 13.0,
+        "salz_g": 0.01
+      }
+    },
+    {
+      "id": "FOOD-004",
+      "name": "Bulgur",
+      "kategorie": "Getreide",
+      "naehrwerte": {
+        "energie_kj": 1500,
+        "energie_kcal": 360,
+        "fett_g": 1.5,
+        "gesaettigte_fettsaeuren_g": 0.3,
+        "kohlenhydrate_g": 76.0,
+        "zucker_g": 0.4,
+        "ballaststoffe_g": 12.0,
+        "eiweiss_g": 12.0,
+        "salz_g": 0.01
+      }
+    }
+  ]
+}
