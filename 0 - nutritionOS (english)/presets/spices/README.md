@@ -1,4 +1,4 @@
-# GewuerzPantry – Usage
+Spices – Usage
 
 This directory contains a preconfigured spice and flavor pantry for nutritionOS.
 
@@ -74,7 +74,7 @@ and will no longer use it in its suggestions.
 
 ## Note
 
-This GewuerzPantry is a **foundational preset**.
+This spices file is a **foundational preset**.
 It provides basic flavor infrastructure for everyday cooking
 and is assumed or complemented by some other nutritionOS presets.
 
