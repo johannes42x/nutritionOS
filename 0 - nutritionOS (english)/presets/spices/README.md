@@ -1,80 +1,82 @@
-# GewuerzPantry – Verwendung
+# GewuerzPantry – Usage
 
-Dieses Verzeichnis enthält ein vorkonfiguriertes Gewürz- und Aromapantry für nutritionOS.
+This directory contains a preconfigured spice and flavor pantry for nutritionOS.
 
-## Grundprinzip
+## Basic principle
 
-nutritionOS erlaubt es ausdrücklich, eigene Gewürze, Aromen und Würzmittel
-manuell zu erfassen und zu hinterlegen.  
-Wer das tut, **benötigt dieses Preset nicht**.
+nutritionOS explicitly allows users to manually define and maintain
+their own spices, seasonings, and flavor agents.  
+If you do that, **you do not need this preset**.
 
-Dieses Preset richtet sich an Nutzer:innen, die mit einer
-alltagstauglichen, universell einsetzbaren Grundausstattung arbeiten möchten,
-ohne diese selbst vollständig zu erfassen.
+This preset is intended for users who want to work with
+a practical, universal baseline of spices and aromatics
+without entering them individually.
 
-## Verwendung des Presets
+## Using the preset
 
-Wenn dieses Gewürz-Preset geladen ist, geht nutritionOS davon aus,
-dass die hier hinterlegten Gewürze und Aromaträger **grundsätzlich verfügbar** sind.
+When this spice pantry preset is loaded, nutritionOS assumes that
+the listed spices and flavor agents are **generally available**.
 
-Auf dieser Annahme basierend:
-- werden Rezepte geschmacklich ausgearbeitet
-- werden Gerichte variiert und vertieft
-- werden Zutaten sinnvoll kombiniert und ergänzt
+Based on that assumption, the system:
+- develops recipes with sufficient flavor depth
+- varies and refines dishes
+- combines ingredients in a coherent and practical way
 
-Damit das zuverlässig funktioniert, sollten die unten aufgeführten
-Gewürze und Aromastoffe tatsächlich vorhanden sein.
+For this to work reliably, the listed spices and aromatics
+should actually be available.
 
-Die Liste kann als **Einkaufs- oder Bestandsliste** verwendet werden.
+The list below can be used as a **shopping or inventory list**.
 
-## Enthaltene Gewürze und Aromaträger
+## Included spices and flavor agents
 
-- Salz  
-- Schwarzer Pfeffer  
-- Paprika edelsüß  
-- Geräuchertes Paprikapulver  
+- Salt  
+- Black pepper  
+- Sweet paprika  
+- Smoked paprika powder  
 - Curry  
-- Kurkuma  
-- Kreuzkümmel (Cumin)  
-- Koriandersaat  
-- Garam Masala  
-- Pul Biber  
-- Cayennepfeffer  
-- Ingwer (gemahlen)  
-- Knoblauchgranulat  
-- Zwiebelgranulat  
+- Turmeric  
+- Cumin  
+- Coriander seeds  
+- Garam masala  
+- Pul biber  
+- Cayenne pepper  
+- Ground ginger  
+- Garlic granules  
+- Onion granules  
 - Oregano  
-- Thymian  
-- Basilikum  
-- Rosmarin  
-- Petersilie (getrocknet)  
-- Dill (getrocknet)  
-- Sumach  
-- Zitronenabrieb (getrocknet)  
-- Orangenabrieb (getrocknet)  
-- Rosenwasser  
-- Ahornsirup  
-- Agavendicksaft  
-- Honig  
-- Hefeflocken  
-- Sojasauce  
-- Misopaste  
+- Thyme  
+- Basil  
+- Rosemary  
+- Dried parsley  
+- Dried dill  
+- Sumac  
+- Dried lemon zest  
+- Dried orange zest  
+- Rose water  
+- Maple syrup  
+- Agave syrup  
+- Honey  
+- Nutritional yeast  
+- Soy sauce  
+- Miso paste  
 
-## Anpassung des Presets
+## Customizing the preset
 
-Dieses Preset ist **optional** und kann angepasst werden.
+This preset is **optional** and can be modified.
 
-Wenn ein Gewürz oder Aromaträger nicht verwendet werden soll:
+If you do not want to use a specific spice or flavor agent:
 
-1. Den entsprechenden Eintrag aus dem **Inhaltsverzeichnis** entfernen  
-2. Den zugehörigen Produkteintrag vollständig löschen
+1. Remove the corresponding entry from the **index list**
+2. Remove the associated product entry completely
 
-Nach der Entfernung geht nutritionOS davon aus,
-dass dieser Aromaträger **nicht verfügbar** ist
-und berücksichtigt ihn entsprechend nicht mehr.
+After removal, nutritionOS will assume that the item is **not available**
+and will no longer use it in its suggestions.
 
-## Hinweis
+## Note
 
-Dieses GewuerzPantry ist ein **Grundlagen-Preset**.
-Es dient als infrastrukturelle Basis für alltagstaugliches Kochen
-und wird von einigen anderen nutritionOS-Presets vorausgesetzt oder ergänzt.
+This GewuerzPantry is a **foundational preset**.
+It provides basic flavor infrastructure for everyday cooking
+and is assumed or complemented by some other nutritionOS presets.
+
+It does not sell recommendations,
+but reduces setup and cognitive overhead when cooking.
