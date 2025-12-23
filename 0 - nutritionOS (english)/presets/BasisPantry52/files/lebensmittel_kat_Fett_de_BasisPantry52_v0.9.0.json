@@ -1,0 +1,115 @@
+{
+  "meta_hinweis_oben": "WICHTIG: Am Ende der Datei steht der Marker [ENDE DER DATEI]. Wenn er nicht erscheint, ist die Datei unvollständig geladen.",
+  "module": "nutritionOS",
+  "submodule": "lebensmittel_kategorie",
+  "version": "1.0",
+  "schema": "lebensmittel_kategorie_v1",
+  "meta": {
+    "version": "1.0",
+    "beschreibung": "Öle und fettreiche Produkte wie Kokosmilch.",
+    "erstellt": "2025-12-07",
+    "einheit": "pro 100 g oder pro 100 ml"
+  },
+  "produkte": [
+    {
+      "id": "FET-001",
+      "name": "Olivenöl, nativ extra",
+      "alias": [],
+      "hersteller": "",
+      "naehrwerte": {
+        "energie_kj": 3380,
+        "energie_kcal": 820,
+        "fett_g": 92,
+        "gesaettigte_fettsaeuren_g": 14,
+        "kohlenhydrate_g": 0,
+        "zucker_g": 0,
+        "ballaststoffe_g": 0,
+        "eiweiss_g": 0,
+        "salz_g": 0
+      },
+      "portion": {
+        "beschreibung": "",
+        "energie_kj": null,
+        "energie_kcal": null,
+        "fett_g": null,
+        "gesaettigte_fettsaeuren_g": null,
+        "kohlenhydrate_g": null,
+        "zucker_g": null,
+        "ballaststoffe_g": null,
+        "eiweiss_g": null,
+        "salz_g": null
+      },
+      "vitamine": {},
+      "mineralien": {},
+      "quelle": "",
+      "notizen": "Original-ID in BasisPantry52: FOOD-036"
+    },
+    {
+      "id": "FET-002",
+      "name": "Rapsöl",
+      "alias": [],
+      "hersteller": "",
+      "naehrwerte": {
+        "energie_kj": 3380,
+        "energie_kcal": 820,
+        "fett_g": 92,
+        "gesaettigte_fettsaeuren_g": 7,
+        "kohlenhydrate_g": 0,
+        "zucker_g": 0,
+        "ballaststoffe_g": 0,
+        "eiweiss_g": 0,
+        "salz_g": 0
+      },
+      "portion": {
+        "beschreibung": "",
+        "energie_kj": null,
+        "energie_kcal": null,
+        "fett_g": null,
+        "gesaettigte_fettsaeuren_g": null,
+        "kohlenhydrate_g": null,
+        "zucker_g": null,
+        "ballaststoffe_g": null,
+        "eiweiss_g": null,
+        "salz_g": null
+      },
+      "vitamine": {},
+      "mineralien": {},
+      "quelle": "",
+      "notizen": "Original-ID in BasisPantry52: FOOD-037"
+    },
+    {
+      "id": "FET-003",
+      "name": "Kokosmilch, Dose, vollfett",
+      "alias": [],
+      "hersteller": "",
+      "naehrwerte": {
+        "energie_kj": 785,
+        "energie_kcal": 188,
+        "fett_g": 19,
+        "gesaettigte_fettsaeuren_g": 17,
+        "kohlenhydrate_g": 3,
+        "zucker_g": 1,
+        "ballaststoffe_g": 0,
+        "eiweiss_g": 1.5,
+        "salz_g": 0.05
+      },
+      "portion": {
+        "beschreibung": "",
+        "energie_kj": null,
+        "energie_kcal": null,
+        "fett_g": null,
+        "gesaettigte_fettsaeuren_g": null,
+        "kohlenhydrate_g": null,
+        "zucker_g": null,
+        "ballaststoffe_g": null,
+        "eiweiss_g": null,
+        "salz_g": null
+      },
+      "vitamine": {},
+      "mineralien": {},
+      "quelle": "",
+      "notizen": "Original-ID in BasisPantry52: FOOD-038"
+    }
+  ],
+  "[ENDE DER DATEI]": true
+}
