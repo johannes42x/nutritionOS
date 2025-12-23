@@ -1,0 +1,63 @@
+{
+  "schema": "nutritionOS_glossar_v0.9.0",
+  "beschreibung": "Begriffslexikon für nutritionOS. Dieses Glossar erklärt zentrale technische und praktische Begriffe des Systems.",
+  "begriffe": [
+    {
+      "term": "nutritionOS",
+      "definition": "Ein modulares Ernährungssystem innerhalb von MetaMemoryWorks. Es organisiert Ernährung durch Logging, Analysen, Rezepte und Pantry-Intelligenz. Alle Dateien liegen lokal beim Nutzer."
+    },
+    {
+      "term": "Engine",
+      "definition": "Die zentrale Logikdatei von nutritionOS. Sie enthält Regeln für Logging, Analysen, Rezepte, Schätzungen und Sicherheitsmechanismen."
+    },
+    {
+      "term": "Routing",
+      "definition": "Unterstützungsdatei, die dem LLM hilft, Eingaben richtig einzuordnen (z. B. Rezeptanfrage, Analyse, Logeintrag). Es entscheidet NICHT selbst über das Verhalten, sondern dient als Orientierung."
+    },
+    {
+      "term": "user.json",
+      "definition": "Profildatei des Nutzers mit Angaben wie Körperdaten, Zielen, Allergien, Präferenzen und Tagesablauf. Grundlage für TDEE-Schätzungen und personalisierte Empfehlungen."
+    },
+    {
+      "term": "Ernährungslog (ernaehrungslog.json)",
+      "definition": "Append-only Datei, die tägliche Ernährungs-Einträge enthält. Jede Zeile bildet eine Mahlzeit oder ein Lebensmittel ab. Dient als Basis für Analysen."
+    },
+    {
+      "term": "Lebensmittellog / Lebensmittel-DB",
+      "definition": "Strukturierte Datei mit Lebensmittel-Einträgen und Nährwerten. Dient als Grundlage für Berechnungen und Pantry-Intelligenz. Kann als eine große Datei oder in Kategorien geführt werden."
+    },
+    {
+      "term": "Pantry-Intelligence",
+      "definition": "Interpretationslogik, die aus Lebensmittel-DBs ableitet, welche Zutaten typischerweise verfügbar sind. Ermöglicht realistische Rezeptvorschläge basierend auf dem Alltag des Nutzers."
+    },
+    {
+      "term": "Rezepte (rezepte.json)",
+      "definition": "Sammlung erfolgreich erprobter oder generierter Rezepte. Jedes Rezept enthält Zutaten, Mengenangaben, Zubereitungsschritte und optionale Nährwerte."
+    },
+    {
+      "term": "Referenzen (referenzen_nutrition.json)",
+      "definition": "Liste wiederkehrender Mahlzeiten wie Shakes, Bowls oder Standardkombinationen, um Logging und Rezeptgenerierung zu erleichtern."
+    },
+    {
+      "term": "Append-only",
+      "definition": "Daten werden immer an das Ende einer Datei angehängt. Bestehende Einträge werden nicht verändert. Dies verhindert Datenverlust und erleichtert Nachvollziehbarkeit."
+    },
+    {
+      "term": "Template",
+      "definition": "Vorstruktur einer Datei, aus der ein echtes Log erzeugt wird. Beim Initialisieren einer Datei wird das Template oben in der Datei abgelegt."
+    },
+    {
+      "term": "Schätzung",
+      "definition": "Wenn ein Lebensmittel keine exakten Nährwerte enthält, kann nutritionOS Schätzwerte nutzen. Diese sind gekennzeichnet und basieren auf typischen Lebensmitteldaten."
+    },
+    {
+      "term": "TDEE",
+      "definition": "Total Daily Energy Expenditure. Eine Schätzung des täglichen Energieverbrauchs basierend auf Körperdaten, Aktivität und Tagesabläufen."
+    },
+    {
+      "term": "Analyse",
+      "definition": "Auswertung von Ernährungsdaten: Makros, Pflanzenvielfalt, Obst-/Gemüse-Portionen, Kalorienbilanz, Mustererkennung."
+    }
+  ],
+  "[ENDE DER DATEI]": true
+}

@@ -1,0 +1,84 @@
+{
+  "meta_hinweis_oben": "WICHTIG: Am Ende der Datei steht der Marker [ENDE DER DATEI]. Wenn er nicht erscheint, ist die Datei unvollständig geladen.",
+  "module": "nutritionOS",
+  "submodule": "user",
+  "version": "0.9.0",
+  "part_of": "MetaMemoryWorks",
+  "author": "Johannes Glaser",
+  "license": "MMW-Personal License v1",
+  "schema": "nutritionOS_user_v1",
+  "beschreibung": "Basisprofil für nutritionOS. Enthält alle ernährungsrelevanten Stammdaten, die für TDEE-Berechnung, Rezeptvorschläge und Analysen genutzt werden.",
+  "meta": {
+    "datenfrei": false,
+    "erstellt": null,
+    "hinweis": "Diese Datei enthält persönliche Angaben. Sie wird lokal im Projektkontext gehalten und nicht automatisch weitergegeben."
+  },
+  "installroutine": {
+    "beschreibung": "Minimale Installroutine für user.json.",
+    "assistant_instructions": [
+      "1) PRÜFUNG AUF LEERE FELDER:",
+      "   - Wenn zentrale Felder in diesem Profil noch null sind (z. B. groesse_cm, gewicht_kg, ernaehrungsform.typ, ziele.gewichtsziel_typ, allergien_unvertraeglichkeiten):",
+      "       • Nutzer nacheinander in wenigen, klaren Fragen um die fehlenden Angaben bitten.",
+      "       • Fragen so formulieren, dass sie auch übersprungen werden können (z. B. 'Wenn du das nicht angeben möchtest, sag einfach weiter.').",
+      "",
+      "2) SPEICHERN NACH EINGABE:",
+      "   - Wenn der Nutzer Angaben gemacht oder geändert hat:",
+      "       • Eine kurze Zusammenfassung der wichtigsten Felder geben (z. B. Größe, Gewicht, Ernährungsform, Ziel, Allergien).",
+      "       • Anbieten, eine aktualisierte user.json als Download bereitzustellen, damit der Nutzer sie im Projektordner ersetzen kann.",
+      "",
+      "3) OPTIONALITÄT:",
+      "   - Alle Angaben sind freiwillig – der Nutzer kann Fragen jederzeit ablehnen oder Felder leer lassen.",
+      "   - nutritionOS arbeitet dann mit den vorhandenen Informationen und weist ggf. darauf hin, wenn genauere Angaben Analysen verbessern würden.",
+      "",
+      "4) KEINE ANGABEN:",
+      "   - Wenn der Nutzer keine Angaben machen möchte:",
+      "       • Setze alle Felder dieses Profils auf 'keine angaben'.",
+      "       • Gib die Datei als Download aus mit dem Hinweis: 'Bitte diese user.json ersetzen, sonst werde ich dich erneut fragen.'."
+    ]
+  },
+  "profil": {
+    "name": null,
+    "geburtsdatum": null,
+    "alter_jahre": null,
+    "geschlecht": null,
+    "groesse_cm": null,
+    "gewicht_kg": null
+  },
+  "ernaehrungsform": {
+    "typ": null,
+    "beschreibung": "",
+    "religioese_oder_kulturelle_regeln": ""
+  },
+  "allergien_unvertraeglichkeiten": {
+    "allergien": [],
+    "intoleranzen": [],
+    "sonstige_hinweise": ""
+  },
+  "tagesablauf": {
+    "beschreibung": "",
+    "aufstehen_uhrzeit": null,
+    "fruehstueck_uhrzeit": null,
+    "mittagessen_uhrzeit": null,
+    "abendessen_uhrzeit": null,
+    "schlafenszeit_uhrzeit": null,
+    "arbeits_oder_studienzeiten": "",
+    "typische_training_zeiten": ""
+  },
+  "ziele": {
+    "gewichtsziel_typ": null,
+    "defizit_oder_ueberschuss_kcal_pro_tag": null,
+    "kommentar": "",
+    "spezielle_ziele": ""
+  },
+  "praeferenzen": {
+    "mag_gerne": [],
+    "mag_nicht": [],
+    "max_kochzeit_pro_tag_min": null
+  },
+  "medizinischer_kontext": {
+    "relevante_erkrankungen": [],
+    "relevante_medikamente": [],
+    "hinweise": "Diese Informationen dienen nur dazu, Ernährungsvorschläge vorsichtiger zu formulieren. nutritionOS ersetzt keine ärztliche Beratung und stellt keine Diagnosen."
+  },
+  "[ENDE DER DATEI]": true
+}
