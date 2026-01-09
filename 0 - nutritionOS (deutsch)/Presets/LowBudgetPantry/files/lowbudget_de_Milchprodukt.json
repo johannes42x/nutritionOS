@@ -1,0 +1,55 @@
+{
+  "Milchprodukt": [
+    {
+      "id": "FOOD-030",
+      "name": "Skyr",
+      "kategorie": "Milchprodukt",
+      "optional": true,
+      "naehrwerte": {
+        "energie_kj": 250,
+        "energie_kcal": 60,
+        "fett_g": 0.2,
+        "gesaettigte_fettsaeuren_g": 0.1,
+        "kohlenhydrate_g": 3.5,
+        "zucker_g": 3.5,
+        "ballaststoffe_g": 0.0,
+        "eiweiss_g": 11.0,
+        "salz_g": 0.1
+      }
+    },
+    {
+      "id": "FOOD-031",
+      "name": "Naturjoghurt",
+      "kategorie": "Milchprodukt",
+      "optional": true,
+      "naehrwerte": {
+        "energie_kj": 260,
+        "energie_kcal": 63,
+        "fett_g": 3.5,
+        "gesaettigte_fettsaeuren_g": 2.3,
+        "kohlenhydrate_g": 4.7,
+        "zucker_g": 4.7,
+        "ballaststoffe_g": 0.0,
+        "eiweiss_g": 3.5,
+        "salz_g": 0.1
+      }
+    },
+    {
+      "id": "FOOD-032",
+      "name": "Gouda",
+      "kategorie": "Milchprodukt",
+      "optional": true,
+      "naehrwerte": {
+        "energie_kj": 1500,
+        "energie_kcal": 360,
+        "fett_g": 27.0,
+        "gesaettigte_fettsaeuren_g": 18.0,
+        "kohlenhydrate_g": 2.0,
+        "zucker_g": 0.1,
+        "ballaststoffe_g": 0.0,
+        "eiweiss_g": 25.0,
+        "salz_g": 1.8
+      }
+    }
+  ]
+}

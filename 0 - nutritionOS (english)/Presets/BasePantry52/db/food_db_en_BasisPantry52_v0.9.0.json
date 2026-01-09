@@ -1,0 +1,1159 @@
+{
+  "meta_notice_top": "IMPORTANT: At the end of the file there is the marker [END OF FILE]. If it does not appear, the file has not been fully loaded.",
+  "module": "nutritionOS",
+  "submodule": "food_db_free",
+  "version": "0.9.0",
+  "preset": {
+    "name": "BasisPantry 52 (Free)",
+    "description": "Core pantry for roughly one week of cooking: everyday-friendly, vegetarian/mostly plant-based, with solid nutrient estimates per 100 g.",
+    "version": "v1"
+  },
+  "meta": {
+    "data_free": false,
+    "created": "2025-12-07",
+    "unit_standard": "per 100 g"
+  },
+
+  "template_entry": {
+    "id": "FOOD-000",
+    "name": "TEMPLATE — do not interpret as a real food item",
+    "category": "template",
+    "alias": [],
+    "nutrients": {
+      "energy_kj": null,
+      "energy_kcal": null,
+      "fat_g": null,
+      "saturated_fatty_acids_g": null,
+      "carbohydrates_g": null,
+      "sugar_g": null,
+      "fiber_g": null,
+      "protein_g": null,
+      "salt_g": null
+    },
+    "source": "",
+    "notes": "Schema example"
+  },
+
+  "table_of_contents": [
+    "FOOD-000 – TEMPLATE",
+    "FOOD-001 – Oats, rolled",
+    "FOOD-002 – Rice, white, dry",
+    "FOOD-003 – Rice, wholegrain, dry",
+    "FOOD-004 – Pasta, durum wheat, dry",
+    "FOOD-005 – Pasta, wholegrain, dry",
+    "FOOD-006 – Couscous, dry",
+    "FOOD-007 – Bulgur, dry",
+    "FOOD-008 – Buckwheat, whole, dry",
+    "FOOD-009 – Potatoes, waxy, raw",
+    "FOOD-010 – Rice noodles, dry",
+    "FOOD-011 – Lentils, red, dry",
+    "FOOD-012 – Lentils, beluga, dry",
+    "FOOD-013 – Chickpeas, dry",
+    "FOOD-014 – Chickpeas, canned, drained",
+    "FOOD-015 – Kidney beans, canned, drained",
+    "FOOD-016 – Black beans, canned, drained",
+    "FOOD-017 – Onions, yellow",
+    "FOOD-018 – Garlic",
+    "FOOD-019 – Carrots",
+    "FOOD-020 – Celery stalks",
+    "FOOD-021 – Bell pepper, red",
+    "FOOD-022 – Zucchini",
+    "FOOD-023 – Broccoli",
+    "FOOD-024 – Leek",
+    "FOOD-025 – Tomatoes, fresh",
+    "FOOD-026 – Tomatoes, chopped, canned",
+    "FOOD-027 – Spinach, frozen, chopped",
+    "FOOD-028 – Peas, frozen",
+    "FOOD-029 – Arugula / rocket",
+    "FOOD-030 – Mixed leafy salad",
+    "FOOD-031 – Bananas",
+    "FOOD-032 – Apples",
+    "FOOD-033 – Lemons",
+    "FOOD-034 – Oranges",
+    "FOOD-035 – Mixed berries, frozen",
+    "FOOD-036 – Olive oil, extra virgin",
+    "FOOD-037 – Rapeseed oil",
+    "FOOD-038 – Coconut milk, canned, full-fat",
+    "FOOD-039 – Hazelnut butter, 100%",
+    "FOOD-040 – Tahini (sesame paste)",
+    "FOOD-041 – Peanut butter, 100%",
+    "FOOD-042 – Plant-based skyr / quark alternative",
+    "FOOD-043 – Tofu, plain",
+    "FOOD-044 – Tofu, smoked",
+    "FOOD-045 – Tempeh",
+    "FOOD-046 – Seitan",
+    "FOOD-047 – Soy sauce",
+    "FOOD-048 – Balsamic vinegar",
+    "FOOD-049 – Tomato paste, double concentrated",
+    "FOOD-050 – Miso paste, light (shiro miso)",
+    "FOOD-051 – Smoked paprika powder",
+    "FOOD-052 – Vegetable stock powder, yeast-free"
+  ],
+
+  "products": [
+
+    {
+      "id": "FOOD-000",
+      "name": "TEMPLATE — do not use",
+      "category": "template",
+      "alias": [],
+      "nutrients": {
+        "energy_kj": null,
+        "energy_kcal": null,
+        "fat_g": null,
+        "saturated_fatty_acids_g": null,
+        "carbohydrates_g": null,
+        "sugar_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "salt_g": null
+      },
+      "source": "",
+      "notes": ""
+    },
+
+    {
+      "id": "FOOD-001",
+      "name": "Oats, rolled",
+      "category": "Grain",
+      "alias": ["oats"],
+      "nutrients": {
+        "energy_kj": 1550,
+        "energy_kcal": 370,
+        "fat_g": 7,
+        "saturated_fatty_acids_g": 1,
+        "carbohydrates_g": 60,
+        "sugar_g": 1,
+        "fiber_g": 10,
+        "protein_g": 13,
+        "salt_g": 0
+      },
+      "source": "standard estimate",
+      "notes": ""
+    },
+
+    {
+      "id": "FOOD-002",
+      "name": "Rice, white, dry",
+      "category": "Grain",
+      "alias": [],
+      "nutrients": {
+        "energy_kj": 1500,
+        "energy_kcal": 360,
+        "fat_g": 0.5,
+        "saturated_fatty_acids_g": 0.1,
+        "carbohydrates_g": 79,
+        "sugar_g": 0,
+        "fiber_g": 1,
+        "protein_g": 6.5,
+        "salt_g": 0
+      },
+      "source": "standard estimate",
+      "notes": ""
+    },
+
+    {
+      "id": "FOOD-003",
+      "name": "Rice, wholegrain, dry",
+      "category": "Grain",
+      "alias": [],
+      "nutrients": {
+        "energy_kj": 1500,
+        "energy_kcal": 360,
+        "fat_g": 2.5,
+        "saturated_fatty_acids_g": 0.5,
+        "carbohydrates_g": 74,
+        "sugar_g": 1,
+        "fiber_g": 4,
+        "protein_g": 7.5,
+        "salt_g": 0
+      },
+      "source": "standard estimate",
+      "notes": ""
+    },
+
+    {
+      "id": "FOOD-004",
+      "name": "Pasta, durum wheat, dry",
+      "category": "Grain",
+      "alias": ["pasta"],
+      "nutrients": {
+        "energy_kj": 1500,
+        "energy_kcal": 360,
+        "fat_g": 1.5,
+        "saturated_fatty_acids_g": 0.3,
+        "carbohydrates_g": 72,
+        "sugar_g": 3,
+        "fiber_g": 3,
+        "protein_g": 12,
+        "salt_g": 0
+      },
+      "source": "standard estimate",
+      "notes": ""
+    },
+
+    {
+      "id": "FOOD-005",
+      "name": "Pasta, wholegrain, dry",
+      "category": "Grain",
+      "alias": [],
+      "nutrients": {
+        "energy_kj": 1450,
+        "energy_kcal": 350,
+        "fat_g": 2,
+        "saturated_fatty_acids_g": 0.4,
+        "carbohydrates_g": 65,
+        "sugar_g": 3,
+        "fiber_g": 6,
+        "protein_g": 13,
+        "salt_g": 0
+      },
+      "source": "standard estimate",
+      "notes": ""
+    },
+
+    {
+      "id": "FOOD-006",
+      "name": "Couscous, dry",
+      "category": "Grain",
+      "alias": [],
+      "nutrients": {
+        "energy_kj": 1500,
+        "energy_kcal": 360,
+        "fat_g": 1,
+        "saturated_fatty_acids_g": 0.2,
+        "carbohydrates_g": 73,
+        "sugar_g": 1,
+        "fiber_g": 3,
+        "protein_g": 12,
+        "salt_g": 0
+      },
+      "source": "standard estimate",
+      "notes": ""
+    },
+
+    {
+      "id": "FOOD-007",
+      "name": "Bulgur, dry",
+      "category": "Grain",
+      "alias": [],
+      "nutrients": {
+        "energy_kj": 1420,
+        "energy_kcal": 340,
+        "fat_g": 1.5,
+        "saturated_fatty_acids_g": 0.3,
+        "carbohydrates_g": 70,
+        "sugar_g": 1,
+        "fiber_g": 8,
+        "protein_g": 12,
+        "salt_g": 0
+      },
+      "source": "standard estimate",
+      "notes": ""
+    },
+
+    {
+      "id": "FOOD-008",
+      "name": "Buckwheat, whole, dry",
+      "category": "Grain",
+      "alias": [],
+      "nutrients": {
+        "energy_kj": 1460,
+        "energy_kcal": 348,
+        "fat_g": 3,
+        "saturated_fatty_acids_g": 0.6,
+        "carbohydrates_g": 71,
+        "sugar_g": 1,
+        "fiber_g": 10,
+        "protein_g": 13,
+        "salt_g": 0
+      },
+      "source": "standard estimate",
+      "notes": ""
+    },
+
+    {
+      "id": "FOOD-009",
+      "name": "Potatoes, waxy, raw",
+      "category": "Vegetable",
+      "alias": [],
+      "nutrients": {
+        "energy_kj": 315,
+        "energy_kcal": 75,
+        "fat_g": 0.1,
+        "saturated_fatty_acids_g": 0,
+        "carbohydrates_g": 17,
+        "sugar_g": 1,
+        "fiber_g": 2,
+        "protein_g": 2,
+        "salt_g": 0
+      },
+      "source": "standard estimate",
+      "notes": ""
+    },
+
+    {
+      "id": "FOOD-010",
+      "name": "Rice noodles, dry",
+      "category": "Grain",
+      "alias": [],
+      "nutrients": {
+        "energy_kj": 1500,
+        "energy_kcal": 360,
+        "fat_g": 1,
+        "saturated_fatty_acids_g": 0.3,
+        "carbohydrates_g": 80,
+        "sugar_g": 0,
+        "fiber_g": 2,
+        "protein_g": 6,
+        "salt_g": 0
+      },
+      "source": "standard estimate",
+      "notes": ""
+    },
+
+    {
+      "id": "FOOD-011",
+      "name": "Lentils, red, dry",
+      "category": "Legume",
+      "alias": [],
+      "nutrients": {
+        "energy_kj": 1450,
+        "energy_kcal": 350,
+        "fat_g": 1.5,
+        "saturated_fatty_acids_g": 0.3,
+        "carbohydrates_g": 53,
+        "sugar_g": 2,
+        "fiber_g": 11,
+        "protein_g": 24,
+        "salt_g": 0
+      },
+      "source": "standard estimate",
+      "notes": ""
+    },
+
+    {
+      "id": "FOOD-012",
+      "name": "Lentils, beluga, dry",
+      "category": "Legume",
+      "alias": [],
+      "nutrients": {
+        "energy_kj": 1430,
+        "energy_kcal": 345,
+        "fat_g": 1.5,
+        "saturated_fatty_acids_g": 0.3,
+        "carbohydrates_g": 52,
+        "sugar_g": 2,
+        "fiber_g": 11,
+        "protein_g": 24,
+        "salt_g": 0
+      },
+      "source": "standard estimate",
+      "notes": ""
+    },
+
+    {
+      "id": "FOOD-013",
+      "name": "Chickpeas, dry",
+      "category": "Legume",
+      "alias": [],
+      "nutrients": {
+        "energy_kj": 1500,
+        "energy_kcal": 360,
+        "fat_g": 6,
+        "saturated_fatty_acids_g": 0.6,
+        "carbohydrates_g": 50,
+        "sugar_g": 3,
+        "fiber_g": 13,
+        "protein_g": 19,
+        "salt_g": 0
+      },
+      "source": "standard estimate",
+      "notes": ""
+    },
+
+    {
+      "id": "FOOD-014",
+      "name": "Chickpeas, canned, drained",
+      "category": "Legume",
+      "alias": [],
+      "nutrients": {
+        "energy_kj": 540,
+        "energy_kcal": 130,
+        "fat_g": 2,
+        "saturated_fatty_acids_g": 0.3,
+        "carbohydrates_g": 18,
+        "sugar_g": 1,
+        "fiber_g": 6,
+        "protein_g": 6,
+        "salt_g": 0.4
+      },
+      "source": "standard estimate",
+      "notes": ""
+    },
+
+    {
+      "id": "FOOD-015",
+      "name": "Kidney beans, canned, drained",
+      "category": "Legume",
+      "alias": [],
+      "nutrients": {
+        "energy_kj": 480,
+        "energy_kcal": 115,
+        "fat_g": 0.8,
+        "saturated_fatty_acids_g": 0.2,
+        "carbohydrates_g": 19,
+        "sugar_g": 1,
+        "fiber_g": 5,
+        "protein_g": 7,
+        "salt_g": 0.4
+      },
+      "source": "standard estimate",
+      "notes": ""
+    },
+
+    {
+      "id": "FOOD-016",
+      "name": "Black beans, canned, drained",
+      "category": "Legume",
+      "alias": [],
+      "nutrients": {
+        "energy_kj": 520,
+        "energy_kcal": 125,
+        "fat_g": 0.8,
+        "saturated_fatty_acids_g": 0.2,
+        "carbohydrates_g": 20,
+        "sugar_g": 1,
+        "fiber_g": 6,
+        "protein_g": 8,
+        "salt_g": 0.4
+      },
+      "source": "standard estimate",
+      "notes": ""
+    },
+
+    {
+      "id": "FOOD-017",
+      "name": "Onions, yellow",
+      "category": "Vegetable",
+      "alias": [],
+      "nutrients": {
+        "energy_kj": 160,
+        "energy_kcal": 38,
+        "fat_g": 0.1,
+        "saturated_fatty_acids_g": 0,
+        "carbohydrates_g": 8.5,
+        "sugar_g": 4.5,
+        "fiber_g": 1.5,
+        "protein_g": 1,
+        "salt_g": 0
+      },
+      "source": "standard estimate",
+      "notes": ""
+    },
+
+    {
+      "id": "FOOD-018",
+      "name": "Garlic",
+      "category": "Vegetable",
+      "alias": [],
+      "nutrients": {
+        "energy_kj": 600,
+        "energy_kcal": 143,
+        "fat_g": 0.5,
+        "saturated_fatty_acids_g": 0.1,
+        "carbohydrates_g": 28,
+        "sugar_g": 1,
+        "fiber_g": 2,
+        "protein_g": 6,
+        "salt_g": 0
+      },
+      "source": "standard estimate",
+      "notes": ""
+    },
+
+    {
+      "id": "FOOD-019",
+      "name": "Carrots",
+      "category": "Vegetable",
+      "alias": [],
+      "nutrients": {
+        "energy_kj": 170,
+        "energy_kcal": 41,
+        "fat_g": 0.2,
+        "saturated_fatty_acids_g": 0,
+        "carbohydrates_g": 10,
+        "sugar_g": 5,
+        "fiber_g": 3,
+        "protein_g": 0.9,
+        "salt_g": 0
+      },
+      "source": "standard estimate",
+      "notes": ""
+    },
+
+    {
+      "id": "FOOD-020",
+      "name": "Celery stalks",
+      "category": "Vegetable",
+      "alias": ["celery"],
+      "nutrients": {
+        "energy_kj": 65,
+        "energy_kcal": 16,
+        "fat_g": 0.2,
+        "saturated_fatty_acids_g": 0,
+        "carbohydrates_g": 3,
+        "sugar_g": 1.5,
+        "fiber_g": 1.6,
+        "protein_g": 0.7,
+        "salt_g": 0.05
+      },
+      "source": "standard estimate",
+      "notes": ""
+    },
+
+    {
+      "id": "FOOD-021",
+      "name": "Bell pepper, red",
+      "category": "Vegetable",
+      "alias": [],
+      "nutrients": {
+        "energy_kj": 150,
+        "energy_kcal": 37,
+        "fat_g": 0.3,
+        "saturated_fatty_acids_g": 0,
+        "carbohydrates_g": 7,
+        "sugar_g": 5,
+        "fiber_g": 2,
+        "protein_g": 1,
+        "salt_g": 0
+      },
+      "source": "standard estimate",
+      "notes": ""
+    },
+
+    {
+      "id": "FOOD-022",
+      "name": "Zucchini",
+      "category": "Vegetable",
+      "alias": [],
+      "nutrients": {
+        "energy_kj": 70,
+        "energy_kcal": 17,
+        "fat_g": 0.3,
+        "saturated_fatty_acids_g": 0,
+        "carbohydrates_g": 3,
+        "sugar_g": 2,
+        "fiber_g": 1,
+        "protein_g": 1.2,
+        "salt_g": 0.01
+      },
+      "source": "standard estimate",
+      "notes": ""
+    },
+
+    {
+      "id": "FOOD-023",
+      "name": "Broccoli",
+      "category": "Vegetable",
+      "alias": [],
+      "nutrients": {
+        "energy_kj": 140,
+        "energy_kcal": 34,
+        "fat_g": 0.4,
+        "saturated_fatty_acids_g": 0,
+        "carbohydrates_g": 7,
+        "sugar_g": 1.7,
+        "fiber_g": 3,
+        "protein_g": 3,
+        "salt_g": 0.02
+      },
+      "source": "standard estimate",
+      "notes": ""
+    },
+
+    {
+      "id": "FOOD-024",
+      "name": "Leek",
+      "category": "Vegetable",
+      "alias": [],
+      "nutrients": {
+        "energy_kj": 115,
+        "energy_kcal": 28,
+        "fat_g": 0.3,
+        "saturated_fatty_acids_g": 0,
+        "carbohydrates_g": 7,
+        "sugar_g": 3,
+        "fiber_g": 2,
+        "protein_g": 1,
+        "salt_g": 0.02
+      },
+      "source": "standard estimate",
+      "notes": ""
+    },
+
+    {
+      "id": "FOOD-025",
+      "name": "Tomatoes, fresh",
+      "category": "Vegetable",
+      "alias": [],
+      "nutrients": {
+        "energy_kj": 75,
+        "energy_kcal": 18,
+        "fat_g": 0.2,
+        "saturated_fatty_acids_g": 0,
+        "carbohydrates_g": 3,
+        "sugar_g": 2.6,
+        "fiber_g": 1,
+        "protein_g": 0.9,
+        "salt_g": 0.01
+      },
+      "source": "standard estimate",
+      "notes": ""
+    },
+
+    {
+      "id": "FOOD-026",
+      "name": "Tomatoes, chopped, canned",
+      "category": "Vegetable",
+      "alias": ["canned tomatoes"],
+      "nutrients": {
+        "energy_kj": 85,
+        "energy_kcal": 20,
+        "fat_g": 0.2,
+        "saturated_fatty_acids_g": 0,
+        "carbohydrates_g": 3.5,
+        "sugar_g": 3,
+        "fiber_g": 1,
+        "protein_g": 1,
+        "salt_g": 0.1
+      },
+      "source": "standard estimate",
+      "notes": ""
+    },
+
+    {
+      "id": "FOOD-027",
+      "name": "Spinach, frozen, chopped",
+      "category": "Vegetable",
+      "alias": [],
+      "nutrients": {
+        "energy_kj": 90,
+        "energy_kcal": 22,
+        "fat_g": 0.4,
+        "saturated_fatty_acids_g": 0.1,
+        "carbohydrates_g": 1,
+        "sugar_g": 0.5,
+        "fiber_g": 2,
+        "protein_g": 3,
+        "salt_g": 0.1
+      },
+      "source": "standard estimate",
+      "notes": ""
+    },
+
+    {
+      "id": "FOOD-028",
+      "name": "Peas, frozen",
+      "category": "Vegetable",
+      "alias": [],
+      "nutrients": {
+        "energy_kj": 320,
+        "energy_kcal": 76,
+        "fat_g": 0.5,
+        "saturated_fatty_acids_g": 0,
+        "carbohydrates_g": 13,
+        "sugar_g": 5,
+        "fiber_g": 5,
+        "protein_g": 5,
+        "salt_g": 0.01
+      },
+      "source": "standard estimate",
+      "notes": ""
+    },
+
+    {
+      "id": "FOOD-029",
+      "name": "Arugula / rocket",
+      "category": "Vegetable",
+      "alias": [],
+      "nutrients": {
+        "energy_kj": 105,
+        "energy_kcal": 25,
+        "fat_g": 0.7,
+        "saturated_fatty_acids_g": 0.1,
+        "carbohydrates_g": 2,
+        "sugar_g": 2,
+        "fiber_g": 1.6,
+        "protein_g": 2.5,
+        "salt_g": 0.03
+      },
+      "source": "standard estimate",
+      "notes": ""
+    },
+
+    {
+      "id": "FOOD-030",
+      "name": "Mixed leafy salad",
+      "category": "Vegetable",
+      "alias": [],
+      "nutrients": {
+        "energy_kj": 60,
+        "energy_kcal": 14,
+        "fat_g": 0.2,
+        "saturated_fatty_acids_g": 0,
+        "carbohydrates_g": 2,
+        "sugar_g": 0.8,
+        "fiber_g": 1,
+        "protein_g": 1.2,
+        "salt_g": 0.02
+      },
+      "source": "standard estimate",
+      "notes": ""
+    },
+
+    {
+      "id": "FOOD-031",
+      "name": "Bananas",
+      "category": "Fruit",
+      "alias": [],
+      "nutrients": {
+        "energy_kj": 370,
+        "energy_kcal": 89,
+        "fat_g": 0.3,
+        "saturated_fatty_acids_g": 0.1,
+        "carbohydrates_g": 23,
+        "sugar_g": 12,
+        "fiber_g": 2.6,
+        "protein_g": 1.1,
+        "salt_g": 0
+      },
+      "source": "standard estimate",
+      "notes": ""
+    },
+
+    {
+      "id": "FOOD-032",
+      "name": "Apples",
+      "category": "Fruit",
+      "alias": [],
+      "nutrients": {
+        "energy_kj": 220,
+        "energy_kcal": 52,
+        "fat_g": 0.2,
+        "saturated_fatty_acids_g": 0,
+        "carbohydrates_g": 14,
+        "sugar_g": 10,
+        "fiber_g": 2.4,
+        "protein_g": 0.3,
+        "salt_g": 0
+      },
+      "source": "standard estimate",
+      "notes": ""
+    },
+
+    {
+      "id": "FOOD-033",
+      "name": "Lemons",
+      "category": "Fruit",
+      "alias": [],
+      "nutrients": {
+        "energy_kj": 120,
+        "energy_kcal": 29,
+        "fat_g": 0.3,
+        "saturated_fatty_acids_g": 0,
+        "carbohydrates_g": 9,
+        "sugar_g": 2.5,
+        "fiber_g": 2.8,
+        "protein_g": 1.1,
+        "salt_g": 0
+      },
+      "source": "standard estimate",
+      "notes": ""
+    },
+
+    {
+      "id": "FOOD-034",
+      "name": "Oranges",
+      "category": "Fruit",
+      "alias": [],
+      "nutrients": {
+        "energy_kj": 200,
+        "energy_kcal": 47,
+        "fat_g": 0.1,
+        "saturated_fatty_acids_g": 0,
+        "carbohydrates_g": 12,
+        "sugar_g": 9,
+        "fiber_g": 2.4,
+        "protein_g": 0.9,
+        "salt_g": 0
+      },
+      "source": "standard estimate",
+      "notes": ""
+    },
+
+    {
+      "id": "FOOD-035",
+      "name": "Mixed berries, frozen",
+      "category": "Fruit",
+      "alias": ["berry mix"],
+      "nutrients": {
+        "energy_kj": 200,
+        "energy_kcal": 48,
+        "fat_g": 0.3,
+        "saturated_fatty_acids_g": 0,
+        "carbohydrates_g": 12,
+        "sugar_g": 7,
+        "fiber_g": 3,
+        "protein_g": 0.8,
+        "salt_g": 0
+      },
+      "source": "standard estimate",
+      "notes": ""
+    },
+
+    {
+      "id": "FOOD-036",
+      "name": "Olive oil, extra virgin",
+      "category": "Fat",
+      "alias": [],
+      "nutrients": {
+        "energy_kj": 3380,
+        "energy_kcal": 820,
+        "fat_g": 92,
+        "saturated_fatty_acids_g": 14,
+        "carbohydrates_g": 0,
+        "sugar_g": 0,
+        "fiber_g": 0,
+        "protein_g": 0,
+        "salt_g": 0
+      },
+      "source": "standard estimate",
+      "notes": ""
+    },
+
+    {
+      "id": "FOOD-037",
+      "name": "Rapeseed oil",
+      "category": "Fat",
+      "alias": [],
+      "nutrients": {
+        "energy_kj": 3380,
+        "energy_kcal": 820,
+        "fat_g": 92,
+        "saturated_fatty_acids_g": 7,
+        "carbohydrates_g": 0,
+        "sugar_g": 0,
+        "fiber_g": 0,
+        "protein_g": 0,
+        "salt_g": 0
+      },
+      "source": "standard estimate",
+      "notes": ""
+    },
+
+    {
+      "id": "FOOD-038",
+      "name": "Coconut milk, canned, full-fat",
+      "category": "Fat",
+      "alias": [],
+      "nutrients": {
+        "energy_kj": 785,
+        "energy_kcal": 188,
+        "fat_g": 19,
+        "saturated_fatty_acids_g": 17,
+        "carbohydrates_g": 3,
+        "sugar_g": 1,
+        "fiber_g": 0,
+        "protein_g": 1.5,
+        "salt_g": 0.05
+      },
+      "source": "standard estimate",
+      "notes": ""
+    },
+
+    {
+      "id": "FOOD-039",
+      "name": "Hazelnut butter, 100%",
+      "category": "Nut butter",
+      "alias": [],
+      "nutrients": {
+        "energy_kj": 2700,
+        "energy_kcal": 650,
+        "fat_g": 60,
+        "saturated_fatty_acids_g": 4.5,
+        "carbohydrates_g": 17,
+        "sugar_g": 4,
+        "fiber_g": 9,
+        "protein_g": 15,
+        "salt_g": 0
+      },
+      "source": "standard estimate",
+      "notes": ""
+    },
+
+    {
+      "id": "FOOD-040",
+      "name": "Tahini (sesame paste)",
+      "category": "Nut butter",
+      "alias": ["sesame paste"],
+      "nutrients": {
+        "energy_kj": 2500,
+        "energy_kcal": 595,
+        "fat_g": 53,
+        "saturated_fatty_acids_g": 8,
+        "carbohydrates_g": 11,
+        "sugar_g": 1,
+        "fiber_g": 9,
+        "protein_g": 18,
+        "salt_g": 0
+      },
+      "source": "standard estimate",
+      "notes": ""
+    },
+
+    {
+      "id": "FOOD-041",
+      "name": "Peanut butter, 100%",
+      "category": "Nut butter",
+      "alias": [],
+      "nutrients": {
+        "energy_kj": 2600,
+        "energy_kcal": 630,
+        "fat_g": 52,
+        "saturated_fatty_acids_g": 7,
+        "carbohydrates_g": 12,
+        "sugar_g": 4,
+        "fiber_g": 8,
+        "protein_g": 24,
+        "salt_g": 0
+      },
+      "source": "standard estimate",
+      "notes": ""
+    },
+
+    {
+      "id": "FOOD-042",
+      "name": "Plant-based skyr / quark alternative",
+      "category": "Protein source",
+      "alias": ["vegan skyr"],
+      "nutrients": {
+        "energy_kj": 220,
+        "energy_kcal": 55,
+        "fat_g": 0.4,
+        "saturated_fatty_acids_g": 0.1,
+        "carbohydrates_g": 3,
+        "sugar_g": 2.5,
+        "fiber_g": 0.2,
+        "protein_g": 8,
+        "salt_g": 0.1
+      },
+      "source": "standard estimate",
+      "notes": ""
+    },
+
+    {
+      "id": "FOOD-043",
+      "name": "Tofu, plain",
+      "category": "Protein source",
+      "alias": [],
+      "nutrients": {
+        "energy_kj": 525,
+        "energy_kcal": 125,
+        "fat_g": 7,
+        "saturated_fatty_acids_g": 1,
+        "carbohydrates_g": 1.5,
+        "sugar_g": 0.5,
+        "fiber_g": 1,
+        "protein_g": 12,
+        "salt_g": 0.02
+      },
+      "source": "standard estimate",
+      "notes": ""
+    },
+
+    {
+      "id": "FOOD-044",
+      "name": "Tofu, smoked",
+      "category": "Protein source",
+      "alias": [],
+      "nutrients": {
+        "energy_kj": 760,
+        "energy_kcal": 180,
+        "fat_g": 11,
+        "saturated_fatty_acids_g": 2,
+        "carbohydrates_g": 3,
+        "sugar_g": 1,
+        "fiber_g": 1,
+        "protein_g": 18,
+        "salt_g": 1.2
+      },
+      "source": "standard estimate",
+      "notes": ""
+    },
+
+    {
+      "id": "FOOD-045",
+      "name": "Tempeh",
+      "category": "Protein source",
+      "alias": [],
+      "nutrients": {
+        "energy_kj": 770,
+        "energy_kcal": 185,
+        "fat_g": 10,
+        "saturated_fatty_acids_g": 2,
+        "carbohydrates_g": 9,
+        "sugar_g": 0.5,
+        "fiber_g": 7,
+        "protein_g": 18,
+        "salt_g": 0.01
+      },
+      "source": "standard estimate",
+      "notes": ""
+    },
+
+    {
+      "id": "FOOD-046",
+      "name": "Seitan",
+      "category": "Protein source",
+      "alias": [],
+      "nutrients": {
+        "energy_kj": 420,
+        "energy_kcal": 100,
+        "fat_g": 1,
+        "saturated_fatty_acids_g": 0.2,
+        "carbohydrates_g": 4,
+        "sugar_g": 0.5,
+        "fiber_g": 0.5,
+        "protein_g": 19,
+        "salt_g": 1
+      },
+      "source": "standard estimate",
+      "notes": ""
+    },
+
+    {
+      "id": "FOOD-047",
+      "name": "Soy sauce",
+      "category": "Seasoning",
+      "alias": ["soya sauce"],
+      "nutrients": {
+        "energy_kj": 300,
+        "energy_kcal": 72,
+        "fat_g": 0,
+        "saturated_fatty_acids_g": 0,
+        "carbohydrates_g": 6,
+        "sugar_g": 1,
+        "fiber_g": 0,
+        "protein_g": 8,
+        "salt_g": 14
+      },
+      "source": "standard estimate",
+      "notes": ""
+    },
+
+    {
+      "id": "FOOD-048",
+      "name": "Balsamic vinegar",
+      "category": "Seasoning",
+      "alias": [],
+      "nutrients": {
+        "energy_kj": 350,
+        "energy_kcal": 83,
+        "fat_g": 0,
+        "saturated_fatty_acids_g": 0,
+        "carbohydrates_g": 17,
+        "sugar_g": 15,
+        "fiber_g": 0,
+        "protein_g": 0.5,
+        "salt_g": 0.03
+      },
+      "source": "standard estimate",
+      "notes": ""
+    },
+
+    {
+      "id": "FOOD-049",
+      "name": "Tomato paste, double concentrated",
+      "category": "Seasoning",
+      "alias": [],
+      "nutrients": {
+        "energy_kj": 350,
+        "energy_kcal": 82,
+        "fat_g": 0.5,
+        "saturated_fatty_acids_g": 0,
+        "carbohydrates_g": 18,
+        "sugar_g": 12,
+        "fiber_g": 4,
+        "protein_g": 4.5,
+        "salt_g": 0.1
+      },
+      "source": "standard estimate",
+      "notes": ""
+    },
+
+    {
+      "id": "FOOD-050",
+      "name": "Miso paste, light (shiro miso)",
+      "category": "Seasoning",
+      "alias": ["miso"],
+      "nutrients": {
+        "energy_kj": 770,
+        "energy_kcal": 185,
+        "fat_g": 6,
+        "saturated_fatty_acids_g": 1,
+        "carbohydrates_g": 25,
+        "sugar_g": 12,
+        "fiber_g": 2,
+        "protein_g": 12,
+        "salt_g": 12
+      },
+      "source": "standard estimate",
+      "notes": ""
+    },
+
+    {
+      "id": "FOOD-051",
+      "name": "Smoked paprika powder",
+      "category": "Seasoning",
+      "alias": ["smoked paprika"],
+      "nutrients": {
+        "energy_kj": 1230,
+        "energy_kcal": 295,
+        "fat_g": 13,
+        "saturated_fatty_acids_g": 2,
+        "carbohydrates_g": 34,
+        "sugar_g": 10,
+        "fiber_g": 21,
+        "protein_g": 14,
+        "salt_g": 0.1
+      },
+      "source": "standard estimate",
+      "notes": ""
+    },
+
+    {
+      "id": "FOOD-052",
+      "name": "Vegetable stock powder, yeast-free",
+      "category": "Seasoning",
+      "alias": ["stock powder"],
+      "nutrients": {
+        "energy_kj": 900,
+        "energy_kcal": 215,
+        "fat_g": 2,
+        "saturated_fatty_acids_g": 1,
+        "carbohydrates_g": 45,
+        "sugar_g": 10,
+        "fiber_g": 2,
+        "protein_g": 6,
+        "salt_g": 50
+      },
+      "source": "standard estimate",
+      "notes": ""
+    }
+
+  ],
+
+  "[END OF FILE]": true
+}
+

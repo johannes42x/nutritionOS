@@ -1,0 +1,183 @@
+{
+  "meta_notice_top": "IMPORTANT: At the end of this file you will find the marker [END OF FILE]. If it is missing, the file was not fully loaded.",
+  "module": "nutritionOS",
+  "submodule": "food_category",
+  "version": "1.0",
+  "schema": "food_category_v1",
+  "meta": {
+    "version": "1.0",
+    "description": "Plant-based protein sources such as tofu, tempeh and seitan.",
+    "created": "2025-12-07",
+    "unit": "per 100 g or per 100 ml"
+  },
+  "products": [
+    {
+      "id": "PRO-001",
+      "name": "Plant-based skyr / quark alternative",
+      "alias": [
+        "vegan skyr"
+      ],
+      "manufacturer": "",
+      "nutrients": {
+        "energy_kj": 220,
+        "energy_kcal": 55,
+        "fat_g": 0.4,
+        "saturated_fatty_acids_g": 0.1,
+        "carbs_g": 3,
+        "sugar_g": 2.5,
+        "fiber_g": 0.2,
+        "protein_g": 8,
+        "salt_g": 0.1
+      },
+      "portion": {
+        "description": "",
+        "energy_kj": null,
+        "energy_kcal": null,
+        "fat_g": null,
+        "saturated_fatty_acids_g": null,
+        "carbs_g": null,
+        "sugar_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "salt_g": null
+      },
+      "vitamins": {},
+      "minerals": {},
+      "source": "standard estimate",
+      "notes": "Original ID in BasePantry52: FOOD-042"
+    },
+    {
+      "id": "PRO-002",
+      "name": "Tofu, plain",
+      "alias": [],
+      "manufacturer": "",
+      "nutrients": {
+        "energy_kj": 525,
+        "energy_kcal": 125,
+        "fat_g": 7,
+        "saturated_fatty_acids_g": 1,
+        "carbs_g": 1.5,
+        "sugar_g": 0.5,
+        "fiber_g": 1,
+        "protein_g": 12,
+        "salt_g": 0.02
+      },
+      "portion": {
+        "description": "",
+        "energy_kj": null,
+        "energy_kcal": null,
+        "fat_g": null,
+        "saturated_fatty_acids_g": null,
+        "carbs_g": null,
+        "sugar_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "salt_g": null
+      },
+      "vitamins": {},
+      "minerals": {},
+      "source": "standard estimate",
+      "notes": "Original ID in BasePantry52: FOOD-043"
+    },
+    {
+      "id": "PRO-003",
+      "name": "Tofu, smoked",
+      "alias": [],
+      "manufacturer": "",
+      "nutrients": {
+        "energy_kj": 760,
+        "energy_kcal": 180,
+        "fat_g": 11,
+        "saturated_fatty_acids_g": 2,
+        "carbs_g": 3,
+        "sugar_g": 1,
+        "fiber_g": 1,
+        "protein_g": 18,
+        "salt_g": 1.2
+      },
+      "portion": {
+        "description": "",
+        "energy_kj": null,
+        "energy_kcal": null,
+        "fat_g": null,
+        "saturated_fatty_acids_g": null,
+        "carbs_g": null,
+        "sugar_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "salt_g": null
+      },
+      "vitamins": {},
+      "minerals": {},
+      "source": "standard estimate",
+      "notes": "Original ID in BasePantry52: FOOD-044"
+    },
+    {
+      "id": "PRO-004",
+      "name": "Tempeh",
+      "alias": [],
+      "manufacturer": "",
+      "nutrients": {
+        "energy_kj": 770,
+        "energy_kcal": 185,
+        "fat_g": 10,
+        "saturated_fatty_acids_g": 2,
+        "carbs_g": 9,
+        "sugar_g": 0.5,
+        "fiber_g": 7,
+        "protein_g": 18,
+        "salt_g": 0.01
+      },
+      "portion": {
+        "description": "",
+        "energy_kj": null,
+        "energy_kcal": null,
+        "fat_g": null,
+        "saturated_fatty_acids_g": null,
+        "carbs_g": null,
+        "sugar_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "salt_g": null
+      },
+      "vitamins": {},
+      "minerals": {},
+      "source": "standard estimate",
+      "notes": "Original ID in BasePantry52: FOOD-045"
+    },
+    {
+      "id": "PRO-005",
+      "name": "Seitan",
+      "alias": [],
+      "manufacturer": "",
+      "nutrients": {
+        "energy_kj": 420,
+        "energy_kcal": 100,
+        "fat_g": 1,
+        "saturated_fatty_acids_g": 0.2,
+        "carbs_g": 4,
+        "sugar_g": 0.5,
+        "fiber_g": 0.5,
+        "protein_g": 19,
+        "salt_g": 1
+      },
+      "portion": {
+        "description": "",
+        "energy_kj": null,
+        "energy_kcal": null,
+        "fat_g": null,
+        "saturated_fatty_acids_g": null,
+        "carbs_g": null,
+        "sugar_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "salt_g": null
+      },
+      "vitamins": {},
+      "minerals": {},
+      "source": "standard estimate",
+      "notes": "Original ID in BasePantry52: FOOD-046"
+    }
+  ],
+  "[END OF FILE]": true
+}

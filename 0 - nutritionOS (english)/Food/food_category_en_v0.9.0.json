@@ -1,0 +1,65 @@
+{
+  "meta_notice_top": "IMPORTANT: At the end of this file you will find the marker [END OF FILE]. If it is missing, the file was not fully loaded.",
+  "module": "nutritionOS",
+  "submodule": "food_category",
+  "version": "1.0",
+  "schema": "food_category_v1",
+
+  "meta": {
+    "version": "1.0",
+    "description": "Database for a single food category (e.g. nut butter, plant yoghurt, plant milk, shakes, carbohydrates).",
+    "created": "DD-MM-YYYY",
+    "unit": "per 100 g or per 100 ml"
+  },
+
+  "products": [
+    {
+      "id": "XXX-001",
+      "name": "Food name",
+      "alias": [
+        "Alternative name 1",
+        "Alternative name 2"
+      ],
+      "manufacturer": "Manufacturer name (optional)",
+
+      "nutrients": {
+        "energy_kj": null,
+        "energy_kcal": null,
+        "fat_g": null,
+        "saturated_fatty_acids_g": null,
+        "carbs_g": null,
+        "sugar_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "salt_g": null
+      },
+
+      "portion": {
+        "description": "e.g. 1 piece, 1 cup, 1 serving (optional)",
+        "energy_kj": null,
+        "energy_kcal": null,
+        "fat_g": null,
+        "saturated_fatty_acids_g": null,
+        "carbs_g": null,
+        "sugar_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "salt_g": null
+      },
+
+      "vitamins": {
+        "example_vitamin_1": null
+      },
+
+      "minerals": {
+        "example_mineral_1": null
+      },
+
+      "source": "e.g. product label, manufacturer website",
+      "notes": ""
+    }
+  ],
+
+  "[END OF FILE]": true
+}
+

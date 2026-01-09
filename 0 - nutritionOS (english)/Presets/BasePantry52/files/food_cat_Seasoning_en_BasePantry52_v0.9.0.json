@@ -1,0 +1,222 @@
+{
+  "meta_notice_top": "IMPORTANT: At the end of this file you will find the marker [END OF FILE]. If it is missing, the file was not fully loaded.",
+  "module": "nutritionOS",
+  "submodule": "food_category",
+  "version": "1.0",
+  "schema": "food_category_v1",
+  "meta": {
+    "version": "1.0",
+    "description": "Seasonings, sauces and stocks.",
+    "created": "2025-12-07",
+    "unit": "per 100 g or per 100 ml"
+  },
+  "products": [
+    {
+      "id": "SEA-001",
+      "name": "Soy sauce",
+      "alias": [
+        "soya sauce"
+      ],
+      "manufacturer": "",
+      "nutrients": {
+        "energy_kj": 300,
+        "energy_kcal": 72,
+        "fat_g": 0,
+        "saturated_fatty_acids_g": 0,
+        "carbs_g": 6,
+        "sugar_g": 1,
+        "fiber_g": 0,
+        "protein_g": 8,
+        "salt_g": 14
+      },
+      "portion": {
+        "description": "",
+        "energy_kj": null,
+        "energy_kcal": null,
+        "fat_g": null,
+        "saturated_fatty_acids_g": null,
+        "carbs_g": null,
+        "sugar_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "salt_g": null
+      },
+      "vitamins": {},
+      "minerals": {},
+      "source": "standard estimate",
+      "notes": "Original ID in BasePantry52: FOOD-047"
+    },
+    {
+      "id": "SEA-002",
+      "name": "Balsamic vinegar",
+      "alias": [],
+      "manufacturer": "",
+      "nutrients": {
+        "energy_kj": 350,
+        "energy_kcal": 83,
+        "fat_g": 0,
+        "saturated_fatty_acids_g": 0,
+        "carbs_g": 17,
+        "sugar_g": 15,
+        "fiber_g": 0,
+        "protein_g": 0.5,
+        "salt_g": 0.03
+      },
+      "portion": {
+        "description": "",
+        "energy_kj": null,
+        "energy_kcal": null,
+        "fat_g": null,
+        "saturated_fatty_acids_g": null,
+        "carbs_g": null,
+        "sugar_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "salt_g": null
+      },
+      "vitamins": {},
+      "minerals": {},
+      "source": "standard estimate",
+      "notes": "Original ID in BasePantry52: FOOD-048"
+    },
+    {
+      "id": "SEA-003",
+      "name": "Tomato paste, double concentrated",
+      "alias": [],
+      "manufacturer": "",
+      "nutrients": {
+        "energy_kj": 350,
+        "energy_kcal": 82,
+        "fat_g": 0.5,
+        "saturated_fatty_acids_g": 0,
+        "carbs_g": 18,
+        "sugar_g": 12,
+        "fiber_g": 4,
+        "protein_g": 4.5,
+        "salt_g": 0.1
+      },
+      "portion": {
+        "description": "",
+        "energy_kj": null,
+        "energy_kcal": null,
+        "fat_g": null,
+        "saturated_fatty_acids_g": null,
+        "carbs_g": null,
+        "sugar_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "salt_g": null
+      },
+      "vitamins": {},
+      "minerals": {},
+      "source": "standard estimate",
+      "notes": "Original ID in BasePantry52: FOOD-049"
+    },
+    {
+      "id": "SEA-004",
+      "name": "Miso paste, light (shiro miso)",
+      "alias": [
+        "miso"
+      ],
+      "manufacturer": "",
+      "nutrients": {
+        "energy_kj": 770,
+        "energy_kcal": 185,
+        "fat_g": 6,
+        "saturated_fatty_acids_g": 1,
+        "carbs_g": 25,
+        "sugar_g": 12,
+        "fiber_g": 2,
+        "protein_g": 12,
+        "salt_g": 12
+      },
+      "portion": {
+        "description": "",
+        "energy_kj": null,
+        "energy_kcal": null,
+        "fat_g": null,
+        "saturated_fatty_acids_g": null,
+        "carbs_g": null,
+        "sugar_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "salt_g": null
+      },
+      "vitamins": {},
+      "minerals": {},
+      "source": "standard estimate",
+      "notes": "Original ID in BasePantry52: FOOD-050"
+    },
+    {
+      "id": "SEA-005",
+      "name": "Smoked paprika powder",
+      "alias": [
+        "smoked paprika"
+      ],
+      "manufacturer": "",
+      "nutrients": {
+        "energy_kj": 1230,
+        "energy_kcal": 295,
+        "fat_g": 13,
+        "saturated_fatty_acids_g": 2,
+        "carbs_g": 34,
+        "sugar_g": 10,
+        "fiber_g": 21,
+        "protein_g": 14,
+        "salt_g": 0.1
+      },
+      "portion": {
+        "description": "",
+        "energy_kj": null,
+        "energy_kcal": null,
+        "fat_g": null,
+        "saturated_fatty_acids_g": null,
+        "carbs_g": null,
+        "sugar_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "salt_g": null
+      },
+      "vitamins": {},
+      "minerals": {},
+      "source": "standard estimate",
+      "notes": "Original ID in BasePantry52: FOOD-051"
+    },
+    {
+      "id": "SEA-006",
+      "name": "Vegetable stock powder, yeast-free",
+      "alias": [
+        "stock powder"
+      ],
+      "manufacturer": "",
+      "nutrients": {
+        "energy_kj": 900,
+        "energy_kcal": 215,
+        "fat_g": 2,
+        "saturated_fatty_acids_g": 1,
+        "carbs_g": 45,
+        "sugar_g": 10,
+        "fiber_g": 2,
+        "protein_g": 6,
+        "salt_g": 50
+      },
+      "portion": {
+        "description": "",
+        "energy_kj": null,
+        "energy_kcal": null,
+        "fat_g": null,
+        "saturated_fatty_acids_g": null,
+        "carbs_g": null,
+        "sugar_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "salt_g": null
+      },
+      "vitamins": {},
+      "minerals": {},
+      "source": "standard estimate",
+      "notes": "Original ID in BasePantry52: FOOD-052"
+    }
+  ],
+  "[END OF FILE]": true
+}

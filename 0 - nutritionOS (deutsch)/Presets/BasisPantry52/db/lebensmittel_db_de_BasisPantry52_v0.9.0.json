@@ -1,0 +1,1070 @@
+{
+  "meta_hinweis_oben": "WICHTIG: Am Ende der Datei steht der Marker [ENDE DER DATEI].",
+  "module": "nutritionOS",
+  "submodule": "lebensmittel_db_free",
+  "version": "0.9.0",
+  "preset": {
+    "name": "BasisPantry 52 (Free)",
+    "beschreibung": "Grundstock-Pantry für eine Woche: alltagstauglich, vegetarisch/fast vegan, mit soliden Nährwert-Schätzungen pro 100 g.",
+    "version": "v1"
+  },
+  "meta": {
+    "datenfrei": false,
+    "erstellt": "2025-12-07",
+    "einheit_standard": "pro 100 g"
+  },
+
+  "template_eintrag": {
+    "id": "FOOD-000",
+    "name": "TEMPLATE — bitte nicht als echtes Lebensmittel interpretieren",
+    "kategorie": "template",
+    "alias": [],
+    "naehrwerte": {
+      "energie_kj": null,
+      "energie_kcal": null,
+      "fett_g": null,
+      "gesaettigte_fettsaeuren_g": null,
+      "kohlenhydrate_g": null,
+      "zucker_g": null,
+      "ballaststoffe_g": null,
+      "eiweiss_g": null,
+      "salz_g": null
+    },
+    "quelle": "",
+    "notizen": "Schema-Beispiel"
+  },
+
+  "inhaltsverzeichnis": [
+    "FOOD-000 – TEMPLATE",
+    "FOOD-001 – Haferflocken",
+    "FOOD-002 – Reis weiß",
+    "FOOD-003 – Reis Vollkorn",
+    "FOOD-004 – Pasta Hartweizen",
+    "FOOD-005 – Pasta Vollkorn",
+    "FOOD-006 – Couscous",
+    "FOOD-007 – Bulgur",
+    "FOOD-008 – Buchweizen",
+    "FOOD-009 – Kartoffeln festkochend",
+    "FOOD-010 – Reisnudeln",
+    "FOOD-011 – Linsen rot",
+    "FOOD-012 – Linsen Beluga",
+    "FOOD-013 – Kichererbsen trocken",
+    "FOOD-014 – Kichererbsen Konserve",
+    "FOOD-015 – Kidneybohnen Konserve",
+    "FOOD-016 – Schwarze Bohnen Konserve",
+    "FOOD-017 – Zwiebeln",
+    "FOOD-018 – Knoblauch",
+    "FOOD-019 – Karotten",
+    "FOOD-020 – Stangensellerie",
+    "FOOD-021 – Paprika rot",
+    "FOOD-022 – Zucchini",
+    "FOOD-023 – Brokkoli",
+    "FOOD-024 – Lauch",
+    "FOOD-025 – Tomaten frisch",
+    "FOOD-026 – Tomaten stückig Dose",
+    "FOOD-027 – TK-Spinat",
+    "FOOD-028 – TK-Erbsen",
+    "FOOD-029 – Rucola",
+    "FOOD-030 – Blattsalat",
+    "FOOD-031 – Bananen",
+    "FOOD-032 – Äpfel",
+    "FOOD-033 – Zitronen",
+    "FOOD-034 – Orangen",
+    "FOOD-035 – TK-Beerenmix",
+    "FOOD-036 – Olivenöl",
+    "FOOD-037 – Rapsöl",
+    "FOOD-038 – Kokosmilch Dose",
+    "FOOD-039 – Haselnussmus",
+    "FOOD-040 – Tahini",
+    "FOOD-041 – Erdnussmus",
+    "FOOD-042 – Pflanzlicher Skyr/Quarkalternative",
+    "FOOD-043 – Tofu natur",
+    "FOOD-044 – Tofu geräuchert",
+    "FOOD-045 – Tempeh",
+    "FOOD-046 – Seitan",
+    "FOOD-047 – Sojasauce",
+    "FOOD-048 – Balsamico",
+    "FOOD-049 – Tomatenmark",
+    "FOOD-050 – Misopaste hell",
+    "FOOD-051 – Paprikapulver geräuchert",
+    "FOOD-052 – Gemüsebrühepulver"
+  ],
+
+  "produkte": [
+
+    {
+      "id": "FOOD-000",
+      "name": "TEMPLATE — bitte nicht verwenden",
+      "kategorie": "template",
+      "alias": [],
+      "naehrwerte": {
+        "energie_kj": null,
+        "energie_kcal": null,
+        "fett_g": null,
+        "gesaettigte_fettsaeuren_g": null,
+        "kohlenhydrate_g": null,
+        "zucker_g": null,
+        "ballaststoffe_g": null,
+        "eiweiss_g": null,
+        "salz_g": null
+      },
+      "quelle": "",
+      "notizen": ""
+    },
+
+    /* --- GETREIDE & KOHLENHYDRATE --- */
+
+    {
+      "id": "FOOD-001",
+      "name": "Haferflocken, zart",
+      "kategorie": "Getreide",
+      "alias": ["Hafer"],
+      "naehrwerte": {
+        "energie_kj": 1550,
+        "energie_kcal": 370,
+        "fett_g": 7,
+        "gesaettigte_fettsaeuren_g": 1,
+        "kohlenhydrate_g": 60,
+        "zucker_g": 1,
+        "ballaststoffe_g": 10,
+        "eiweiss_g": 13,
+        "salz_g": 0
+      },
+      "quelle": "Standard-Schätzwert"
+    },
+
+    {
+      "id": "FOOD-002",
+      "name": "Reis, weiß, trocken",
+      "kategorie": "Getreide",
+      "alias": [],
+      "naehrwerte": {
+        "energie_kj": 1500,
+        "energie_kcal": 360,
+        "fett_g": 0.5,
+        "gesaettigte_fettsaeuren_g": 0.1,
+        "kohlenhydrate_g": 79,
+        "zucker_g": 0,
+        "ballaststoffe_g": 1,
+        "eiweiss_g": 6.5,
+        "salz_g": 0
+      }
+    },
+
+    {
+      "id": "FOOD-003",
+      "name": "Reis, Vollkorn, trocken",
+      "kategorie": "Getreide",
+      "alias": [],
+      "naehrwerte": {
+        "energie_kj": 1500,
+        "energie_kcal": 360,
+        "fett_g": 2.5,
+        "gesaettigte_fettsaeuren_g": 0.5,
+        "kohlenhydrate_g": 74,
+        "zucker_g": 1,
+        "ballaststoffe_g": 4,
+        "eiweiss_g": 7.5,
+        "salz_g": 0
+      }
+    },
+
+    {
+      "id": "FOOD-004",
+      "name": "Pasta, Hartweizen, trocken",
+      "kategorie": "Getreide",
+      "alias": ["Nudeln"],
+      "naehrwerte": {
+        "energie_kj": 1500,
+        "energie_kcal": 360,
+        "fett_g": 1.5,
+        "gesaettigte_fettsaeuren_g": 0.3,
+        "kohlenhydrate_g": 72,
+        "zucker_g": 3,
+        "ballaststoffe_g": 3,
+        "eiweiss_g": 12,
+        "salz_g": 0
+      }
+    },
+
+    {
+      "id": "FOOD-005",
+      "name": "Pasta, Vollkorn, trocken",
+      "kategorie": "Getreide",
+      "alias": [],
+      "naehrwerte": {
+        "energie_kj": 1450,
+        "energie_kcal": 350,
+        "fett_g": 2,
+        "gesaettigte_fettsaeuren_g": 0.4,
+        "kohlenhydrate_g": 65,
+        "zucker_g": 3,
+        "ballaststoffe_g": 6,
+        "eiweiss_g": 13,
+        "salz_g": 0
+      }
+    },
+
+    {
+      "id": "FOOD-006",
+      "name": "Couscous, trocken",
+      "kategorie": "Getreide",
+      "alias": [],
+      "naehrwerte": {
+        "energie_kj": 1500,
+        "energie_kcal": 360,
+        "fett_g": 1,
+        "gesaettigte_fettsaeuren_g": 0.2,
+        "kohlenhydrate_g": 73,
+        "zucker_g": 1,
+        "ballaststoffe_g": 3,
+        "eiweiss_g": 12,
+        "salz_g": 0
+      }
+    },
+
+    {
+      "id": "FOOD-007",
+      "name": "Bulgur, trocken",
+      "kategorie": "Getreide",
+      "alias": [],
+      "naehrwerte": {
+        "energie_kj": 1420,
+        "energie_kcal": 340,
+        "fett_g": 1.5,
+        "gesaettigte_fettsaeuren_g": 0.3,
+        "kohlenhydrate_g": 70,
+        "zucker_g": 1,
+        "ballaststoffe_g": 8,
+        "eiweiss_g": 12,
+        "salz_g": 0
+      }
+    },
+
+    {
+      "id": "FOOD-008",
+      "name": "Buchweizen, ganz, trocken",
+      "kategorie": "Getreide",
+      "alias": [],
+      "naehrwerte": {
+        "energie_kj": 1460,
+        "energie_kcal": 348,
+        "fett_g": 3,
+        "gesaettigte_fettsaeuren_g": 0.6,
+        "kohlenhydrate_g": 71,
+        "zucker_g": 1,
+        "ballaststoffe_g": 10,
+        "eiweiss_g": 13,
+        "salz_g": 0
+      }
+    },
+
+    {
+      "id": "FOOD-009",
+      "name": "Kartoffeln, festkochend, roh",
+      "kategorie": "Gemüse",
+      "alias": [],
+      "naehrwerte": {
+        "energie_kj": 315,
+        "energie_kcal": 75,
+        "fett_g": 0.1,
+        "gesaettigte_fettsaeuren_g": 0,
+        "kohlenhydrate_g": 17,
+        "zucker_g": 1,
+        "ballaststoffe_g": 2,
+        "eiweiss_g": 2,
+        "salz_g": 0
+      }
+    },
+
+    {
+      "id": "FOOD-010",
+      "name": "Reisnudeln, trocken",
+      "kategorie": "Getreide",
+      "alias": [],
+      "naehrwerte": {
+        "energie_kj": 1500,
+        "energie_kcal": 360,
+        "fett_g": 1,
+        "gesaettigte_fettsaeuren_g": 0.3,
+        "kohlenhydrate_g": 80,
+        "zucker_g": 0,
+        "ballaststoffe_g": 2,
+        "eiweiss_g": 6,
+        "salz_g": 0
+      }
+    },
+
+    /* --- HÜLSENFRÜCHTE --- */
+
+    {
+      "id": "FOOD-011",
+      "name": "Linsen, rot, trocken",
+      "kategorie": "Hülsenfrüchte",
+      "alias": [],
+      "naehrwerte": {
+        "energie_kj": 1450,
+        "energie_kcal": 350,
+        "fett_g": 1.5,
+        "gesaettigte_fettsaeuren_g": 0.3,
+        "kohlenhydrate_g": 53,
+        "zucker_g": 2,
+        "ballaststoffe_g": 11,
+        "eiweiss_g": 24,
+        "salz_g": 0
+      }
+    },
+
+    {
+      "id": "FOOD-012",
+      "name": "Linsen, Beluga, trocken",
+      "kategorie": "Hülsenfrüchte",
+      "alias": [],
+      "naehrwerte": {
+        "energie_kj": 1430,
+        "energie_kcal": 345,
+        "fett_g": 1.5,
+        "gesaettigte_fettsaeuren_g": 0.3,
+        "kohlenhydrate_g": 52,
+        "zucker_g": 2,
+        "ballaststoffe_g": 11,
+        "eiweiss_g": 24,
+        "salz_g": 0
+      }
+    },
+
+    {
+      "id": "FOOD-013",
+      "name": "Kichererbsen, trocken",
+      "kategorie": "Hülsenfrüchte",
+      "alias": [],
+      "naehrwerte": {
+        "energie_kj": 1500,
+        "energie_kcal": 360,
+        "fett_g": 6,
+        "gesaettigte_fettsaeuren_g": 0.6,
+        "kohlenhydrate_g": 50,
+        "zucker_g": 3,
+        "ballaststoffe_g": 13,
+        "eiweiss_g": 19,
+        "salz_g": 0
+      }
+    },
+
+    {
+      "id": "FOOD-014",
+      "name": "Kichererbsen, Konserve, abgetropft",
+      "kategorie": "Hülsenfrüchte",
+      "alias": [],
+      "naehrwerte": {
+        "energie_kj": 540,
+        "energie_kcal": 130,
+        "fett_g": 2,
+        "gesaettigte_fettsaeuren_g": 0.3,
+        "kohlenhydrate_g": 18,
+        "zucker_g": 1,
+        "ballaststoffe_g": 6,
+        "eiweiss_g": 6,
+        "salz_g": 0.4
+      }
+    },
+
+    {
+      "id": "FOOD-015",
+      "name": "Kidneybohnen, Konserve, abgetropft",
+      "kategorie": "Hülsenfrüchte",
+      "alias": [],
+      "naehrwerte": {
+        "energie_kj": 480,
+        "energie_kcal": 115,
+        "fett_g": 0.8,
+        "gesaettigte_fettsaeuren_g": 0.2,
+        "kohlenhydrate_g": 19,
+        "zucker_g": 1,
+        "ballaststoffe_g": 5,
+        "eiweiss_g": 7,
+        "salz_g": 0.4
+      }
+    },
+
+    {
+      "id": "FOOD-016",
+      "name": "Schwarze Bohnen, Konserve, abgetropft",
+      "kategorie": "Hülsenfrüchte",
+      "alias": [],
+      "naehrwerte": {
+        "energie_kj": 520,
+        "energie_kcal": 125,
+        "fett_g": 0.8,
+        "gesaettigte_fettsaeuren_g": 0.2,
+        "kohlenhydrate_g": 20,
+        "zucker_g": 1,
+        "ballaststoffe_g": 6,
+        "eiweiss_g": 8,
+        "salz_g": 0.4
+      }
+    },
+
+    /* --- GEMÜSE --- */
+
+    {
+      "id": "FOOD-017",
+      "name": "Zwiebeln, gelb",
+      "kategorie": "Gemüse",
+      "alias": [],
+      "naehrwerte": {
+        "energie_kj": 160,
+        "energie_kcal": 38,
+        "fett_g": 0.1,
+        "gesaettigte_fettsaeuren_g": 0,
+        "kohlenhydrate_g": 8.5,
+        "zucker_g": 4.5,
+        "ballaststoffe_g": 1.5,
+        "eiweiss_g": 1,
+        "salz_g": 0
+      }
+    },
+
+    {
+      "id": "FOOD-018",
+      "name": "Knoblauch",
+      "kategorie": "Gemüse",
+      "alias": [],
+      "naehrwerte": {
+        "energie_kj": 600,
+        "energie_kcal": 143,
+        "fett_g": 0.5,
+        "gesaettigte_fettsaeuren_g": 0.1,
+        "kohlenhydrate_g": 28,
+        "zucker_g": 1,
+        "ballaststoffe_g": 2,
+        "eiweiss_g": 6,
+        "salz_g": 0
+      }
+    },
+
+    {
+      "id": "FOOD-019",
+      "name": "Karotten",
+      "kategorie": "Gemüse",
+      "alias": [],
+      "naehrwerte": {
+        "energie_kj": 170,
+        "energie_kcal": 41,
+        "fett_g": 0.2,
+        "gesaettigte_fettsaeuren_g": 0,
+        "kohlenhydrate_g": 10,
+        "zucker_g": 5,
+        "ballaststoffe_g": 3,
+        "eiweiss_g": 0.9,
+        "salz_g": 0
+      }
+    },
+
+    {
+      "id": "FOOD-020",
+      "name": "Stangensellerie",
+      "kategorie": "Gemüse",
+      "alias": ["Sellerie"],
+      "naehrwerte": {
+        "energie_kj": 65,
+        "energie_kcal": 16,
+        "fett_g": 0.2,
+        "gesaettigte_fettsaeuren_g": 0,
+        "kohlenhydrate_g": 3,
+        "zucker_g": 1.5,
+        "ballaststoffe_g": 1.6,
+        "eiweiss_g": 0.7,
+        "salz_g": 0.05
+      }
+    },
+
+    {
+      "id": "FOOD-021",
+      "name": "Paprika, rot",
+      "kategorie": "Gemüse",
+      "alias": [],
+      "naehrwerte": {
+        "energie_kj": 150,
+        "energie_kcal": 37,
+        "fett_g": 0.3,
+        "gesaettigte_fettsaeuren_g": 0,
+        "kohlenhydrate_g": 7,
+        "zucker_g": 5,
+        "ballaststoffe_g": 2,
+        "eiweiss_g": 1,
+        "salz_g": 0
+      }
+    },
+
+    {
+      "id": "FOOD-022",
+      "name": "Zucchini",
+      "kategorie": "Gemüse",
+      "alias": [],
+      "naehrwerte": {
+        "energie_kj": 70,
+        "energie_kcal": 17,
+        "fett_g": 0.3,
+        "gesaettigte_fettsaeuren_g": 0,
+        "kohlenhydrate_g": 3,
+        "zucker_g": 2,
+        "ballaststoffe_g": 1,
+        "eiweiss_g": 1.2,
+        "salz_g": 0.01
+      }
+    },
+
+    {
+      "id": "FOOD-023",
+      "name": "Brokkoli",
+      "kategorie": "Gemüse",
+      "alias": [],
+      "naehrwerte": {
+        "energie_kj": 140,
+        "energie_kcal": 34,
+        "fett_g": 0.4,
+        "gesaettigte_fettsaeuren_g": 0,
+        "kohlenhydrate_g": 7,
+        "zucker_g": 1.7,
+        "ballaststoffe_g": 3,
+        "eiweiss_g": 3,
+        "salz_g": 0.02
+      }
+    },
+
+    {
+      "id": "FOOD-024",
+      "name": "Lauch/Porree",
+      "kategorie": "Gemüse",
+      "alias": [],
+      "naehrwerte": {
+        "energie_kj": 115,
+        "energie_kcal": 28,
+        "fett_g": 0.3,
+        "gesaettigte_fettsaeuren_g": 0,
+        "kohlenhydrate_g": 7,
+        "zucker_g": 3,
+        "ballaststoffe_g": 2,
+        "eiweiss_g": 1,
+        "salz_g": 0.02
+      }
+    },
+
+    {
+      "id": "FOOD-025",
+      "name": "Tomaten, frisch",
+      "kategorie": "Gemüse",
+      "alias": [],
+      "naehrwerte": {
+        "energie_kj": 75,
+        "energie_kcal": 18,
+        "fett_g": 0.2,
+        "gesaettigte_fettsaeuren_g": 0,
+        "kohlenhydrate_g": 3,
+        "zucker_g": 2.6,
+        "ballaststoffe_g": 1,
+        "eiweiss_g": 0.9,
+        "salz_g": 0.01
+      }
+    },
+
+    {
+      "id": "FOOD-026",
+      "name": "Tomaten, stückig, Dose",
+      "kategorie": "Gemüse",
+      "alias": ["Tomaten aus der Dose"],
+      "naehrwerte": {
+        "energie_kj": 85,
+        "energie_kcal": 20,
+        "fett_g": 0.2,
+        "gesaettigte_fettsaeuren_g": 0,
+        "kohlenhydrate_g": 3.5,
+        "zucker_g": 3,
+        "ballaststoffe_g": 1,
+        "eiweiss_g": 1,
+        "salz_g": 0.1
+      }
+    },
+
+    {
+      "id": "FOOD-027",
+      "name": "TK-Spinat, gehackt",
+      "kategorie": "Gemüse",
+      "alias": [],
+      "naehrwerte": {
+        "energie_kj": 90,
+        "energie_kcal": 22,
+        "fett_g": 0.4,
+        "gesaettigte_fettsaeuren_g": 0.1,
+        "kohlenhydrate_g": 1,
+        "zucker_g": 0.5,
+        "ballaststoffe_g": 2,
+        "eiweiss_g": 3,
+        "salz_g": 0.1
+      }
+    },
+
+    {
+      "id": "FOOD-028",
+      "name": "TK-Erbsen",
+      "kategorie": "Gemüse",
+      "alias": [],
+      "naehrwerte": {
+        "energie_kj": 320,
+        "energie_kcal": 76,
+        "fett_g": 0.5,
+        "gesaettigte_fettsaeuren_g": 0,
+        "kohlenhydrate_g": 13,
+        "zucker_g": 5,
+        "ballaststoffe_g": 5,
+        "eiweiss_g": 5,
+        "salz_g": 0.01
+      }
+    },
+
+    {
+      "id": "FOOD-029",
+      "name": "Rucola",
+      "kategorie": "Gemüse",
+      "alias": ["Rauke"],
+      "naehrwerte": {
+        "energie_kj": 105,
+        "energie_kcal": 25,
+        "fett_g": 0.7,
+        "gesaettigte_fettsaeuren_g": 0.1,
+        "kohlenhydrate_g": 2,
+        "zucker_g": 2,
+        "ballaststoffe_g": 1.6,
+        "eiweiss_g": 2.5,
+        "salz_g": 0.03
+      }
+    },
+
+    {
+      "id": "FOOD-030",
+      "name": "Blattsalat, gemischt",
+      "kategorie": "Gemüse",
+      "alias": [],
+      "naehrwerte": {
+        "energie_kj": 60,
+        "energie_kcal": 14,
+        "fett_g": 0.2,
+        "gesaettigte_fettsaeuren_g": 0,
+        "kohlenhydrate_g": 2,
+        "zucker_g": 0.8,
+        "ballaststoffe_g": 1,
+        "eiweiss_g": 1.2,
+        "salz_g": 0.02
+      }
+    },
+
+    /* --- OBST --- */
+
+    {
+      "id": "FOOD-031",
+      "name": "Bananen",
+      "kategorie": "Obst",
+      "alias": [],
+      "naehrwerte": {
+        "energie_kj": 370,
+        "energie_kcal": 89,
+        "fett_g": 0.3,
+        "gesaettigte_fettsaeuren_g": 0.1,
+        "kohlenhydrate_g": 23,
+        "zucker_g": 12,
+        "ballaststoffe_g": 2.6,
+        "eiweiss_g": 1.1,
+        "salz_g": 0
+      }
+    },
+
+    {
+      "id": "FOOD-032",
+      "name": "Äpfel",
+      "kategorie": "Obst",
+      "alias": [],
+      "naehrwerte": {
+        "energie_kj": 220,
+        "energie_kcal": 52,
+        "fett_g": 0.2,
+        "gesaettigte_fettsaeuren_g": 0,
+        "kohlenhydrate_g": 14,
+        "zucker_g": 10,
+        "ballaststoffe_g": 2.4,
+        "eiweiss_g": 0.3,
+        "salz_g": 0
+      }
+    },
+
+    {
+      "id": "FOOD-033",
+      "name": "Zitronen",
+      "kategorie": "Obst",
+      "alias": [],
+      "naehrwerte": {
+        "energie_kj": 120,
+        "energie_kcal": 29,
+        "fett_g": 0.3,
+        "gesaettigte_fettsaeuren_g": 0,
+        "kohlenhydrate_g": 9,
+        "zucker_g": 2.5,
+        "ballaststoffe_g": 2.8,
+        "eiweiss_g": 1.1,
+        "salz_g": 0
+      }
+    },
+
+    {
+      "id": "FOOD-034",
+      "name": "Orangen",
+      "kategorie": "Obst",
+      "alias": [],
+      "naehrwerte": {
+        "energie_kj": 200,
+        "energie_kcal": 47,
+        "fett_g": 0.1,
+        "gesaettigte_fettsaeuren_g": 0,
+        "kohlenhydrate_g": 12,
+        "zucker_g": 9,
+        "ballaststoffe_g": 2.4,
+        "eiweiss_g": 0.9,
+        "salz_g": 0
+      }
+    },
+
+    {
+      "id": "FOOD-035",
+      "name": "TK-Beerenmischung",
+      "kategorie": "Obst",
+      "alias": ["Beerenmix"],
+      "naehrwerte": {
+        "energie_kj": 200,
+        "energie_kcal": 48,
+        "fett_g": 0.3,
+        "gesaettigte_fettsaeuren_g": 0,
+        "kohlenhydrate_g": 12,
+        "zucker_g": 7,
+        "ballaststoffe_g": 3,
+        "eiweiss_g": 0.8,
+        "salz_g": 0
+      }
+    },
+
+    /* --- ÖLE & FETTE / NUSSMUS --- */
+
+    {
+      "id": "FOOD-036",
+      "name": "Olivenöl, nativ extra",
+      "kategorie": "Fett",
+      "alias": [],
+      "naehrwerte": {
+        "energie_kj": 3380,
+        "energie_kcal": 820,
+        "fett_g": 92,
+        "gesaettigte_fettsaeuren_g": 14,
+        "kohlenhydrate_g": 0,
+        "zucker_g": 0,
+        "ballaststoffe_g": 0,
+        "eiweiss_g": 0,
+        "salz_g": 0
+      }
+    },
+
+    {
+      "id": "FOOD-037",
+      "name": "Rapsöl",
+      "kategorie": "Fett",
+      "alias": [],
+      "naehrwerte": {
+        "energie_kj": 3380,
+        "energie_kcal": 820,
+        "fett_g": 92,
+        "gesaettigte_fettsaeuren_g": 7,
+        "kohlenhydrate_g": 0,
+        "zucker_g": 0,
+        "ballaststoffe_g": 0,
+        "eiweiss_g": 0,
+        "salz_g": 0
+      }
+    },
+
+    {
+      "id": "FOOD-038",
+      "name": "Kokosmilch, Dose, vollfett",
+      "kategorie": "Fett",
+      "alias": [],
+      "naehrwerte": {
+        "energie_kj": 785,
+        "energie_kcal": 188,
+        "fett_g": 19,
+        "gesaettigte_fettsaeuren_g": 17,
+        "kohlenhydrate_g": 3,
+        "zucker_g": 1,
+        "ballaststoffe_g": 0,
+        "eiweiss_g": 1.5,
+        "salz_g": 0.05
+      }
+    },
+
+    {
+      "id": "FOOD-039",
+      "name": "Haselnussmus, 100 %",
+      "kategorie": "Nussmus",
+      "alias": [],
+      "naehrwerte": {
+        "energie_kj": 2700,
+        "energie_kcal": 650,
+        "fett_g": 60,
+        "gesaettigte_fettsaeuren_g": 4.5,
+        "kohlenhydrate_g": 17,
+        "zucker_g": 4,
+        "ballaststoffe_g": 9,
+        "eiweiss_g": 15,
+        "salz_g": 0
+      }
+    },
+
+    {
+      "id": "FOOD-040",
+      "name": "Tahini (Sesammus)",
+      "kategorie": "Nussmus",
+      "alias": ["Sesammus"],
+      "naehrwerte": {
+        "energie_kj": 2500,
+        "energie_kcal": 595,
+        "fett_g": 53,
+        "gesaettigte_fettsaeuren_g": 8,
+        "kohlenhydrate_g": 11,
+        "zucker_g": 1,
+        "ballaststoffe_g": 9,
+        "eiweiss_g": 18,
+        "salz_g": 0
+      }
+    },
+
+    {
+      "id": "FOOD-041",
+      "name": "Erdnussmus, 100 %",
+      "kategorie": "Nussmus",
+      "alias": [],
+      "naehrwerte": {
+        "energie_kj": 2600,
+        "energie_kcal": 630,
+        "fett_g": 52,
+        "gesaettigte_fettsaeuren_g": 7,
+        "kohlenhydrate_g": 12,
+        "zucker_g": 4,
+        "ballaststoffe_g": 8,
+        "eiweiss_g": 24,
+        "salz_g": 0
+      }
+    },
+
+    /* --- PROTEINQUELLEN --- */
+
+    {
+      "id": "FOOD-042",
+      "name": "Pflanzlicher Skyr / Quarkalternative",
+      "kategorie": "Proteinquelle",
+      "alias": ["veganer Skyr"],
+      "naehrwerte": {
+        "energie_kj": 220,
+        "energie_kcal": 55,
+        "fett_g": 0.4,
+        "gesaettigte_fettsaeuren_g": 0.1,
+        "kohlenhydrate_g": 3,
+        "zucker_g": 2.5,
+        "ballaststoffe_g": 0.2,
+        "eiweiss_g": 8,
+        "salz_g": 0.1
+      }
+    },
+
+    {
+      "id": "FOOD-043",
+      "name": "Tofu natur",
+      "kategorie": "Proteinquelle",
+      "alias": [],
+      "naehrwerte": {
+        "energie_kj": 525,
+        "energie_kcal": 125,
+        "fett_g": 7,
+        "gesaettigte_fettsaeuren_g": 1,
+        "kohlenhydrate_g": 1.5,
+        "zucker_g": 0.5,
+        "ballaststoffe_g": 1,
+        "eiweiss_g": 12,
+        "salz_g": 0.02
+      }
+    },
+
+    {
+      "id": "FOOD-044",
+      "name": "Tofu geräuchert",
+      "kategorie": "Proteinquelle",
+      "alias": [],
+      "naehrwerte": {
+        "energie_kj": 760,
+        "energie_kcal": 180,
+        "fett_g": 11,
+        "gesaettigte_fettsaeuren_g": 2,
+        "kohlenhydrate_g": 3,
+        "zucker_g": 1,
+        "ballaststoffe_g": 1,
+        "eiweiss_g": 18,
+        "salz_g": 1.2
+      }
+    },
+
+    {
+      "id": "FOOD-045",
+      "name": "Tempeh",
+      "kategorie": "Proteinquelle",
+      "alias": [],
+      "naehrwerte": {
+        "energie_kj": 770,
+        "energie_kcal": 185,
+        "fett_g": 10,
+        "gesaettigte_fettsaeuren_g": 2,
+        "kohlenhydrate_g": 9,
+        "zucker_g": 0.5,
+        "ballaststoffe_g": 7,
+        "eiweiss_g": 18,
+        "salz_g": 0.01
+      }
+    },
+
+    {
+      "id": "FOOD-046",
+      "name": "Seitan",
+      "kategorie": "Proteinquelle",
+      "alias": [],
+      "naehrwerte": {
+        "energie_kj": 420,
+        "energie_kcal": 100,
+        "fett_g": 1,
+        "gesaettigte_fettsaeuren_g": 0.2,
+        "kohlenhydrate_g": 4,
+        "zucker_g": 0.5,
+        "ballaststoffe_g": 0.5,
+        "eiweiss_g": 19,
+        "salz_g": 1
+      }
+    },
+
+    /* --- AROMEN & SAUCEN --- */
+
+    {
+      "id": "FOOD-047",
+      "name": "Sojasauce",
+      "kategorie": "Würzmittel",
+      "alias": ["Soja Sauce"],
+      "naehrwerte": {
+        "energie_kj": 300,
+        "energie_kcal": 72,
+        "fett_g": 0,
+        "gesaettigte_fettsaeuren_g": 0,
+        "kohlenhydrate_g": 6,
+        "zucker_g": 1,
+        "ballaststoffe_g": 0,
+        "eiweiss_g": 8,
+        "salz_g": 14
+      }
+    },
+
+    {
+      "id": "FOOD-048",
+      "name": "Balsamicoessig",
+      "kategorie": "Würzmittel",
+      "alias": [],
+      "naehrwerte": {
+        "energie_kj": 350,
+        "energie_kcal": 83,
+        "fett_g": 0,
+        "gesaettigte_fettsaeuren_g": 0,
+        "kohlenhydrate_g": 17,
+        "zucker_g": 15,
+        "ballaststoffe_g": 0,
+        "eiweiss_g": 0.5,
+        "salz_g": 0.03
+      }
+    },
+
+    {
+      "id": "FOOD-049",
+      "name": "Tomatenmark, doppelt konzentriert",
+      "kategorie": "Würzmittel",
+      "alias": [],
+      "naehrwerte": {
+        "energie_kj": 350,
+        "energie_kcal": 82,
+        "fett_g": 0.5,
+        "gesaettigte_fettsaeuren_g": 0,
+        "kohlenhydrate_g": 18,
+        "zucker_g": 12,
+        "ballaststoffe_g": 4,
+        "eiweiss_g": 4.5,
+        "salz_g": 0.1
+      }
+    },
+
+    {
+      "id": "FOOD-050",
+      "name": "Misopaste, hell (Shiro Miso)",
+      "kategorie": "Würzmittel",
+      "alias": ["Miso"],
+      "naehrwerte": {
+        "energie_kj": 770,
+        "energie_kcal": 185,
+        "fett_g": 6,
+        "gesaettigte_fettsaeuren_g": 1,
+        "kohlenhydrate_g": 25,
+        "zucker_g": 12,
+        "ballaststoffe_g": 2,
+        "eiweiss_g": 12,
+        "salz_g": 12
+      }
+    },
+
+    {
+      "id": "FOOD-051",
+      "name": "Paprikapulver, geräuchert",
+      "kategorie": "Würzmittel",
+      "alias": ["Smoked Paprika"],
+      "naehrwerte": {
+        "energie_kj": 1230,
+        "energie_kcal": 295,
+        "fett_g": 13,
+        "gesaettigte_fettsaeuren_g": 2,
+        "kohlenhydrate_g": 34,
+        "zucker_g": 10,
+        "ballaststoffe_g": 21,
+        "eiweiss_g": 14,
+        "salz_g": 0.1
+      }
+    },
+
+    {
+      "id": "FOOD-052",
+      "name": "Gemüsebrühepulver, hefefrei",
+      "kategorie": "Würzmittel",
+      "alias": ["Brühe"],
+      "naehrwerte": {
+        "energie_kj": 900,
+        "energie_kcal": 215,
+        "fett_g": 2,
+        "gesaettigte_fettsaeuren_g": 1,
+        "kohlenhydrate_g": 45,
+        "zucker_g": 10,
+        "ballaststoffe_g": 2,
+        "eiweiss_g": 6,
+        "salz_g": 50
+      }
+    }
+
+  ],
+
+  "[ENDE DER DATEI]": true
+}
+

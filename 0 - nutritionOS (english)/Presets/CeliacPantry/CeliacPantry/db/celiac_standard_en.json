@@ -1,0 +1,573 @@
+{
+  "disclaimer": "# Notice for Users with Celiac Disease\n\nI am **not a doctor** and **not a nutritionist**, and I am **not providing medical advice**.  \nThis preset is **not** a medical recommendation, not a treatment guide, and **not** a guarantee of gluten-free safety.\n\nThe foods listed here are categories that I **assume might typically be available** in gluten-free or gluten-free-certified versions, and that *might* be suitable for people with celiac disease.  \nHowever, I **do not know** whether individual products or batches are contaminated.  \nI **cannot guarantee** that anything in this list is safe.\n\nManufacturing, transport, and processing can lead to **cross-contamination**, even in foods that are normally gluten-free.  \nEven **certified gluten-free** products can occasionally be contaminated.\n\n**If you choose to use this preset, you do so entirely at your own risk.**  \nI am **not advising** you to use any of the listed foods without checking them.  \nPlease **always check ingredient labels**, **always check the manufacturer's information**, and use **only explicitly certified gluten-free products** when required.\n\nIf you ask a language model (LLM) for recipes, **always add: “Careful, I have celiac disease!”**  \nI cannot take **any responsibility** for errors or oversights made by an LLM.\n\nThis preset is provided solely as a **structural guide** – not a safety guarantee.\n",
+  "preset": {
+    "name": "CeliacStandard",
+    "description": "Celiac-safe preset (standard pantry)"
+  },
+  "meta": {
+    "created": "2025-12-07",
+    "nutrient_basis": "Approximate standard values per 100 g"
+  },
+  "table_of_contents": [
+    "FOOD-001 – Rice",
+    "FOOD-002 – Potatoes",
+    "FOOD-003 – Millet",
+    "FOOD-004 – Buckwheat",
+    "FOOD-005 – Quinoa",
+    "FOOD-006 – Corn grits",
+    "FOOD-007 – Red lentils",
+    "FOOD-008 – Yellow lentils",
+    "FOOD-009 – Chickpeas",
+    "FOOD-010 – Beans",
+    "FOOD-011 – Tofu (plain)",
+    "FOOD-012 – Carrots",
+    "FOOD-013 – Onions",
+    "FOOD-014 – Broccoli (frozen)",
+    "FOOD-015 – Spinach (frozen)",
+    "FOOD-016 – Mixed vegetables (frozen)",
+    "FOOD-017 – Apples",
+    "FOOD-018 – Bananas",
+    "FOOD-019 – Rapeseed oil",
+    "FOOD-020 – Olive oil",
+    "FOOD-021 – Salt",
+    "FOOD-022 – Black pepper",
+    "FOOD-023 – Sweet paprika",
+    "FOOD-024 – Chili powder",
+    "FOOD-025 – Curry powder",
+    "FOOD-026 – Garlic",
+    "FOOD-027 – Tomato paste",
+    "FOOD-028 – Canned tomatoes",
+    "FOOD-029 – Nutritional yeast",
+    "FOOD-030 – Oats (certified gluten-free)",
+    "FOOD-031 – Tamari (gluten-free)"
+  ],
+  "products": [
+    {
+      "id": "FOOD-001",
+      "name": "Rice",
+      "category": "Staples",
+      "requires_certification": false,
+      "nutrients": {
+        "energy_kj": 1480,
+        "energy_kcal": 350,
+        "fat_g": 0.4,
+        "saturated_fatty_acids_g": 0.1,
+        "carbohydrates_g": 78.0,
+        "sugar_g": 0.1,
+        "fibre_g": 1.0,
+        "protein_g": 7.0,
+        "salt_g": 0.0
+      }
+    },
+    {
+      "id": "FOOD-002",
+      "name": "Potatoes",
+      "category": "Staples",
+      "requires_certification": false,
+      "nutrients": {
+        "energy_kj": 322,
+        "energy_kcal": 77,
+        "fat_g": 0.1,
+        "saturated_fatty_acids_g": 0.0,
+        "carbohydrates_g": 17.0,
+        "sugar_g": 0.8,
+        "fibre_g": 2.2,
+        "protein_g": 2.0,
+        "salt_g": 0.01
+      }
+    },
+    {
+      "id": "FOOD-003",
+      "name": "Millet",
+      "category": "Staples",
+      "requires_certification": false,
+      "nutrients": {
+        "energy_kj": 1500,
+        "energy_kcal": 360,
+        "fat_g": 3.9,
+        "saturated_fatty_acids_g": 0.7,
+        "carbohydrates_g": 69.0,
+        "sugar_g": 1.6,
+        "fibre_g": 3.9,
+        "protein_g": 11.0,
+        "salt_g": 0.01
+      }
+    },
+    {
+      "id": "FOOD-004",
+      "name": "Buckwheat",
+      "category": "Staples",
+      "requires_certification": false,
+      "nutrients": {
+        "energy_kj": 1460,
+        "energy_kcal": 343,
+        "fat_g": 3.4,
+        "saturated_fatty_acids_g": 0.7,
+        "carbohydrates_g": 71.5,
+        "sugar_g": 0.9,
+        "fibre_g": 10.0,
+        "protein_g": 13.3,
+        "salt_g": 0.01
+      }
+    },
+    {
+      "id": "FOOD-005",
+      "name": "Quinoa",
+      "category": "Staples",
+      "requires_certification": false,
+      "nutrients": {
+        "energy_kj": 1540,
+        "energy_kcal": 368,
+        "fat_g": 6.1,
+        "saturated_fatty_acids_g": 0.7,
+        "carbohydrates_g": 64.0,
+        "sugar_g": 0.9,
+        "fibre_g": 7.0,
+        "protein_g": 14.0,
+        "salt_g": 0.01
+      }
+    },
+    {
+      "id": "FOOD-006",
+      "name": "Corn grits",
+      "category": "Staples",
+      "requires_certification": false,
+      "nutrients": {
+        "energy_kj": 1480,
+        "energy_kcal": 350,
+        "fat_g": 1.0,
+        "saturated_fatty_acids_g": 0.2,
+        "carbohydrates_g": 75.0,
+        "sugar_g": 0.6,
+        "fibre_g": 3.0,
+        "protein_g": 8.5,
+        "salt_g": 0.0
+      }
+    },
+    {
+      "id": "FOOD-007",
+      "name": "Red lentils",
+      "category": "Protein sources",
+      "requires_certification": false,
+      "nutrients": {
+        "energy_kj": 1480,
+        "energy_kcal": 353,
+        "fat_g": 1.1,
+        "saturated_fatty_acids_g": 0.2,
+        "carbohydrates_g": 52.0,
+        "sugar_g": 2.0,
+        "fibre_g": 11.0,
+        "protein_g": 25.0,
+        "salt_g": 0.02
+      }
+    },
+    {
+      "id": "FOOD-008",
+      "name": "Yellow lentils",
+      "category": "Protein sources",
+      "requires_certification": false,
+      "nutrients": {
+        "energy_kj": 1480,
+        "energy_kcal": 353,
+        "fat_g": 1.1,
+        "saturated_fatty_acids_g": 0.2,
+        "carbohydrates_g": 52.0,
+        "sugar_g": 2.0,
+        "fibre_g": 11.0,
+        "protein_g": 25.0,
+        "salt_g": 0.02
+      }
+    },
+    {
+      "id": "FOOD-009",
+      "name": "Chickpeas",
+      "category": "Protein sources",
+      "requires_certification": false,
+      "nutrients": {
+        "energy_kj": 1540,
+        "energy_kcal": 368,
+        "fat_g": 6.0,
+        "saturated_fatty_acids_g": 0.6,
+        "carbohydrates_g": 55.0,
+        "sugar_g": 11.0,
+        "fibre_g": 13.0,
+        "protein_g": 19.0,
+        "salt_g": 0.06
+      }
+    },
+    {
+      "id": "FOOD-010",
+      "name": "Beans",
+      "category": "Protein sources",
+      "requires_certification": false,
+      "nutrients": {
+        "energy_kj": 1400,
+        "energy_kcal": 335,
+        "fat_g": 1.2,
+        "saturated_fatty_acids_g": 0.2,
+        "carbohydrates_g": 60.0,
+        "sugar_g": 2.0,
+        "fibre_g": 15.0,
+        "protein_g": 22.0,
+        "salt_g": 0.02
+      }
+    },
+    {
+      "id": "FOOD-011",
+      "name": "Tofu (plain)",
+      "category": "Protein sources",
+      "requires_certification": false,
+      "nutrients": {
+        "energy_kj": 520,
+        "energy_kcal": 124,
+        "fat_g": 7.0,
+        "saturated_fatty_acids_g": 1.2,
+        "carbohydrates_g": 1.9,
+        "sugar_g": 0.6,
+        "fibre_g": 0.3,
+        "protein_g": 13.0,
+        "salt_g": 0.01
+      }
+    },
+    {
+      "id": "FOOD-012",
+      "name": "Carrots",
+      "category": "Vegetables",
+      "requires_certification": false,
+      "nutrients": {
+        "energy_kj": 170,
+        "energy_kcal": 41,
+        "fat_g": 0.2,
+        "saturated_fatty_acids_g": 0.0,
+        "carbohydrates_g": 10.0,
+        "sugar_g": 4.7,
+        "fibre_g": 2.8,
+        "protein_g": 0.9,
+        "salt_g": 0.08
+      }
+    },
+    {
+      "id": "FOOD-013",
+      "name": "Onions",
+      "category": "Vegetables",
+      "requires_certification": false,
+      "nutrients": {
+        "energy_kj": 166,
+        "energy_kcal": 40,
+        "fat_g": 0.1,
+        "saturated_fatty_acids_g": 0.0,
+        "carbohydrates_g": 9.3,
+        "sugar_g": 4.2,
+        "fibre_g": 1.7,
+        "protein_g": 1.1,
+        "salt_g": 0.01
+      }
+    },
+    {
+      "id": "FOOD-014",
+      "name": "Broccoli (frozen)",
+      "category": "Vegetables",
+      "requires_certification": false,
+      "nutrients": {
+        "energy_kj": 141,
+        "energy_kcal": 34,
+        "fat_g": 0.4,
+        "saturated_fatty_acids_g": 0.1,
+        "carbohydrates_g": 7.0,
+        "sugar_g": 1.7,
+        "fibre_g": 3.0,
+        "protein_g": 3.0,
+        "salt_g": 0.02
+      }
+    },
+    {
+      "id": "FOOD-015",
+      "name": "Spinach (frozen)",
+      "category": "Vegetables",
+      "requires_certification": false,
+      "nutrients": {
+        "energy_kj": 92,
+        "energy_kcal": 22,
+        "fat_g": 0.4,
+        "saturated_fatty_acids_g": 0.1,
+        "carbohydrates_g": 1.9,
+        "sugar_g": 0.4,
+        "fibre_g": 2.6,
+        "protein_g": 2.9,
+        "salt_g": 0.13
+      }
+    },
+    {
+      "id": "FOOD-016",
+      "name": "Mixed vegetables (frozen)",
+      "category": "Vegetables",
+      "requires_certification": false,
+      "nutrients": {
+        "energy_kj": 251,
+        "energy_kcal": 60,
+        "fat_g": 0.5,
+        "saturated_fatty_acids_g": 0.1,
+        "carbohydrates_g": 11.0,
+        "sugar_g": 3.0,
+        "fibre_g": 3.5,
+        "protein_g": 3.0,
+        "salt_g": 0.05
+      }
+    },
+    {
+      "id": "FOOD-017",
+      "name": "Apples",
+      "category": "Fruit",
+      "requires_certification": false,
+      "nutrients": {
+        "energy_kj": 218,
+        "energy_kcal": 52,
+        "fat_g": 0.2,
+        "saturated_fatty_acids_g": 0.0,
+        "carbohydrates_g": 14.0,
+        "sugar_g": 10.0,
+        "fibre_g": 2.4,
+        "protein_g": 0.3,
+        "salt_g": 0.0
+      }
+    },
+    {
+      "id": "FOOD-018",
+      "name": "Bananas",
+      "category": "Fruit",
+      "requires_certification": false,
+      "nutrients": {
+        "energy_kj": 371,
+        "energy_kcal": 89,
+        "fat_g": 0.3,
+        "saturated_fatty_acids_g": 0.1,
+        "carbohydrates_g": 23.0,
+        "sugar_g": 12.0,
+        "fibre_g": 2.6,
+        "protein_g": 1.1,
+        "salt_g": 0.0
+      }
+    },
+    {
+      "id": "FOOD-019",
+      "name": "Rapeseed oil",
+      "category": "Fats",
+      "requires_certification": false,
+      "nutrients": {
+        "energy_kj": 3700,
+        "energy_kcal": 884,
+        "fat_g": 100.0,
+        "saturated_fatty_acids_g": 7.0,
+        "carbohydrates_g": 0.0,
+        "sugar_g": 0.0,
+        "fibre_g": 0.0,
+        "protein_g": 0.0,
+        "salt_g": 0.0
+      }
+    },
+    {
+      "id": "FOOD-020",
+      "name": "Olive oil",
+      "category": "Fats",
+      "requires_certification": false,
+      "nutrients": {
+        "energy_kj": 3700,
+        "energy_kcal": 884,
+        "fat_g": 100.0,
+        "saturated_fatty_acids_g": 14.0,
+        "carbohydrates_g": 0.0,
+        "sugar_g": 0.0,
+        "fibre_g": 0.0,
+        "protein_g": 0.0,
+        "salt_g": 0.0
+      }
+    },
+    {
+      "id": "FOOD-021",
+      "name": "Salt",
+      "category": "Seasonings",
+      "requires_certification": false,
+      "nutrients": {
+        "energy_kj": 0,
+        "energy_kcal": 0,
+        "fat_g": 0.0,
+        "saturated_fatty_acids_g": 0.0,
+        "carbohydrates_g": 0.0,
+        "sugar_g": 0.0,
+        "fibre_g": 0.0,
+        "protein_g": 0.0,
+        "salt_g": 100.0
+      }
+    },
+    {
+      "id": "FOOD-022",
+      "name": "Black pepper",
+      "category": "Seasonings",
+      "requires_certification": false,
+      "nutrients": {
+        "energy_kj": 1050,
+        "energy_kcal": 251,
+        "fat_g": 3.3,
+        "saturated_fatty_acids_g": 1.4,
+        "carbohydrates_g": 64.0,
+        "sugar_g": 0.6,
+        "fibre_g": 25.0,
+        "protein_g": 10.0,
+        "salt_g": 0.02
+      }
+    },
+    {
+      "id": "FOOD-023",
+      "name": "Sweet paprika",
+      "category": "Seasonings",
+      "requires_certification": false,
+      "nutrients": {
+        "energy_kj": 1180,
+        "energy_kcal": 282,
+        "fat_g": 13.0,
+        "saturated_fatty_acids_g": 2.0,
+        "carbohydrates_g": 54.0,
+        "sugar_g": 10.0,
+        "fibre_g": 35.0,
+        "protein_g": 14.0,
+        "salt_g": 0.02
+      }
+    },
+    {
+      "id": "FOOD-024",
+      "name": "Chili powder",
+      "category": "Seasonings",
+      "requires_certification": false,
+      "nutrients": {
+        "energy_kj": 1340,
+        "energy_kcal": 321,
+        "fat_g": 17.0,
+        "saturated_fatty_acids_g": 3.3,
+        "carbohydrates_g": 49.0,
+        "sugar_g": 7.0,
+        "fibre_g": 34.0,
+        "protein_g": 12.0,
+        "salt_g": 0.05
+      }
+    },
+    {
+      "id": "FOOD-025",
+      "name": "Curry powder",
+      "category": "Seasonings",
+      "requires_certification": false,
+      "nutrients": {
+        "energy_kj": 1400,
+        "energy_kcal": 330,
+        "fat_g": 14.0,
+        "saturated_fatty_acids_g": 2.0,
+        "carbohydrates_g": 58.0,
+        "sugar_g": 2.5,
+        "fibre_g": 33.0,
+        "protein_g": 13.0,
+        "salt_g": 0.08
+      }
+    },
+    {
+      "id": "FOOD-026",
+      "name": "Garlic",
+      "category": "Seasonings",
+      "requires_certification": false,
+      "nutrients": {
+        "energy_kj": 581,
+        "energy_kcal": 139,
+        "fat_g": 0.5,
+        "saturated_fatty_acids_g": 0.1,
+        "carbohydrates_g": 29.9,
+        "sugar_g": 2.4,
+        "fibre_g": 2.1,
+        "protein_g": 6.4,
+        "salt_g": 0.02
+      }
+    },
+    {
+      "id": "FOOD-027",
+      "name": "Tomato paste",
+      "category": "Seasonings",
+      "requires_certification": false,
+      "nutrients": {
+        "energy_kj": 397,
+        "energy_kcal": 95,
+        "fat_g": 0.5,
+        "saturated_fatty_acids_g": 0.1,
+        "carbohydrates_g": 21.0,
+        "sugar_g": 12.0,
+        "fibre_g": 4.0,
+        "protein_g": 4.0,
+        "salt_g": 0.05
+      }
+    },
+    {
+      "id": "FOOD-028",
+      "name": "Canned tomatoes",
+      "category": "Seasonings",
+      "requires_certification": false,
+      "nutrients": {
+        "energy_kj": 71,
+        "energy_kcal": 17,
+        "fat_g": 0.2,
+        "saturated_fatty_acids_g": 0.0,
+        "carbohydrates_g": 3.5,
+        "sugar_g": 2.5,
+        "fibre_g": 1.1,
+        "protein_g": 0.8,
+        "salt_g": 0.05
+      }
+    },
+    {
+      "id": "FOOD-029",
+      "name": "Nutritional yeast",
+      "category": "Seasonings",
+      "requires_certification": false,
+      "nutrients": {
+        "energy_kj": 1470,
+        "energy_kcal": 351,
+        "fat_g": 6.0,
+        "saturated_fatty_acids_g": 1.0,
+        "carbohydrates_g": 36.0,
+        "sugar_g": 7.0,
+        "fibre_g": 22.0,
+        "protein_g": 48.0,
+        "salt_g": 0.45
+      }
+    },
+    {
+      "id": "FOOD-030",
+      "name": "Oats (certified gluten-free)",
+      "category": "Certification_required",
+      "requires_certification": true,
+      "nutrients": {
+        "energy_kj": 1550,
+        "energy_kcal": 370,
+        "fat_g": 7.0,
+        "saturated_fatty_acids_g": 1.3,
+        "carbohydrates_g": 59.0,
+        "sugar_g": 1.0,
+        "fibre_g": 10.0,
+        "protein_g": 13.0,
+        "salt_g": 0.01
+      }
+    },
+    {
+      "id": "FOOD-031",
+      "name": "Tamari (gluten-free)",
+      "category": "Certification_required",
+      "requires_certification": true,
+      "nutrients": {
+        "energy_kj": 350,
+        "energy_kcal": 84,
+        "fat_g": 0.0,
+        "saturated_fatty_acids_g": 0.0,
+        "carbohydrates_g": 8.0,
+        "sugar_g": 0.6,
+        "fibre_g": 0.8,
+        "protein_g": 10.0,
+        "salt_g": 14.0
+      }
+    }
+  ]
+}

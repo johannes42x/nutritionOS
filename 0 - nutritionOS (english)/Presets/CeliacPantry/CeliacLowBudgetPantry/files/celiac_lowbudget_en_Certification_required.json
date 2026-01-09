@@ -1,0 +1,21 @@
+{
+  "Certification_required": [
+    {
+      "id": "FOOD-023",
+      "name": "Oats (certified gluten-free)",
+      "category": "Certification_required",
+      "requires_certification": true,
+      "nutrients": {
+        "energy_kj": 1550,
+        "energy_kcal": 370,
+        "fat_g": 7.0,
+        "saturated_fatty_acids_g": 1.3,
+        "carbohydrates_g": 59.0,
+        "sugar_g": 1.0,
+        "fibre_g": 10.0,
+        "protein_g": 13.0,
+        "salt_g": 0.01
+      }
+    }
+  ]
+}

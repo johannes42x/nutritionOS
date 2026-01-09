@@ -1,0 +1,55 @@
+{
+  "Saettigungsquellen": [
+    {
+      "id": "FOOD-001",
+      "name": "Reis",
+      "kategorie": "Saettigungsquellen",
+      "requires_certification": false,
+      "naehrwerte": {
+        "energie_kj": 1480,
+        "energie_kcal": 350,
+        "fett_g": 0.4,
+        "gesaettigte_fettsaeuren_g": 0.1,
+        "kohlenhydrate_g": 78.0,
+        "zucker_g": 0.1,
+        "ballaststoffe_g": 1.0,
+        "eiweiss_g": 7.0,
+        "salz_g": 0.0
+      }
+    },
+    {
+      "id": "FOOD-002",
+      "name": "Kartoffeln",
+      "kategorie": "Saettigungsquellen",
+      "requires_certification": false,
+      "naehrwerte": {
+        "energie_kj": 322,
+        "energie_kcal": 77,
+        "fett_g": 0.1,
+        "gesaettigte_fettsaeuren_g": 0.0,
+        "kohlenhydrate_g": 17.0,
+        "zucker_g": 0.8,
+        "ballaststoffe_g": 2.2,
+        "eiweiss_g": 2.0,
+        "salz_g": 0.01
+      }
+    },
+    {
+      "id": "FOOD-003",
+      "name": "Maisgriess",
+      "kategorie": "Saettigungsquellen",
+      "requires_certification": false,
+      "naehrwerte": {
+        "energie_kj": 1480,
+        "energie_kcal": 350,
+        "fett_g": 1.0,
+        "gesaettigte_fettsaeuren_g": 0.2,
+        "kohlenhydrate_g": 75.0,
+        "zucker_g": 0.6,
+        "ballaststoffe_g": 3.0,
+        "eiweiss_g": 8.5,
+        "salz_g": 0.0
+      }
+    }
+  ]
+}

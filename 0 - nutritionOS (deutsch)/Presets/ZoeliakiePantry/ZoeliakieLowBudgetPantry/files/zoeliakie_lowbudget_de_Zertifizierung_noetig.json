@@ -1,0 +1,21 @@
+{
+  "Zertifizierung_noetig": [
+    {
+      "id": "FOOD-023",
+      "name": "Haferflocken (glutenfrei zertifiziert)",
+      "kategorie": "Zertifizierung_noetig",
+      "requires_certification": true,
+      "naehrwerte": {
+        "energie_kj": 1550,
+        "energie_kcal": 370,
+        "fett_g": 7.0,
+        "gesaettigte_fettsaeuren_g": 1.3,
+        "kohlenhydrate_g": 59.0,
+        "zucker_g": 1.0,
+        "ballaststoffe_g": 10.0,
+        "eiweiss_g": 13.0,
+        "salz_g": 0.01
+      }
+    }
+  ]
+}

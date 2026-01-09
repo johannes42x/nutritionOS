@@ -1,0 +1,115 @@
+{
+  "meta_notice_top": "IMPORTANT: At the end of this file you will find the marker [END OF FILE]. If it is missing, the file was not fully loaded.",
+  "module": "nutritionOS",
+  "submodule": "food_category",
+  "version": "1.0",
+  "schema": "food_category_v1",
+  "meta": {
+    "version": "1.0",
+    "description": "Oils and high-fat products such as coconut milk.",
+    "created": "2025-12-07",
+    "unit": "per 100 g or per 100 ml"
+  },
+  "products": [
+    {
+      "id": "FAT-001",
+      "name": "Olive oil, extra virgin",
+      "alias": [],
+      "manufacturer": "",
+      "nutrients": {
+        "energy_kj": 3380,
+        "energy_kcal": 820,
+        "fat_g": 92,
+        "saturated_fatty_acids_g": 14,
+        "carbs_g": 0,
+        "sugar_g": 0,
+        "fiber_g": 0,
+        "protein_g": 0,
+        "salt_g": 0
+      },
+      "portion": {
+        "description": "",
+        "energy_kj": null,
+        "energy_kcal": null,
+        "fat_g": null,
+        "saturated_fatty_acids_g": null,
+        "carbs_g": null,
+        "sugar_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "salt_g": null
+      },
+      "vitamins": {},
+      "minerals": {},
+      "source": "standard estimate",
+      "notes": "Original ID in BasePantry52: FOOD-036"
+    },
+    {
+      "id": "FAT-002",
+      "name": "Rapeseed oil",
+      "alias": [],
+      "manufacturer": "",
+      "nutrients": {
+        "energy_kj": 3380,
+        "energy_kcal": 820,
+        "fat_g": 92,
+        "saturated_fatty_acids_g": 7,
+        "carbs_g": 0,
+        "sugar_g": 0,
+        "fiber_g": 0,
+        "protein_g": 0,
+        "salt_g": 0
+      },
+      "portion": {
+        "description": "",
+        "energy_kj": null,
+        "energy_kcal": null,
+        "fat_g": null,
+        "saturated_fatty_acids_g": null,
+        "carbs_g": null,
+        "sugar_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "salt_g": null
+      },
+      "vitamins": {},
+      "minerals": {},
+      "source": "standard estimate",
+      "notes": "Original ID in BasePantry52: FOOD-037"
+    },
+    {
+      "id": "FAT-003",
+      "name": "Coconut milk, canned, full-fat",
+      "alias": [],
+      "manufacturer": "",
+      "nutrients": {
+        "energy_kj": 785,
+        "energy_kcal": 188,
+        "fat_g": 19,
+        "saturated_fatty_acids_g": 17,
+        "carbs_g": 3,
+        "sugar_g": 1,
+        "fiber_g": 0,
+        "protein_g": 1.5,
+        "salt_g": 0.05
+      },
+      "portion": {
+        "description": "",
+        "energy_kj": null,
+        "energy_kcal": null,
+        "fat_g": null,
+        "saturated_fatty_acids_g": null,
+        "carbs_g": null,
+        "sugar_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "salt_g": null
+      },
+      "vitamins": {},
+      "minerals": {},
+      "source": "standard estimate",
+      "notes": "Original ID in BasePantry52: FOOD-038"
+    }
+  ],
+  "[END OF FILE]": true
+}

@@ -1,0 +1,20 @@
+{
+  "Fett": [
+    {
+      "id": "FOOD-024",
+      "name": "Rapsöl",
+      "kategorie": "Fett",
+      "naehrwerte": {
+        "energie_kj": 3700,
+        "energie_kcal": 884,
+        "fett_g": 100.0,
+        "gesaettigte_fettsaeuren_g": 7.0,
+        "kohlenhydrate_g": 0.0,
+        "zucker_g": 0.0,
+        "ballaststoffe_g": 0.0,
+        "eiweiss_g": 0.0,
+        "salz_g": 0.0
+      }
+    }
+  ]
+}

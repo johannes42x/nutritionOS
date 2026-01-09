@@ -1,0 +1,21 @@
+{
+  "meta_hinweis_oben": "WICHTIG: Am Ende der Datei steht der Marker [ENDE DER DATEI]. Wenn er nicht erscheint, ist die Datei unvollständig geladen.",
+  "module": "nutritionOS",
+  "submodule": "referenzen_nutrition",
+  "version": "0.9.0",
+  "schema": "referenzen_nutrition_v1",
+  "meta": {
+    "schema": "referenzen_nutrition_v1",
+    "beschreibung": "Kurzreferenzen häufig konsumierter Kombinationen (Shakes, Mahlzeiten etc.)",
+    "letzte_vergebene_id": "REF-000",
+    "notizen": ""
+  },
+  "referenzen": [
+    {
+      "id": "REF-000",
+      "titel": "Beispielreferenz (z. B. 'Proteinshake mit Haferdrink')",
+      "beschreibung": "Kurzbeschreibung der Kombination (z. B. Komponenten und Mengen)."
+    }
+  ],
+  "[ENDE DER DATEI]": true
+}

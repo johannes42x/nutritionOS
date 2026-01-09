@@ -1,0 +1,614 @@
+{
+  "preset": {
+    "name": "LowBudgetPantry",
+    "description": "Vegan-first low-cost pantry with optional vegetarian and omnivore items."
+  },
+  "meta": {
+    "created": "2025-12-07"
+  },
+  "table_of_contents": [
+    "FOOD-001 – White rice",
+    "FOOD-002 – Durum wheat pasta",
+    "FOOD-003 – Rolled oats",
+    "FOOD-004 – Bulgur wheat",
+    "FOOD-005 – Potatoes",
+    "FOOD-006 – Red lentils, dry",
+    "FOOD-007 – Yellow lentils, dry",
+    "FOOD-008 – Chickpeas, dry",
+    "FOOD-009 – Beans, dry",
+    "FOOD-010 – Frozen peas",
+    "FOOD-011 – Tofu, plain",
+    "FOOD-012 – Textured soy protein",
+    "FOOD-013 – Frozen broccoli",
+    "FOOD-014 – Frozen spinach",
+    "FOOD-015 – Frozen mixed vegetables",
+    "FOOD-016 – Onions",
+    "FOOD-017 – Carrots",
+    "FOOD-018 – Apples",
+    "FOOD-019 – Bananas",
+    "FOOD-020 – Tomato paste",
+    "FOOD-021 – Canned tomatoes",
+    "FOOD-022 – Garlic",
+    "FOOD-023 – Stock powder",
+    "FOOD-024 – Rapeseed oil",
+    "FOOD-025 – Soy sauce",
+    "FOOD-026 – Curry powder",
+    "FOOD-027 – Sweet paprika",
+    "FOOD-028 – Chili powder",
+    "FOOD-029 – Nutritional yeast",
+    "(FOOD-030 – Skyr)",
+    "(FOOD-031 – Plain yogurt)",
+    "(FOOD-032 – Gouda cheese)",
+    "(FOOD-033 – Eggs)",
+    "(FOOD-034 – Chicken breast fillet)",
+    "(FOOD-035 – Canned tuna)"
+  ],
+  "products": [
+    {
+      "id": "FOOD-001",
+      "name": "White rice",
+      "category": "Grains",
+      "nutrients": {
+        "energy_kj": 1480,
+        "energy_kcal": 350,
+        "fat_g": 0.4,
+        "saturated_fatty_acids_g": 0.1,
+        "carbs_g": 78.0,
+        "sugar_g": 0.1,
+        "fiber_g": 1.0,
+        "protein_g": 7.0,
+        "salt_g": 0.0
+      }
+    },
+    {
+      "id": "FOOD-002",
+      "name": "Durum wheat pasta",
+      "category": "Grains",
+      "nutrients": {
+        "energy_kj": 1500,
+        "energy_kcal": 360,
+        "fat_g": 1.5,
+        "saturated_fatty_acids_g": 0.3,
+        "carbs_g": 72.0,
+        "sugar_g": 3.5,
+        "fiber_g": 3.0,
+        "protein_g": 12.0,
+        "salt_g": 0.01
+      }
+    },
+    {
+      "id": "FOOD-003",
+      "name": "Rolled oats",
+      "category": "Grains",
+      "nutrients": {
+        "energy_kj": 1550,
+        "energy_kcal": 370,
+        "fat_g": 7.0,
+        "saturated_fatty_acids_g": 1.3,
+        "carbs_g": 59.0,
+        "sugar_g": 1.0,
+        "fiber_g": 10.0,
+        "protein_g": 13.0,
+        "salt_g": 0.01
+      }
+    },
+    {
+      "id": "FOOD-004",
+      "name": "Bulgur wheat",
+      "category": "Grains",
+      "nutrients": {
+        "energy_kj": 1500,
+        "energy_kcal": 360,
+        "fat_g": 1.5,
+        "saturated_fatty_acids_g": 0.3,
+        "carbs_g": 76.0,
+        "sugar_g": 0.4,
+        "fiber_g": 12.0,
+        "protein_g": 12.0,
+        "salt_g": 0.01
+      }
+    },
+    {
+      "id": "FOOD-005",
+      "name": "Potatoes",
+      "category": "Vegetables",
+      "nutrients": {
+        "energy_kj": 322,
+        "energy_kcal": 77,
+        "fat_g": 0.1,
+        "saturated_fatty_acids_g": 0.0,
+        "carbs_g": 17.0,
+        "sugar_g": 0.8,
+        "fiber_g": 2.2,
+        "protein_g": 2.0,
+        "salt_g": 0.01
+      }
+    },
+    {
+      "id": "FOOD-006",
+      "name": "Red lentils, dry",
+      "category": "Legumes",
+      "nutrients": {
+        "energy_kj": 1480,
+        "energy_kcal": 353,
+        "fat_g": 1.1,
+        "saturated_fatty_acids_g": 0.2,
+        "carbs_g": 52.0,
+        "sugar_g": 2.0,
+        "fiber_g": 11.0,
+        "protein_g": 25.0,
+        "salt_g": 0.02
+      }
+    },
+    {
+      "id": "FOOD-007",
+      "name": "Yellow lentils, dry",
+      "category": "Legumes",
+      "nutrients": {
+        "energy_kj": 1480,
+        "energy_kcal": 353,
+        "fat_g": 1.1,
+        "saturated_fatty_acids_g": 0.2,
+        "carbs_g": 52.0,
+        "sugar_g": 2.0,
+        "fiber_g": 11.0,
+        "protein_g": 25.0,
+        "salt_g": 0.02
+      }
+    },
+    {
+      "id": "FOOD-008",
+      "name": "Chickpeas, dry",
+      "category": "Legumes",
+      "nutrients": {
+        "energy_kj": 1540,
+        "energy_kcal": 368,
+        "fat_g": 6.0,
+        "saturated_fatty_acids_g": 0.6,
+        "carbs_g": 55.0,
+        "sugar_g": 11.0,
+        "fiber_g": 13.0,
+        "protein_g": 19.0,
+        "salt_g": 0.06
+      }
+    },
+    {
+      "id": "FOOD-009",
+      "name": "Beans, dry",
+      "category": "Legumes",
+      "nutrients": {
+        "energy_kj": 1400,
+        "energy_kcal": 335,
+        "fat_g": 1.2,
+        "saturated_fatty_acids_g": 0.2,
+        "carbs_g": 60.0,
+        "sugar_g": 2.0,
+        "fiber_g": 15.0,
+        "protein_g": 22.0,
+        "salt_g": 0.02
+      }
+    },
+    {
+      "id": "FOOD-010",
+      "name": "Frozen peas",
+      "category": "Vegetables",
+      "nutrients": {
+        "energy_kj": 336,
+        "energy_kcal": 80,
+        "fat_g": 0.4,
+        "saturated_fatty_acids_g": 0.1,
+        "carbs_g": 14.0,
+        "sugar_g": 5.7,
+        "fiber_g": 5.0,
+        "protein_g": 5.5,
+        "salt_g": 0.01
+      }
+    },
+    {
+      "id": "FOOD-011",
+      "name": "Tofu, plain",
+      "category": "Protein Source",
+      "nutrients": {
+        "energy_kj": 520,
+        "energy_kcal": 124,
+        "fat_g": 7.0,
+        "saturated_fatty_acids_g": 1.2,
+        "carbs_g": 1.9,
+        "sugar_g": 0.6,
+        "fiber_g": 0.3,
+        "protein_g": 13.0,
+        "salt_g": 0.01
+      }
+    },
+    {
+      "id": "FOOD-012",
+      "name": "Textured soy protein",
+      "category": "Protein Source",
+      "nutrients": {
+        "energy_kj": 1450,
+        "energy_kcal": 350,
+        "fat_g": 7.0,
+        "saturated_fatty_acids_g": 1.0,
+        "carbs_g": 18.0,
+        "sugar_g": 8.0,
+        "fiber_g": 15.0,
+        "protein_g": 50.0,
+        "salt_g": 0.1
+      }
+    },
+    {
+      "id": "FOOD-013",
+      "name": "Frozen broccoli",
+      "category": "Vegetables",
+      "nutrients": {
+        "energy_kj": 141,
+        "energy_kcal": 34,
+        "fat_g": 0.4,
+        "saturated_fatty_acids_g": 0.1,
+        "carbs_g": 7.0,
+        "sugar_g": 1.7,
+        "fiber_g": 3.0,
+        "protein_g": 3.0,
+        "salt_g": 0.02
+      }
+    },
+    {
+      "id": "FOOD-014",
+      "name": "Frozen spinach",
+      "category": "Vegetables",
+      "nutrients": {
+        "energy_kj": 92,
+        "energy_kcal": 22,
+        "fat_g": 0.4,
+        "saturated_fatty_acids_g": 0.1,
+        "carbs_g": 1.9,
+        "sugar_g": 0.4,
+        "fiber_g": 2.6,
+        "protein_g": 2.9,
+        "salt_g": 0.13
+      }
+    },
+    {
+      "id": "FOOD-015",
+      "name": "Frozen mixed vegetables",
+      "category": "Vegetables",
+      "nutrients": {
+        "energy_kj": 251,
+        "energy_kcal": 60,
+        "fat_g": 0.5,
+        "saturated_fatty_acids_g": 0.1,
+        "carbs_g": 11.0,
+        "sugar_g": 3.0,
+        "fiber_g": 3.5,
+        "protein_g": 3.0,
+        "salt_g": 0.05
+      }
+    },
+    {
+      "id": "FOOD-016",
+      "name": "Onions",
+      "category": "Vegetables",
+      "nutrients": {
+        "energy_kj": 166,
+        "energy_kcal": 40,
+        "fat_g": 0.1,
+        "saturated_fatty_acids_g": 0.0,
+        "carbs_g": 9.3,
+        "sugar_g": 4.2,
+        "fiber_g": 1.7,
+        "protein_g": 1.1,
+        "salt_g": 0.01
+      }
+    },
+    {
+      "id": "FOOD-017",
+      "name": "Carrots",
+      "category": "Vegetables",
+      "nutrients": {
+        "energy_kj": 170,
+        "energy_kcal": 41,
+        "fat_g": 0.2,
+        "saturated_fatty_acids_g": 0.0,
+        "carbs_g": 10.0,
+        "sugar_g": 4.7,
+        "fiber_g": 2.8,
+        "protein_g": 0.9,
+        "salt_g": 0.08
+      }
+    },
+    {
+      "id": "FOOD-018",
+      "name": "Apples",
+      "category": "Fruit",
+      "nutrients": {
+        "energy_kj": 218,
+        "energy_kcal": 52,
+        "fat_g": 0.2,
+        "saturated_fatty_acids_g": 0.0,
+        "carbs_g": 14.0,
+        "sugar_g": 10.0,
+        "fiber_g": 2.4,
+        "protein_g": 0.3,
+        "salt_g": 0.0
+      }
+    },
+    {
+      "id": "FOOD-019",
+      "name": "Bananas",
+      "category": "Fruit",
+      "nutrients": {
+        "energy_kj": 371,
+        "energy_kcal": 89,
+        "fat_g": 0.3,
+        "saturated_fatty_acids_g": 0.1,
+        "carbs_g": 23.0,
+        "sugar_g": 12.0,
+        "fiber_g": 2.6,
+        "protein_g": 1.1,
+        "salt_g": 0.0
+      }
+    },
+    {
+      "id": "FOOD-020",
+      "name": "Tomato paste",
+      "category": "Seasonings",
+      "nutrients": {
+        "energy_kj": 397,
+        "energy_kcal": 95,
+        "fat_g": 0.5,
+        "saturated_fatty_acids_g": 0.1,
+        "carbs_g": 21.0,
+        "sugar_g": 12.0,
+        "fiber_g": 4.0,
+        "protein_g": 4.0,
+        "salt_g": 0.05
+      }
+    },
+    {
+      "id": "FOOD-021",
+      "name": "Canned tomatoes",
+      "category": "Seasonings",
+      "nutrients": {
+        "energy_kj": 71,
+        "energy_kcal": 17,
+        "fat_g": 0.2,
+        "saturated_fatty_acids_g": 0.0,
+        "carbs_g": 3.5,
+        "sugar_g": 2.5,
+        "fiber_g": 1.1,
+        "protein_g": 0.8,
+        "salt_g": 0.05
+      }
+    },
+    {
+      "id": "FOOD-022",
+      "name": "Garlic",
+      "category": "Seasonings",
+      "nutrients": {
+        "energy_kj": 581,
+        "energy_kcal": 139,
+        "fat_g": 0.5,
+        "saturated_fatty_acids_g": 0.1,
+        "carbs_g": 29.9,
+        "sugar_g": 2.4,
+        "fiber_g": 2.1,
+        "protein_g": 6.4,
+        "salt_g": 0.02
+      }
+    },
+    {
+      "id": "FOOD-023",
+      "name": "Stock powder",
+      "category": "Seasonings",
+      "nutrients": {
+        "energy_kj": 900,
+        "energy_kcal": 215,
+        "fat_g": 5.0,
+        "saturated_fatty_acids_g": 2.0,
+        "carbs_g": 35.0,
+        "sugar_g": 6.0,
+        "fiber_g": 2.0,
+        "protein_g": 8.0,
+        "salt_g": 50.0
+      }
+    },
+    {
+      "id": "FOOD-024",
+      "name": "Rapeseed oil",
+      "category": "Fats",
+      "nutrients": {
+        "energy_kj": 3700,
+        "energy_kcal": 884,
+        "fat_g": 100.0,
+        "saturated_fatty_acids_g": 7.0,
+        "carbs_g": 0.0,
+        "sugar_g": 0.0,
+        "fiber_g": 0.0,
+        "protein_g": 0.0,
+        "salt_g": 0.0
+      }
+    },
+    {
+      "id": "FOOD-025",
+      "name": "Soy sauce",
+      "category": "Seasonings",
+      "nutrients": {
+        "energy_kj": 250,
+        "energy_kcal": 60,
+        "fat_g": 0.0,
+        "saturated_fatty_acids_g": 0.0,
+        "carbs_g": 6.0,
+        "sugar_g": 1.0,
+        "fiber_g": 0.5,
+        "protein_g": 8.0,
+        "salt_g": 14.0
+      }
+    },
+    {
+      "id": "FOOD-026",
+      "name": "Curry powder",
+      "category": "Seasonings",
+      "nutrients": {
+        "energy_kj": 1400,
+        "energy_kcal": 330,
+        "fat_g": 14.0,
+        "saturated_fatty_acids_g": 2.0,
+        "carbs_g": 58.0,
+        "sugar_g": 2.5,
+        "fiber_g": 33.0,
+        "protein_g": 13.0,
+        "salt_g": 0.08
+      }
+    },
+    {
+      "id": "FOOD-027",
+      "name": "Sweet paprika",
+      "category": "Seasonings",
+      "nutrients": {
+        "energy_kj": 1180,
+        "energy_kcal": 282,
+        "fat_g": 13.0,
+        "saturated_fatty_acids_g": 2.0,
+        "carbs_g": 54.0,
+        "sugar_g": 10.0,
+        "fiber_g": 35.0,
+        "protein_g": 14.0,
+        "salt_g": 0.02
+      }
+    },
+    {
+      "id": "FOOD-028",
+      "name": "Chili powder",
+      "category": "Seasonings",
+      "nutrients": {
+        "energy_kj": 1340,
+        "energy_kcal": 321,
+        "fat_g": 17.0,
+        "saturated_fatty_acids_g": 3.3,
+        "carbs_g": 49.0,
+        "sugar_g": 7.0,
+        "fiber_g": 34.0,
+        "protein_g": 12.0,
+        "salt_g": 0.05
+      }
+    },
+    {
+      "id": "FOOD-029",
+      "name": "Nutritional yeast",
+      "category": "Seasonings",
+      "nutrients": {
+        "energy_kj": 1470,
+        "energy_kcal": 351,
+        "fat_g": 6.0,
+        "saturated_fatty_acids_g": 1.0,
+        "carbs_g": 36.0,
+        "sugar_g": 7.0,
+        "fiber_g": 22.0,
+        "protein_g": 48.0,
+        "salt_g": 0.45
+      }
+    },
+    {
+      "id": "FOOD-030",
+      "name": "Skyr",
+      "category": "Dairy",
+      "optional": true,
+      "nutrients": {
+        "energy_kj": 250,
+        "energy_kcal": 60,
+        "fat_g": 0.2,
+        "saturated_fatty_acids_g": 0.1,
+        "carbs_g": 3.5,
+        "sugar_g": 3.5,
+        "fiber_g": 0.0,
+        "protein_g": 11.0,
+        "salt_g": 0.1
+      }
+    },
+    {
+      "id": "FOOD-031",
+      "name": "Plain yogurt",
+      "category": "Dairy",
+      "optional": true,
+      "nutrients": {
+        "energy_kj": 260,
+        "energy_kcal": 63,
+        "fat_g": 3.5,
+        "saturated_fatty_acids_g": 2.3,
+        "carbs_g": 4.7,
+        "sugar_g": 4.7,
+        "fiber_g": 0.0,
+        "protein_g": 3.5,
+        "salt_g": 0.1
+      }
+    },
+    {
+      "id": "FOOD-032",
+      "name": "Gouda cheese",
+      "category": "Dairy",
+      "optional": true,
+      "nutrients": {
+        "energy_kj": 1500,
+        "energy_kcal": 360,
+        "fat_g": 27.0,
+        "saturated_fatty_acids_g": 18.0,
+        "carbs_g": 2.0,
+        "sugar_g": 0.1,
+        "fiber_g": 0.0,
+        "protein_g": 25.0,
+        "salt_g": 1.8
+      }
+    },
+    {
+      "id": "FOOD-033",
+      "name": "Eggs",
+      "category": "Animal Protein",
+      "optional": true,
+      "nutrients": {
+        "energy_kj": 547,
+        "energy_kcal": 131,
+        "fat_g": 9.0,
+        "saturated_fatty_acids_g": 3.0,
+        "carbs_g": 0.7,
+        "sugar_g": 0.7,
+        "fiber_g": 0.0,
+        "protein_g": 12.5,
+        "salt_g": 0.12
+      }
+    },
+    {
+      "id": "FOOD-034",
+      "name": "Chicken breast fillet",
+      "category": "Animal Protein",
+      "optional": true,
+      "nutrients": {
+        "energy_kj": 440,
+        "energy_kcal": 104,
+        "fat_g": 1.5,
+        "saturated_fatty_acids_g": 0.4,
+        "carbs_g": 0.0,
+        "sugar_g": 0.0,
+        "fiber_g": 0.0,
+        "protein_g": 22.0,
+        "salt_g": 0.15
+      }
+    },
+    {
+      "id": "FOOD-035",
+      "name": "Canned tuna",
+      "category": "Animal Protein",
+      "optional": true,
+      "nutrients": {
+        "energy_kj": 477,
+        "energy_kcal": 114,
+        "fat_g": 0.8,
+        "saturated_fatty_acids_g": 0.2,
+        "carbs_g": 0.0,
+        "sugar_g": 0.0,
+        "fiber_g": 0.0,
+        "protein_g": 26.0,
+        "salt_g": 1.0
+      }
+    }
+  ]
+}

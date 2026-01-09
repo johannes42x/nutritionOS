@@ -1,0 +1,214 @@
+{
+  "meta_notice_top": "IMPORTANT: At the end of this file you will find the marker [END OF FILE]. If it is missing, the file was not fully loaded.",
+  "module": "nutritionOS",
+  "submodule": "food_category",
+  "version": "1.0",
+  "schema": "food_category_v1",
+  "meta": {
+    "version": "1.0",
+    "description": "Legumes such as lentils, beans and chickpeas.",
+    "created": "2025-12-07",
+    "unit": "per 100 g or per 100 ml"
+  },
+  "products": [
+    {
+      "id": "LEG-001",
+      "name": "Lentils, red, dry",
+      "alias": [],
+      "manufacturer": "",
+      "nutrients": {
+        "energy_kj": 1450,
+        "energy_kcal": 350,
+        "fat_g": 1.5,
+        "saturated_fatty_acids_g": 0.3,
+        "carbs_g": 53,
+        "sugar_g": 2,
+        "fiber_g": 11,
+        "protein_g": 24,
+        "salt_g": 0
+      },
+      "portion": {
+        "description": "",
+        "energy_kj": null,
+        "energy_kcal": null,
+        "fat_g": null,
+        "saturated_fatty_acids_g": null,
+        "carbs_g": null,
+        "sugar_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "salt_g": null
+      },
+      "vitamins": {},
+      "minerals": {},
+      "source": "standard estimate",
+      "notes": "Original ID in BasePantry52: FOOD-011"
+    },
+    {
+      "id": "LEG-002",
+      "name": "Lentils, beluga, dry",
+      "alias": [],
+      "manufacturer": "",
+      "nutrients": {
+        "energy_kj": 1430,
+        "energy_kcal": 345,
+        "fat_g": 1.5,
+        "saturated_fatty_acids_g": 0.3,
+        "carbs_g": 52,
+        "sugar_g": 2,
+        "fiber_g": 11,
+        "protein_g": 24,
+        "salt_g": 0
+      },
+      "portion": {
+        "description": "",
+        "energy_kj": null,
+        "energy_kcal": null,
+        "fat_g": null,
+        "saturated_fatty_acids_g": null,
+        "carbs_g": null,
+        "sugar_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "salt_g": null
+      },
+      "vitamins": {},
+      "minerals": {},
+      "source": "standard estimate",
+      "notes": "Original ID in BasePantry52: FOOD-012"
+    },
+    {
+      "id": "LEG-003",
+      "name": "Chickpeas, dry",
+      "alias": [],
+      "manufacturer": "",
+      "nutrients": {
+        "energy_kj": 1500,
+        "energy_kcal": 360,
+        "fat_g": 6,
+        "saturated_fatty_acids_g": 0.6,
+        "carbs_g": 50,
+        "sugar_g": 3,
+        "fiber_g": 13,
+        "protein_g": 19,
+        "salt_g": 0
+      },
+      "portion": {
+        "description": "",
+        "energy_kj": null,
+        "energy_kcal": null,
+        "fat_g": null,
+        "saturated_fatty_acids_g": null,
+        "carbs_g": null,
+        "sugar_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "salt_g": null
+      },
+      "vitamins": {},
+      "minerals": {},
+      "source": "standard estimate",
+      "notes": "Original ID in BasePantry52: FOOD-013"
+    },
+    {
+      "id": "LEG-004",
+      "name": "Chickpeas, canned, drained",
+      "alias": [],
+      "manufacturer": "",
+      "nutrients": {
+        "energy_kj": 540,
+        "energy_kcal": 130,
+        "fat_g": 2,
+        "saturated_fatty_acids_g": 0.3,
+        "carbs_g": 18,
+        "sugar_g": 1,
+        "fiber_g": 6,
+        "protein_g": 6,
+        "salt_g": 0.4
+      },
+      "portion": {
+        "description": "",
+        "energy_kj": null,
+        "energy_kcal": null,
+        "fat_g": null,
+        "saturated_fatty_acids_g": null,
+        "carbs_g": null,
+        "sugar_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "salt_g": null
+      },
+      "vitamins": {},
+      "minerals": {},
+      "source": "standard estimate",
+      "notes": "Original ID in BasePantry52: FOOD-014"
+    },
+    {
+      "id": "LEG-005",
+      "name": "Kidney beans, canned, drained",
+      "alias": [],
+      "manufacturer": "",
+      "nutrients": {
+        "energy_kj": 480,
+        "energy_kcal": 115,
+        "fat_g": 0.8,
+        "saturated_fatty_acids_g": 0.2,
+        "carbs_g": 19,
+        "sugar_g": 1,
+        "fiber_g": 5,
+        "protein_g": 7,
+        "salt_g": 0.4
+      },
+      "portion": {
+        "description": "",
+        "energy_kj": null,
+        "energy_kcal": null,
+        "fat_g": null,
+        "saturated_fatty_acids_g": null,
+        "carbs_g": null,
+        "sugar_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "salt_g": null
+      },
+      "vitamins": {},
+      "minerals": {},
+      "source": "standard estimate",
+      "notes": "Original ID in BasePantry52: FOOD-015"
+    },
+    {
+      "id": "LEG-006",
+      "name": "Black beans, canned, drained",
+      "alias": [],
+      "manufacturer": "",
+      "nutrients": {
+        "energy_kj": 520,
+        "energy_kcal": 125,
+        "fat_g": 0.8,
+        "saturated_fatty_acids_g": 0.2,
+        "carbs_g": 20,
+        "sugar_g": 1,
+        "fiber_g": 6,
+        "protein_g": 8,
+        "salt_g": 0.4
+      },
+      "portion": {
+        "description": "",
+        "energy_kj": null,
+        "energy_kcal": null,
+        "fat_g": null,
+        "saturated_fatty_acids_g": null,
+        "carbs_g": null,
+        "sugar_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "salt_g": null
+      },
+      "vitamins": {},
+      "minerals": {},
+      "source": "standard estimate",
+      "notes": "Original ID in BasePantry52: FOOD-016"
+    }
+  ],
+  "[END OF FILE]": true
+}

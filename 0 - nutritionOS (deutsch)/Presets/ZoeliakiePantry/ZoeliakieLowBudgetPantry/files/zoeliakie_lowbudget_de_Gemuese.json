@@ -1,0 +1,72 @@
+{
+  "Gemuese": [
+    {
+      "id": "FOOD-008",
+      "name": "Karotten",
+      "kategorie": "Gemuese",
+      "requires_certification": false,
+      "naehrwerte": {
+        "energie_kj": 170,
+        "energie_kcal": 41,
+        "fett_g": 0.2,
+        "gesaettigte_fettsaeuren_g": 0.0,
+        "kohlenhydrate_g": 10.0,
+        "zucker_g": 4.7,
+        "ballaststoffe_g": 2.8,
+        "eiweiss_g": 0.9,
+        "salz_g": 0.08
+      }
+    },
+    {
+      "id": "FOOD-009",
+      "name": "Zwiebeln",
+      "kategorie": "Gemuese",
+      "requires_certification": false,
+      "naehrwerte": {
+        "energie_kj": 166,
+        "energie_kcal": 40,
+        "fett_g": 0.1,
+        "gesaettigte_fettsaeuren_g": 0.0,
+        "kohlenhydrate_g": 9.3,
+        "zucker_g": 4.2,
+        "ballaststoffe_g": 1.7,
+        "eiweiss_g": 1.1,
+        "salz_g": 0.01
+      }
+    },
+    {
+      "id": "FOOD-010",
+      "name": "Brokkoli (TK)",
+      "kategorie": "Gemuese",
+      "requires_certification": false,
+      "naehrwerte": {
+        "energie_kj": 141,
+        "energie_kcal": 34,
+        "fett_g": 0.4,
+        "gesaettigte_fettsaeuren_g": 0.1,
+        "kohlenhydrate_g": 7.0,
+        "zucker_g": 1.7,
+        "ballaststoffe_g": 3.0,
+        "eiweiss_g": 3.0,
+        "salz_g": 0.02
+      }
+    },
+    {
+      "id": "FOOD-011",
+      "name": "Gemüsemix (TK)",
+      "kategorie": "Gemuese",
+      "requires_certification": false,
+      "naehrwerte": {
+        "energie_kj": 251,
+        "energie_kcal": 60,
+        "fett_g": 0.5,
+        "gesaettigte_fettsaeuren_g": 0.1,
+        "kohlenhydrate_g": 11.0,
+        "zucker_g": 3.0,
+        "ballaststoffe_g": 3.5,
+        "eiweiss_g": 3.0,
+        "salz_g": 0.05
+      }
+    }
+  ]
+}

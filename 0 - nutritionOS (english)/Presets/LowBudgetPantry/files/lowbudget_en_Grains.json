@@ -1,0 +1,68 @@
+{
+  "Grains": [
+    {
+      "id": "FOOD-001",
+      "name": "White rice",
+      "category": "Grains",
+      "nutrients": {
+        "energy_kj": 1480,
+        "energy_kcal": 350,
+        "fat_g": 0.4,
+        "saturated_fatty_acids_g": 0.1,
+        "carbs_g": 78.0,
+        "sugar_g": 0.1,
+        "fiber_g": 1.0,
+        "protein_g": 7.0,
+        "salt_g": 0.0
+      }
+    },
+    {
+      "id": "FOOD-002",
+      "name": "Durum wheat pasta",
+      "category": "Grains",
+      "nutrients": {
+        "energy_kj": 1500,
+        "energy_kcal": 360,
+        "fat_g": 1.5,
+        "saturated_fatty_acids_g": 0.3,
+        "carbs_g": 72.0,
+        "sugar_g": 3.5,
+        "fiber_g": 3.0,
+        "protein_g": 12.0,
+        "salt_g": 0.01
+      }
+    },
+    {
+      "id": "FOOD-003",
+      "name": "Rolled oats",
+      "category": "Grains",
+      "nutrients": {
+        "energy_kj": 1550,
+        "energy_kcal": 370,
+        "fat_g": 7.0,
+        "saturated_fatty_acids_g": 1.3,
+        "carbs_g": 59.0,
+        "sugar_g": 1.0,
+        "fiber_g": 10.0,
+        "protein_g": 13.0,
+        "salt_g": 0.01
+      }
+    },
+    {
+      "id": "FOOD-004",
+      "name": "Bulgur wheat",
+      "category": "Grains",
+      "nutrients": {
+        "energy_kj": 1500,
+        "energy_kcal": 360,
+        "fat_g": 1.5,
+        "saturated_fatty_acids_g": 0.3,
+        "carbs_g": 76.0,
+        "sugar_g": 0.4,
+        "fiber_g": 12.0,
+        "protein_g": 12.0,
+        "salt_g": 0.01
+      }
+    }
+  ]
+}

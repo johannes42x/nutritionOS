@@ -1,0 +1,55 @@
+{
+  "Tierisches Protein": [
+    {
+      "id": "FOOD-033",
+      "name": "Eier",
+      "kategorie": "Tierisches Protein",
+      "optional": true,
+      "naehrwerte": {
+        "energie_kj": 547,
+        "energie_kcal": 131,
+        "fett_g": 9.0,
+        "gesaettigte_fettsaeuren_g": 3.0,
+        "kohlenhydrate_g": 0.7,
+        "zucker_g": 0.7,
+        "ballaststoffe_g": 0.0,
+        "eiweiss_g": 12.5,
+        "salz_g": 0.12
+      }
+    },
+    {
+      "id": "FOOD-034",
+      "name": "Hähnchenbrustfilet",
+      "kategorie": "Tierisches Protein",
+      "optional": true,
+      "naehrwerte": {
+        "energie_kj": 440,
+        "energie_kcal": 104,
+        "fett_g": 1.5,
+        "gesaettigte_fettsaeuren_g": 0.4,
+        "kohlenhydrate_g": 0.0,
+        "zucker_g": 0.0,
+        "ballaststoffe_g": 0.0,
+        "eiweiss_g": 22.0,
+        "salz_g": 0.15
+      }
+    },
+    {
+      "id": "FOOD-035",
+      "name": "Thunfisch, Dose",
+      "kategorie": "Tierisches Protein",
+      "optional": true,
+      "naehrwerte": {
+        "energie_kj": 477,
+        "energie_kcal": 114,
+        "fett_g": 0.8,
+        "gesaettigte_fettsaeuren_g": 0.2,
+        "kohlenhydrate_g": 0.0,
+        "zucker_g": 0.0,
+        "ballaststoffe_g": 0.0,
+        "eiweiss_g": 26.0,
+        "salz_g": 1.0
+      }
+    }
+  ]
+}

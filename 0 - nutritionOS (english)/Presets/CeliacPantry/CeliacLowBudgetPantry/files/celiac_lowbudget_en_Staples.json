@@ -1,0 +1,55 @@
+{
+  "Staples": [
+    {
+      "id": "FOOD-001",
+      "name": "Rice",
+      "category": "Staples",
+      "requires_certification": false,
+      "nutrients": {
+        "energy_kj": 1480,
+        "energy_kcal": 350,
+        "fat_g": 0.4,
+        "saturated_fatty_acids_g": 0.1,
+        "carbohydrates_g": 78.0,
+        "sugar_g": 0.1,
+        "fibre_g": 1.0,
+        "protein_g": 7.0,
+        "salt_g": 0.0
+      }
+    },
+    {
+      "id": "FOOD-002",
+      "name": "Potatoes",
+      "category": "Staples",
+      "requires_certification": false,
+      "nutrients": {
+        "energy_kj": 322,
+        "energy_kcal": 77,
+        "fat_g": 0.1,
+        "saturated_fatty_acids_g": 0.0,
+        "carbohydrates_g": 17.0,
+        "sugar_g": 0.8,
+        "fibre_g": 2.2,
+        "protein_g": 2.0,
+        "salt_g": 0.01
+      }
+    },
+    {
+      "id": "FOOD-003",
+      "name": "Corn grits",
+      "category": "Staples",
+      "requires_certification": false,
+      "nutrients": {
+        "energy_kj": 1480,
+        "energy_kcal": 350,
+        "fat_g": 1.0,
+        "saturated_fatty_acids_g": 0.2,
+        "carbohydrates_g": 75.0,
+        "sugar_g": 0.6,
+        "fibre_g": 3.0,
+        "protein_g": 8.5,
+        "salt_g": 0.0
+      }
+    }
+  ]
+}

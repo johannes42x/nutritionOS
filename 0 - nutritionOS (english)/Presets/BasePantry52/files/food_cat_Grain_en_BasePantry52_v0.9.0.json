@@ -1,0 +1,317 @@
+{
+  "meta_notice_top": "IMPORTANT: At the end of this file you will find the marker [END OF FILE]. If it is missing, the file was not fully loaded.",
+  "module": "nutritionOS",
+  "submodule": "food_category",
+  "version": "1.0",
+  "schema": "food_category_v1",
+  "meta": {
+    "version": "1.0",
+    "description": "Grains and starchy carbohydrate sources.",
+    "created": "2025-12-07",
+    "unit": "per 100 g or per 100 ml"
+  },
+  "products": [
+    {
+      "id": "GRN-001",
+      "name": "Oats, rolled",
+      "alias": [
+        "oats"
+      ],
+      "manufacturer": "",
+      "nutrients": {
+        "energy_kj": 1550,
+        "energy_kcal": 370,
+        "fat_g": 7,
+        "saturated_fatty_acids_g": 1,
+        "carbs_g": 60,
+        "sugar_g": 1,
+        "fiber_g": 10,
+        "protein_g": 13,
+        "salt_g": 0
+      },
+      "portion": {
+        "description": "",
+        "energy_kj": null,
+        "energy_kcal": null,
+        "fat_g": null,
+        "saturated_fatty_acids_g": null,
+        "carbs_g": null,
+        "sugar_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "salt_g": null
+      },
+      "vitamins": {},
+      "minerals": {},
+      "source": "standard estimate",
+      "notes": "Original ID in BasePantry52: FOOD-001"
+    },
+    {
+      "id": "GRN-002",
+      "name": "Rice, white, dry",
+      "alias": [],
+      "manufacturer": "",
+      "nutrients": {
+        "energy_kj": 1500,
+        "energy_kcal": 360,
+        "fat_g": 0.5,
+        "saturated_fatty_acids_g": 0.1,
+        "carbs_g": 79,
+        "sugar_g": 0,
+        "fiber_g": 1,
+        "protein_g": 6.5,
+        "salt_g": 0
+      },
+      "portion": {
+        "description": "",
+        "energy_kj": null,
+        "energy_kcal": null,
+        "fat_g": null,
+        "saturated_fatty_acids_g": null,
+        "carbs_g": null,
+        "sugar_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "salt_g": null
+      },
+      "vitamins": {},
+      "minerals": {},
+      "source": "standard estimate",
+      "notes": "Original ID in BasePantry52: FOOD-002"
+    },
+    {
+      "id": "GRN-003",
+      "name": "Rice, wholegrain, dry",
+      "alias": [],
+      "manufacturer": "",
+      "nutrients": {
+        "energy_kj": 1500,
+        "energy_kcal": 360,
+        "fat_g": 2.5,
+        "saturated_fatty_acids_g": 0.5,
+        "carbs_g": 74,
+        "sugar_g": 1,
+        "fiber_g": 4,
+        "protein_g": 7.5,
+        "salt_g": 0
+      },
+      "portion": {
+        "description": "",
+        "energy_kj": null,
+        "energy_kcal": null,
+        "fat_g": null,
+        "saturated_fatty_acids_g": null,
+        "carbs_g": null,
+        "sugar_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "salt_g": null
+      },
+      "vitamins": {},
+      "minerals": {},
+      "source": "standard estimate",
+      "notes": "Original ID in BasePantry52: FOOD-003"
+    },
+    {
+      "id": "GRN-004",
+      "name": "Pasta, durum wheat, dry",
+      "alias": [
+        "pasta"
+      ],
+      "manufacturer": "",
+      "nutrients": {
+        "energy_kj": 1500,
+        "energy_kcal": 360,
+        "fat_g": 1.5,
+        "saturated_fatty_acids_g": 0.3,
+        "carbs_g": 72,
+        "sugar_g": 3,
+        "fiber_g": 3,
+        "protein_g": 12,
+        "salt_g": 0
+      },
+      "portion": {
+        "description": "",
+        "energy_kj": null,
+        "energy_kcal": null,
+        "fat_g": null,
+        "saturated_fatty_acids_g": null,
+        "carbs_g": null,
+        "sugar_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "salt_g": null
+      },
+      "vitamins": {},
+      "minerals": {},
+      "source": "standard estimate",
+      "notes": "Original ID in BasePantry52: FOOD-004"
+    },
+    {
+      "id": "GRN-005",
+      "name": "Pasta, wholegrain, dry",
+      "alias": [],
+      "manufacturer": "",
+      "nutrients": {
+        "energy_kj": 1450,
+        "energy_kcal": 350,
+        "fat_g": 2,
+        "saturated_fatty_acids_g": 0.4,
+        "carbs_g": 65,
+        "sugar_g": 3,
+        "fiber_g": 6,
+        "protein_g": 13,
+        "salt_g": 0
+      },
+      "portion": {
+        "description": "",
+        "energy_kj": null,
+        "energy_kcal": null,
+        "fat_g": null,
+        "saturated_fatty_acids_g": null,
+        "carbs_g": null,
+        "sugar_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "salt_g": null
+      },
+      "vitamins": {},
+      "minerals": {},
+      "source": "standard estimate",
+      "notes": "Original ID in BasePantry52: FOOD-005"
+    },
+    {
+      "id": "GRN-006",
+      "name": "Couscous, dry",
+      "alias": [],
+      "manufacturer": "",
+      "nutrients": {
+        "energy_kj": 1500,
+        "energy_kcal": 360,
+        "fat_g": 1,
+        "saturated_fatty_acids_g": 0.2,
+        "carbs_g": 73,
+        "sugar_g": 1,
+        "fiber_g": 3,
+        "protein_g": 12,
+        "salt_g": 0
+      },
+      "portion": {
+        "description": "",
+        "energy_kj": null,
+        "energy_kcal": null,
+        "fat_g": null,
+        "saturated_fatty_acids_g": null,
+        "carbs_g": null,
+        "sugar_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "salt_g": null
+      },
+      "vitamins": {},
+      "minerals": {},
+      "source": "standard estimate",
+      "notes": "Original ID in BasePantry52: FOOD-006"
+    },
+    {
+      "id": "GRN-007",
+      "name": "Bulgur, dry",
+      "alias": [],
+      "manufacturer": "",
+      "nutrients": {
+        "energy_kj": 1420,
+        "energy_kcal": 340,
+        "fat_g": 1.5,
+        "saturated_fatty_acids_g": 0.3,
+        "carbs_g": 70,
+        "sugar_g": 1,
+        "fiber_g": 8,
+        "protein_g": 12,
+        "salt_g": 0
+      },
+      "portion": {
+        "description": "",
+        "energy_kj": null,
+        "energy_kcal": null,
+        "fat_g": null,
+        "saturated_fatty_acids_g": null,
+        "carbs_g": null,
+        "sugar_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "salt_g": null
+      },
+      "vitamins": {},
+      "minerals": {},
+      "source": "standard estimate",
+      "notes": "Original ID in BasePantry52: FOOD-007"
+    },
+    {
+      "id": "GRN-008",
+      "name": "Buckwheat, whole, dry",
+      "alias": [],
+      "manufacturer": "",
+      "nutrients": {
+        "energy_kj": 1460,
+        "energy_kcal": 348,
+        "fat_g": 3,
+        "saturated_fatty_acids_g": 0.6,
+        "carbs_g": 71,
+        "sugar_g": 1,
+        "fiber_g": 10,
+        "protein_g": 13,
+        "salt_g": 0
+      },
+      "portion": {
+        "description": "",
+        "energy_kj": null,
+        "energy_kcal": null,
+        "fat_g": null,
+        "saturated_fatty_acids_g": null,
+        "carbs_g": null,
+        "sugar_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "salt_g": null
+      },
+      "vitamins": {},
+      "minerals": {},
+      "source": "standard estimate",
+      "notes": "Original ID in BasePantry52: FOOD-008"
+    },
+    {
+      "id": "GRN-009",
+      "name": "Rice noodles, dry",
+      "alias": [],
+      "manufacturer": "",
+      "nutrients": {
+        "energy_kj": 1500,
+        "energy_kcal": 360,
+        "fat_g": 1,
+        "saturated_fatty_acids_g": 0.3,
+        "carbs_g": 80,
+        "sugar_g": 0,
+        "fiber_g": 2,
+        "protein_g": 6,
+        "salt_g": 0
+      },
+      "portion": {
+        "description": "",
+        "energy_kj": null,
+        "energy_kcal": null,
+        "fat_g": null,
+        "saturated_fatty_acids_g": null,
+        "carbs_g": null,
+        "sugar_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "salt_g": null
+      },
+      "vitamins": {},
+      "minerals": {},
+      "source": "standard estimate",
+      "notes": "Original ID in BasePantry52: FOOD-010"
+    }
+  ],
+  "[END OF FILE]": true
+}

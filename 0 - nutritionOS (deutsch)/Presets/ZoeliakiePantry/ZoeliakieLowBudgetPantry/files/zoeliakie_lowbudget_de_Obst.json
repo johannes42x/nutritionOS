@@ -1,0 +1,38 @@
+{
+  "Obst": [
+    {
+      "id": "FOOD-012",
+      "name": "Äpfel",
+      "kategorie": "Obst",
+      "requires_certification": false,
+      "naehrwerte": {
+        "energie_kj": 218,
+        "energie_kcal": 52,
+        "fett_g": 0.2,
+        "gesaettigte_fettsaeuren_g": 0.0,
+        "kohlenhydrate_g": 14.0,
+        "zucker_g": 10.0,
+        "ballaststoffe_g": 2.4,
+        "eiweiss_g": 0.3,
+        "salz_g": 0.0
+      }
+    },
+    {
+      "id": "FOOD-013",
+      "name": "Bananen",
+      "kategorie": "Obst",
+      "requires_certification": false,
+      "naehrwerte": {
+        "energie_kj": 371,
+        "energie_kcal": 89,
+        "fett_g": 0.3,
+        "gesaettigte_fettsaeuren_g": 0.1,
+        "kohlenhydrate_g": 23.0,
+        "zucker_g": 12.0,
+        "ballaststoffe_g": 2.6,
+        "eiweiss_g": 1.1,
+        "salz_g": 0.0
+      }
+    }
+  ]
+}

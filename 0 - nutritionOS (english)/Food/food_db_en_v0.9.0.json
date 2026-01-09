@@ -1,0 +1,62 @@
+{
+  "meta_notice_top": "IMPORTANT: At the end of this file you will find the marker [END OF FILE]. If it is missing, the file was not fully loaded.",
+  "module": "nutritionOS",
+  "submodule": "food_db_free",
+  "version": "0.9.0",
+  "schema": "food_db_free_v1",
+
+  "description": "Consolidated food database for Free Users, who can only upload up to 5 files. This file contains ALL foods from various categories (e.g. plant-based yoghurt, plant-based milk, carbohydrates, shakes, nut butters) in one shared structure. Recommended for Free Users, while Plus Users can use multiple separated files.",
+
+  "meta": {
+    "data_free": false,
+    "created": null,
+    "standard_unit": "per 100 g or 100 ml"
+  },
+
+  "template_entry": {
+    "id": "FOOD-000",
+    "name": "Food name",
+    "category": "Plant yoghurt / Plant milk / Carbohydrates / Nut butter / Shake / Vegetables / Fruit / ...",
+    "alias": [
+      "optional"
+    ],
+    "nutrients": {
+      "energy_kj": null,
+      "energy_kcal": null,
+      "fat_g": null,
+      "saturated_fatty_acids_g": null,
+      "carbs_g": null,
+      "sugar_g": null,
+      "fiber_g": null,
+      "protein_g": null,
+      "salt_g": null
+    },
+    "source": "e.g. product label / manufacturer website / manual entry",
+    "notes": ""
+  },
+
+  "products": [
+    {
+      "id": "FOOD-000",
+      "name": "TEMPLATE — do not interpret as a real food item",
+      "category": "template",
+      "alias": [],
+      "nutrients": {
+        "energy_kj": null,
+        "energy_kcal": null,
+        "fat_g": null,
+        "saturated_fatty_acids_g": null,
+        "carbs_g": null,
+        "sugar_g": null,
+        "fiber_g": null,
+        "protein_g": null,
+        "salt_g": null
+      },
+      "source": "",
+      "notes": "This is the template entry; real foods are appended below."
+    }
+  ],
+
+  "[END OF FILE]": true
+}
+

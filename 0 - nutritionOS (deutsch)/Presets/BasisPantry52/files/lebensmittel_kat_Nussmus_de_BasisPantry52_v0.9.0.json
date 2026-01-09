@@ -1,0 +1,117 @@
+{
+  "meta_hinweis_oben": "WICHTIG: Am Ende der Datei steht der Marker [ENDE DER DATEI]. Wenn er nicht erscheint, ist die Datei unvollständig geladen.",
+  "module": "nutritionOS",
+  "submodule": "lebensmittel_kategorie",
+  "version": "1.0",
+  "schema": "lebensmittel_kategorie_v1",
+  "meta": {
+    "version": "1.0",
+    "beschreibung": "Nussmuse und Saatenmuse.",
+    "erstellt": "2025-12-07",
+    "einheit": "pro 100 g oder pro 100 ml"
+  },
+  "produkte": [
+    {
+      "id": "NUS-001",
+      "name": "Haselnussmus, 100 %",
+      "alias": [],
+      "hersteller": "",
+      "naehrwerte": {
+        "energie_kj": 2700,
+        "energie_kcal": 650,
+        "fett_g": 60,
+        "gesaettigte_fettsaeuren_g": 4.5,
+        "kohlenhydrate_g": 17,
+        "zucker_g": 4,
+        "ballaststoffe_g": 9,
+        "eiweiss_g": 15,
+        "salz_g": 0
+      },
+      "portion": {
+        "beschreibung": "",
+        "energie_kj": null,
+        "energie_kcal": null,
+        "fett_g": null,
+        "gesaettigte_fettsaeuren_g": null,
+        "kohlenhydrate_g": null,
+        "zucker_g": null,
+        "ballaststoffe_g": null,
+        "eiweiss_g": null,
+        "salz_g": null
+      },
+      "vitamine": {},
+      "mineralien": {},
+      "quelle": "",
+      "notizen": "Original-ID in BasisPantry52: FOOD-039"
+    },
+    {
+      "id": "NUS-002",
+      "name": "Tahini (Sesammus)",
+      "alias": [
+        "Sesammus"
+      ],
+      "hersteller": "",
+      "naehrwerte": {
+        "energie_kj": 2500,
+        "energie_kcal": 595,
+        "fett_g": 53,
+        "gesaettigte_fettsaeuren_g": 8,
+        "kohlenhydrate_g": 11,
+        "zucker_g": 1,
+        "ballaststoffe_g": 9,
+        "eiweiss_g": 18,
+        "salz_g": 0
+      },
+      "portion": {
+        "beschreibung": "",
+        "energie_kj": null,
+        "energie_kcal": null,
+        "fett_g": null,
+        "gesaettigte_fettsaeuren_g": null,
+        "kohlenhydrate_g": null,
+        "zucker_g": null,
+        "ballaststoffe_g": null,
+        "eiweiss_g": null,
+        "salz_g": null
+      },
+      "vitamine": {},
+      "mineralien": {},
+      "quelle": "",
+      "notizen": "Original-ID in BasisPantry52: FOOD-040"
+    },
+    {
+      "id": "NUS-003",
+      "name": "Erdnussmus, 100 %",
+      "alias": [],
+      "hersteller": "",
+      "naehrwerte": {
+        "energie_kj": 2600,
+        "energie_kcal": 630,
+        "fett_g": 52,
+        "gesaettigte_fettsaeuren_g": 7,
+        "kohlenhydrate_g": 12,
+        "zucker_g": 4,
+        "ballaststoffe_g": 8,
+        "eiweiss_g": 24,
+        "salz_g": 0
+      },
+      "portion": {
+        "beschreibung": "",
+        "energie_kj": null,
+        "energie_kcal": null,
+        "fett_g": null,
+        "gesaettigte_fettsaeuren_g": null,
+        "kohlenhydrate_g": null,
+        "zucker_g": null,
+        "ballaststoffe_g": null,
+        "eiweiss_g": null,
+        "salz_g": null
+      },
+      "vitamine": {},
+      "mineralien": {},
+      "quelle": "",
+      "notizen": "Original-ID in BasisPantry52: FOOD-041"
+    }
+  ],
+  "[ENDE DER DATEI]": true
+}

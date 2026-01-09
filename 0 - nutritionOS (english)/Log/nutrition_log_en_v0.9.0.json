@@ -1,0 +1,45 @@
+{
+  "meta_notice_top": "IMPORTANT: At the end of this file you will find the marker [END OF FILE]. If it is missing, the file was not fully loaded.",
+  "module": "nutritionOS",
+  "submodule": "nutrition_log",
+  "version": "0.9.0",
+  "schema": "nutrition_log_v1",
+
+  "meta": {
+    "schema": "nutrition_log_v1",
+    "description": "Nutrition log with daily entries, each including macro balance, plant diversity, and fruit/vegetable portions.",
+    "last_assigned_id": "LOG-000",
+    "date_last_entry": null,
+    "notes": ""
+  },
+
+  "entries": [
+    {
+      "id": "LOG-000",
+      "date": "DD-MM-YYYY",
+
+      "list_of_items": [
+        "Food or meal (kcal, g protein, g fat, g carbohydrates)"
+      ],
+
+      "total_kcal": null,
+      "total_protein_g": null,
+      "total_fat_g": null,
+      "total_carbohydrates_g": null,
+      "total_fiber_g": null,
+
+      "plant_diversity_today": null,
+      "fruit_veg_portions": null,
+
+      "tdee_and_balance": {
+        "tdee_kcal": null,
+        "difference_kcal": null
+      },
+
+      "notes": ""
+    }
+  ],
+
+  "[END OF FILE]": true
+}
+
